@@ -1,0 +1,108 @@
+# Site settings
+title: Vandal Hearts Complete Guide
+description: A comprehensive guide and FAQ collection for Vandal Hearts (PlayStation, 1997)
+baseurl: "/vandal-hearts-guide" # IMPORTANT: Update this to match your GitHub repo name
+url: "" # GitHub Pages will set this automatically
+
+# Theme settings
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark # or "light"
+
+# Logo and favicon
+# logo: "/assets/images/logo.png"
+
+# Search settings
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Heading anchor links
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "View on GitHub":
+    - "//github.com/yourusername/vandal-hearts-guide" # IMPORTANT: Update with your GitHub username
+  "Original FAQs":
+    - "/credits"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Navigation structure
+nav_enabled: true
+nav_sort: title # or "order"
+
+# Footer content
+footer_content: "Copyright © Konami Co., Ltd. | Guide compiled from FAQs by Jeff Chan, Lancel0t, Shotgunnova, Syonyx, Richard Uyeyama, and Wolverine Inc."
+
+# Footer "Edit this page on GitHub" link
+gh_edit_link: false
+
+# Collections for better organization
+collections:
+  characters:
+    output: true
+    permalink: /characters/:name/
+  job_classes:
+    output: true
+    permalink: /job-classes/:name/
+  battles:
+    output: true
+    permalink: /battles/:name/
+  items:
+    output: true
+    permalink: /items/:name/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: "default"
+      parent: "Characters"
+  - scope:
+      path: ""
+      type: "job_classes"
+    values:
+      layout: "default"
+      parent: "Job Classes"
+  - scope:
+      path: ""
+      type: "battles"
+    values:
+      layout: "default"
+      parent: "Battles"
+  - scope:
+      path: ""
+      type: "items"
+    values:
+      layout: "default"
+      parent: "Items"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*.txt"
+  - CLAUDE.md
+  - TODO.md
+  - source/
+  - .claude/
