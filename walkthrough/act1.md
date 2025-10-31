@@ -143,12 +143,14 @@ Complete walkthrough for all Act 1 battles including enemy stats, strategies, tr
 ### Treasure & Items
 
 **Treasure Chests:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (1,1) | **Herb** | SW corner |
 | (22,10) | **Herb** | NE corner |
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (4,3) | **Light Bow** | SW region, grass circle |
@@ -233,12 +235,14 @@ Protect Eleni - she's MVP this battle
 ### Treasure & Items
 
 **Treasure Chests:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (8,1) | **Elixir** | South chest |
 | (15,16) | **Herb** | NE chest |
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (14,0) | **Fire Gem** | SE corner, dirt hole |
@@ -459,6 +463,7 @@ Knights hold front
 ### Treasure & Items
 
 **Treasure Chests:**
+
 | Coordinates | Item | CRITICAL |
 |:------------|:-----|:---------|
 | (7,8) | **NOVA PRISM** | **MUST COLLECT!** |

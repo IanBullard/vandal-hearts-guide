@@ -107,12 +107,14 @@ Let villagers wander safely
 ### Treasure & Items
 
 **Treasure Chests:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (9,6) | **Herb** | Center area |
 | (22,6) | **Mage Oil** | East side |
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (10,2) | **Moon Pie** | South side, by fence gap, dirt crater |
@@ -195,12 +197,14 @@ Three archers = heavy ranged damage
 ### Treasure & Items
 
 **Treasure Chests:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (22,2) | **Moodring** | SE corner |
 | (22,16) | **Elixir** | NE corner |
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (1,0) | **Mad Book** | SW corner, dirt crater |
@@ -283,6 +287,7 @@ Round 7+: Clean up Madsoldiers
 **Treasure Chests:** None
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (8,1) | **BANANA** | **South edge, middle of cross-shaped swamp** |
@@ -371,6 +376,7 @@ Round 7+: Clean up Madsoldiers
 ### Treasure & Items
 
 **Treasure Chests:**
+
 | Coordinates | Item | CRITICAL |
 |:------------|:-----|:---------|
 | (12,7) | **Earth Prism** | **MUST COLLECT!** |
@@ -447,12 +453,14 @@ Round 7+: Clean up Madsoldiers
 ### Treasure & Items
 
 **Treasure Chests:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (15,1) | **Mage Oil** | South side |
 | (15,14) | **Moodring** | North side (near entrance) |
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (7,7) | **Ironboot** | Western edge, archer guard area |
@@ -644,6 +652,7 @@ Turn 6: (Should be done by Turn 5!)
 **Treasure Chests:** None
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (19,0) | **Mage Gem** | SE corner, dirt hole |

@@ -57,6 +57,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** None
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (14,15) | **Mad Book** | NE corner, dirt hole |
@@ -69,12 +70,14 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 ### 1.1 - Dover District, Capital Shumeria
 
 **Treasure Chests:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (1,1) | **Herb** | SW corner chest |
 | (22,10) | **Herb** | NE corner chest |
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (4,3) | **Light Bow** | SW region, grass circle |
@@ -87,12 +90,14 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 ### 1.2 - Palace Ruins
 
 **Treasure Chests:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (8,1) | **Elixir** | South chest |
 | (15,16) | **Herb** | NE chest |
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (14,0) | **Fire Gem** | SE corner, dirt hole |
@@ -116,6 +121,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 ### 1.4 - Sand Dunes of Sea
 
 **Treasure Chests:**
+
 | Location | Item |
 |:---------|:-----|
 | Various | **Herb** ×2 |
@@ -131,11 +137,13 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 ### 1.5 - Minato Port City
 
 **Treasure Chests:**
+
 | Location | Item |
 |:---------|:-----|
 | Various | **Herb**, **Elixir** |
 
 **Hidden Items:**
+
 | Location | Item | Clue |
 |:---------|:-----|:------|
 | NW area | **Light Staff** | Dirt hole near water |
@@ -163,6 +171,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various healing items
 
 **Hidden Items:**
+
 | Location | Item | Clue |
 |:---------|:-----|:------|
 | East side | **Moonpie** | Cracked tile |
@@ -179,6 +188,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Standard items
 
 **Hidden Items:**
+
 | Location | Item | Clue |
 |:---------|:-----|:------|
 | North area | **Mad Book** | Dirt hole |
@@ -196,6 +206,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Healing items
 
 **Hidden Items:**
+
 | Location | Item | Clue |
 |:---------|:-----|:------|
 | Middle area | **BANANA** | Special tile |
@@ -212,6 +223,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | West side | **Ironboot** |
@@ -283,6 +295,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Multiple chests
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Center | **Unicorn** |
@@ -297,6 +310,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Peak area | **TAROT** |
@@ -326,6 +340,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Multiple
 
 **Hidden Items:**
+
 | Location | Item | Value |
 |:---------|:-----|:------|
 | Deep area | **Spirit Staff** | +10 ATK staff |
@@ -343,6 +358,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Prison area | **MANA KEY** |
@@ -364,6 +380,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Standard items
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Forest area | **Gold Axe** (4,000G) |
@@ -377,6 +394,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Village area | **Kingfoil** |
@@ -400,6 +418,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Standard items
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Chapel area | **RAMEN** |
@@ -416,6 +435,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item | Value |
 |:---------|:-----|:------|
 | Warehouse | **Leather Mask** | +11 DEF helm |
@@ -442,6 +462,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item | Value |
 |:---------|:-----|:------|
 | Hills area | **Plate Armor** | +32 DEF armor |
@@ -458,6 +479,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Multiple
 
 **Hidden Items:**
+
 | Location | Item | Value |
 |:---------|:-----|:------|
 | Cave depths | **Helstone** | Attack item |
@@ -484,6 +506,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item | Value |
 |:---------|:-----|:------|
 | Mountain peak | **LOGOS KEY** | Trial #5 key |
@@ -501,6 +524,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Multiple
 
 **Hidden Items:**
+
 | Location | Item | Value |
 |:---------|:-----|:------|
 | Ice chamber | **Shivbook** | Attack item |
@@ -520,6 +544,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Fortress area | **Gold Axe** (4,000G) |
@@ -540,6 +565,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Multiple
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Capital area | **Necklace** |
@@ -558,6 +584,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Various
 
 **Hidden Items:**
+
 | Location | Item | Value |
 |:---------|:-----|:------|
 | Palace chamber | **Ragnarok** | +39 ATK axe (best axe!) |
@@ -574,6 +601,7 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 **Treasure Chests:** Standard items
 
 **Hidden Items:**
+
 | Location | Item |
 |:---------|:-----|
 | Throne area | **Gold Axe** (4,000G) |
