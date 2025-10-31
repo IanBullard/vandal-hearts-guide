@@ -479,10 +479,10 @@ Protected by formation
 
 ## Next Steps
 
-- **DO:** Read [Priest Class Guide](/job-classes/priest/) to understand what you're sacrificing (9/10)
-- **DO:** Read [Mage Class Guide](/job-classes/mage/) to understand what you're sacrificing (10/10)
+- **DO:** Read [Priest Class Guide]({{ site.baseurl }}/job-classes/priest/) to understand what you're sacrificing (9/10)
+- **DO:** Read [Mage Class Guide]({{ site.baseurl }}/job-classes/mage/) to understand what you're sacrificing (10/10)
 - **DON'T:** Make Monks in optimal play
-- Final guide: [Armor Class](/job-classes/armor/) (1/10 - even worse than Monk!)
+- Final guide: [Armor Class]({{ site.baseurl }}/job-classes/armor/) (1/10 - even worse than Monk!)
 
 ---
 

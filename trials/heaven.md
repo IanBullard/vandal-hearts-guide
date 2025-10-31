@@ -544,10 +544,10 @@ You've completed all six Trials of Toroah. Ash Lambert now wields the power of t
 
 ## Next Steps
 
-- Return to [Trials of Toroah Overview](/trials/) to review your accomplishment
-- Continue the [Walkthrough](/walkthrough/) to face the final boss
-- See [Ash's Character Page](/characters/ash-lambert/) for detailed Vandalier information
-- Review [Spell Reference](/reference/spells/) to see ALL spells Vandalier can cast
+- Return to [Trials of Toroah Overview]({{ site.baseurl }}/trials/) to review your accomplishment
+- Continue the [Walkthrough]({{ site.baseurl }}/walkthrough/) to face the final boss
+- See [Ash's Character Page]({{ site.baseurl }}/characters/ash-lambert/) for detailed Vandalier information
+- Review [Spell Reference]({{ site.baseurl }}/reference/spells/) to see ALL spells Vandalier can cast
 
 ---
 

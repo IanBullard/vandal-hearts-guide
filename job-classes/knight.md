@@ -49,7 +49,7 @@ Soldier ──────────> Swordsman ─────> Duelist
 | 20+ | **Duelist** | Peak physical stats, highest armor |
 
 {: .danger }
-> **Alternative Path:** At Level 10, can become **Guardsman** instead (Armor path, rated 1/10). **NEVER choose Armor!** See [Armor Class Guide](/job-classes/armor/) for why.
+> **Alternative Path:** At Level 10, can become **Guardsman** instead (Armor path, rated 1/10). **NEVER choose Armor!** See [Armor Class Guide]({{ site.baseurl }}/job-classes/armor/) for why.
 
 ---
 
@@ -385,7 +385,7 @@ Archers in back (safe range)
 - Completely useless
 
 {: .danger }
-> **NEVER choose Armor path!** Always go Swordsman → Duelist! See [Armor Class Guide](/job-classes/armor/) for full explanation of why Armor is 1/10.
+> **NEVER choose Armor path!** Always go Swordsman → Duelist! See [Armor Class Guide]({{ site.baseurl }}/job-classes/armor/) for full explanation of why Armor is 1/10.
 
 ### Mistake #2: Advancing Knights Alone
 {: .label .label-yellow }
@@ -677,10 +677,10 @@ Archers in back (safe range)
 
 ## Next Steps
 
-- Continue reading about [Monk Class](/job-classes/monk/) (hybrid fighters, 5/10)
-- Review [Armor Class Guide](/job-classes/armor/) to understand why NEVER choose it (1/10)
-- Check [Clint's Character Page](/characters/clint-picard/) for primary Knight
-- Plan [Party Composition](/strategies/party-composition/) with 3 Knights as frontline
+- Continue reading about [Monk Class]({{ site.baseurl }}/job-classes/monk/) (hybrid fighters, 5/10)
+- Review [Armor Class Guide]({{ site.baseurl }}/job-classes/armor/) to understand why NEVER choose it (1/10)
+- Check [Clint's Character Page]({{ site.baseurl }}/characters/clint-picard/) for primary Knight
+- Plan [Party Composition]({{ site.baseurl }}/characters/) with 3 Knights as frontline
 
 ---
 

@@ -590,10 +590,10 @@ When Ash becomes **Vandalier** (complete all 6 Trials), he gains access to:
 
 ## Next Steps
 
-- Review [Mage Class Guide](/job-classes/mage/) for offensive spell strategies
-- Review [Priest Class Guide](/job-classes/priest/) for healing spell strategies
-- Review [Hero Class Guide](/job-classes/hero/) for Vandalier spell access
-- Check [Bestiary](/reference/bestiary/) to see which enemies cast which spells
+- Review [Mage Class Guide]({{ site.baseurl }}/job-classes/mage/) for offensive spell strategies
+- Review [Priest Class Guide]({{ site.baseurl }}/job-classes/priest/) for healing spell strategies
+- Review [Hero Class Guide]({{ site.baseurl }}/job-classes/hero/) for Vandalier spell access
+- Check [Bestiary]({{ site.baseurl }}/reference/bestiary/) to see which enemies cast which spells
 
 ---
 

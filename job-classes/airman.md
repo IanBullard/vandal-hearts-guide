@@ -49,7 +49,7 @@ Archer ──────────> Hawknight ─────> Sky Lord
 | 20+ | **Sky Lord** | Maximum flying stats, peak power |
 
 {: .note }
-> **Alternative Path:** At Level 10, can become **Bowman** instead (Archer path, rated 8/10). See [Archer Class Guide](/job-classes/archer/) for comparison.
+> **Alternative Path:** At Level 10, can become **Bowman** instead (Archer path, rated 8/10). See [Archer Class Guide]({{ site.baseurl }}/job-classes/archer/) for comparison.
 
 ---
 
@@ -389,7 +389,7 @@ Airman: Flies directly over river, reaches mage in 2 turns
 | Ch. 5.5 | **Rune Bow** | +25 | 6 | Gift (defeat Sabrina) |
 
 {: .note }
-> Airmen use same weapons as Archers (bows). See [Archer Class Guide](/job-classes/archer/) for details.
+> Airmen use same weapons as Archers (bows). See [Archer Class Guide]({{ site.baseurl }}/job-classes/archer/) for details.
 
 ### Armor Progression
 
@@ -727,10 +727,10 @@ Airman: Flies directly over river, reaches mage in 2 turns
 
 ## Next Steps
 
-- Continue reading about [Knight Class](/job-classes/knight/) (frontline fighters, 6/10)
-- Review [Archer Class Guide](/job-classes/archer/) for comparison (8/10)
-- Check [Diego's Character Page](/characters/diego-renault/) for flexible archer/airman
-- Plan your [Party Composition](/strategies/party-composition/) with 1-2 airmen
+- Continue reading about [Knight Class]({{ site.baseurl }}/job-classes/knight/) (frontline fighters, 6/10)
+- Review [Archer Class Guide]({{ site.baseurl }}/job-classes/archer/) for comparison (8/10)
+- Check [Diego's Character Page]({{ site.baseurl }}/characters/diego-renault/) for flexible archer/airman
+- Plan your [Party Composition]({{ site.baseurl }}/characters/) with 1-2 airmen
 
 ---
 

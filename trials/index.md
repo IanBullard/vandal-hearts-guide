@@ -56,12 +56,12 @@ The Vandalier is Ash's ultimate transformation, granting him:
 
 | # | Trial Name | Key Required | Prism Reward | Earliest Available |
 |:--|:-----------|:-------------|:-------------|:-------------------|
-| 1 | [Nova Trial](/trials/nova/) | Key of Nova | Nova Prism | Act I, Section 5 |
-| 2 | [Earth Trial](/trials/earth/) | Key of Earth | Earth Prism | Act II, Section 3 |
-| 3 | [Mana Trial](/trials/mana/) | Mana Key | Mana Prism | Act IV, Section 1 |
-| 4 | [Chaos Trial](/trials/chaos/) | Key of Chaos | Chaos Prism | Act IV, Section 5 |
-| 5 | [Logos Trial](/trials/logos/) | Logos Key | Logos Prism | Act V, Section 4 |
-| 6 | [Heaven Trial](/trials/heaven/) | Key of Heaven | Heaven Prism | Act VI, Section 1 |
+| 1 | [Nova Trial]({{ site.baseurl }}/trials/nova/) | Key of Nova | Nova Prism | Act I, Section 5 |
+| 2 | [Earth Trial]({{ site.baseurl }}/trials/earth/) | Key of Earth | Earth Prism | Act II, Section 3 |
+| 3 | [Mana Trial]({{ site.baseurl }}/trials/mana/) | Mana Key | Mana Prism | Act IV, Section 1 |
+| 4 | [Chaos Trial]({{ site.baseurl }}/trials/chaos/) | Key of Chaos | Chaos Prism | Act IV, Section 5 |
+| 5 | [Logos Trial]({{ site.baseurl }}/trials/logos/) | Logos Key | Logos Prism | Act V, Section 4 |
+| 6 | [Heaven Trial]({{ site.baseurl }}/trials/heaven/) | Key of Heaven | Heaven Prism | Act VI, Section 1 |
 
 ---
 
@@ -205,12 +205,12 @@ Once you have all six Prisms:
 
 Each Trial has unique challenges. See individual Trial pages for detailed strategies:
 
-- [Nova Trial Strategy](/trials/nova/) - Multiple enemy types, mobile warfare
-- [Earth Trial Strategy](/trials/earth/) - All archers, ranged combat
-- [Mana Trial Strategy](/trials/mana/) - Mimic maze, treasure hunt
-- [Chaos Trial Strategy](/trials/chaos/) - All golems, magic-heavy
-- [Logos Trial Strategy](/trials/logos/) - Mixed units, brutal difficulty
-- [Heaven Trial Strategy](/trials/heaven/) - Boss rush, all major enemies
+- [Nova Trial Strategy]({{ site.baseurl }}/trials/nova/) - Multiple enemy types, mobile warfare
+- [Earth Trial Strategy]({{ site.baseurl }}/trials/earth/) - All archers, ranged combat
+- [Mana Trial Strategy]({{ site.baseurl }}/trials/mana/) - Mimic maze, treasure hunt
+- [Chaos Trial Strategy]({{ site.baseurl }}/trials/chaos/) - All golems, magic-heavy
+- [Logos Trial Strategy]({{ site.baseurl }}/trials/logos/) - Mixed units, brutal difficulty
+- [Heaven Trial Strategy]({{ site.baseurl }}/trials/heaven/) - Boss rush, all major enemies
 
 ---
 
@@ -260,7 +260,7 @@ After leveling healers, other characters can use Mage Oil on them for massive XP
 
 ## Next Steps
 
-- See detailed strategies for each [individual Trial](/trials/)
-- Review [Ash's character page](/characters/ash-lambert/) for Vandalier details
-- Check the [Spell Reference](/reference/spells/) to see what Vandalier can cast
-- Continue the [Walkthrough](/walkthrough/) to progress the story
+- See detailed strategies for each [individual Trial]({{ site.baseurl }}/trials/)
+- Review [Ash's character page]({{ site.baseurl }}/characters/ash-lambert/) for Vandalier details
+- Check the [Spell Reference]({{ site.baseurl }}/reference/spells/) to see what Vandalier can cast
+- Continue the [Walkthrough]({{ site.baseurl }}/walkthrough/) to progress the story

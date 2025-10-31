@@ -509,8 +509,8 @@ Turn 8:  [Armor] ← 11 tiles → [Last enemy dies]
 
 - **DO:** Make all Soldiers into Knights (Swordsman → Duelist)
 - **DON'T:** Ever make Armor (Guardsman → Dragoon)
-- Review [Knight Class Guide](/job-classes/knight/) for proper frontline class (6/10)
-- Review [Job Classes Overview](/job-classes/) for optimal party composition
+- Review [Knight Class Guide]({{ site.baseurl }}/job-classes/knight/) for proper frontline class (6/10)
+- Review [Job Classes Overview]({{ site.baseurl }}/job-classes/) for optimal party composition
 
 ---
 

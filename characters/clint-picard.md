@@ -364,10 +364,10 @@ The calm, level-headed soldier whose quiet strength anchors Ash's party through 
 
 ## Next Steps
 
-- Continue reading about [Diego Renault](/characters/diego-renault/) - Clint's opposite
-- Review [Knight Class Guide](/job-classes/knight/) for Clint's optimal path
-- Check the [Walkthrough](/walkthrough/) to see Clint's story moments
-- Plan your [Party Composition](/strategies/party-composition/) around Clint's strengths
+- Continue reading about [Diego Renault]({{ site.baseurl }}/characters/diego-renault/) - Clint's opposite
+- Review [Knight Class Guide]({{ site.baseurl }}/job-classes/knight/) for Clint's optimal path
+- Check the [Walkthrough]({{ site.baseurl }}/walkthrough/) to see Clint's story moments
+- Plan your [Party Composition]({{ site.baseurl }}/characters/) around Clint's strengths
 
 ---
 

@@ -629,7 +629,7 @@ Archers in back
 
 ## Next Steps
 
-- Proceed to [Act 2: Island of Madness](/walkthrough/act2/)
+- Proceed to [Act 2: Island of Madness]({{ site.baseurl }}/walkthrough/act2/)
 - Stock up at Village 2 (Yuzu)
 - Prepare for longer battles ahead
 - Consider class advancement at Level 10

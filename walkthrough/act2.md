@@ -774,7 +774,7 @@ Turn 6: (Should be done by Turn 5!)
 
 ## Next Steps
 
-- Proceed to [Act 3: Escape to Tomorrow](/walkthrough/act3/)
+- Proceed to [Act 3: Escape to Tomorrow]({{ site.baseurl }}/walkthrough/act3/)
 - Visit Dojo for Level 10 class advancements
 - Stock consumables heavily (Mage Gems priority)
 - Prepare for time-skip narrative changes

@@ -26,10 +26,10 @@ This section provides quick-lookup tables and comprehensive data for experienced
 
 ### Available References
 
-- **[Spells](/reference/spells/)** - Complete spell list with costs, ranges, and effects
-- **[Bestiary](/reference/bestiary/)** - Enemy stats, abilities, and battle appearances
-- **[Shops](/reference/shops/)** - All shop locations with complete inventories
-- **[Secrets](/reference/secrets/)** - All hidden items and their locations
+- **[Spells]({{ site.baseurl }}/reference/spells/)** - Complete spell list with costs, ranges, and effects
+- **[Bestiary]({{ site.baseurl }}/reference/bestiary/)** - Enemy stats, abilities, and battle appearances
+- **[Shops]({{ site.baseurl }}/reference/shops/)** - All shop locations with complete inventories
+- **[Secrets]({{ site.baseurl }}/reference/secrets/)** - All hidden items and their locations
 
 ---
 
@@ -227,7 +227,7 @@ Example: **(15,10)** means 15 squares East, 10 squares North from the SW corner.
 
 Explore detailed reference pages:
 
-- [Complete Spell List](/reference/spells/)
-- [Bestiary & Enemy Database](/reference/bestiary/)
-- [Shop Inventories](/reference/shops/)
-- [Secret Items Guide](/reference/secrets/)
+- [Complete Spell List]({{ site.baseurl }}/reference/spells/)
+- [Bestiary & Enemy Database]({{ site.baseurl }}/reference/bestiary/)
+- [Shop Inventories]({{ site.baseurl }}/reference/shops/)
+- [Secret Items Guide]({{ site.baseurl }}/reference/secrets/)

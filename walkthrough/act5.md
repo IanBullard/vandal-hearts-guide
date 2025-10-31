@@ -1929,7 +1929,7 @@ Despite being an escort mission, this is surprisingly simple due to weak enemy t
 **Map Size:** 20×20 grid
 
 {: .note }
-> This Trial becomes accessible after Smoking Bones Cave. Detailed strategy available in [Trial of Logos guide](/trials/logos/). This section provides complete battle information.
+> This Trial becomes accessible after Smoking Bones Cave. Detailed strategy available in [Trial of Logos guide]({{ site.baseurl }}/trials/logos/). This section provides complete battle information.
 
 ### How to Access
 
@@ -2116,7 +2116,7 @@ The combat itself isn't hard (if fully equipped), but the **spiral tower grind**
 
 **5 of 6 Prisms obtained! Only Heaven Trial remains for Vandalier!**
 
-For more detailed strategy, see [Trial of Logos guide](/trials/logos/).
+For more detailed strategy, see [Trial of Logos guide]({{ site.baseurl }}/trials/logos/).
 
 ---
 
@@ -2368,15 +2368,15 @@ After Act 5:
 
 ---
 
-**Previous Act:** [Act 4: The Successor](/walkthrough/act4/)
-**Next Act:** [Act 6: A Fool's Epitaph](/walkthrough/act6/)
+**Previous Act:** [Act 4: The Successor]({{ site.baseurl }}/walkthrough/act4/)
+**Next Act:** [Act 6: A Fool's Epitaph]({{ site.baseurl }}/walkthrough/act6/)
 
 **See Also:**
-- [Trial of Logos Guide](/trials/logos/) - Complete strategy for Trial #5
-- [Job Class Guide: All Classes](/job-classes/) - Final tier information
-- [Character Guide: Ash](/characters/ash/) - Vandal Heart sword usage
-- [Reference: Bestiary](/reference/bestiary/) - Dragon and boss analysis
-- [Reference: Secrets](/reference/secrets/) - LOGOS KEY location details
+- [Trial of Logos Guide]({{ site.baseurl }}/trials/logos/) - Complete strategy for Trial #5
+- [Job Class Guide: All Classes]({{ site.baseurl }}/job-classes/) - Final tier information
+- [Character Guide: Ash]({{ site.baseurl }}/characters/ash/) - Vandal Heart sword usage
+- [Reference: Bestiary]({{ site.baseurl }}/reference/bestiary/) - Dragon and boss analysis
+- [Reference: Secrets]({{ site.baseurl }}/reference/secrets/) - LOGOS KEY location details
 
 ---
 

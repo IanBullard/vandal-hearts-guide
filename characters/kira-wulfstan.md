@@ -567,11 +567,11 @@ CHAPTERS 5-6:
 
 ## Next Steps
 
-- Continue reading about [Grog Drinkwater](/characters/grog-drinkwater/) - the grieving sailor
-- Review [Archer Class Guide](/job-classes/archer/) for Kira's paths
-- Review [Airman Class Guide](/job-classes/airman/) if choosing flying path
-- Check the [Chapter 2 Walkthrough](/walkthrough/act-2/) for the betrayal scene
-- Check the [Chapter 4 Walkthrough](/walkthrough/act-4/) for the rescue mission
+- Continue reading about [Grog Drinkwater]({{ site.baseurl }}/characters/grog-drinkwater/) - the grieving sailor
+- Review [Archer Class Guide]({{ site.baseurl }}/job-classes/archer/) for Kira's paths
+- Review [Airman Class Guide]({{ site.baseurl }}/job-classes/airman/) if choosing flying path
+- Check the [Chapter 2 Walkthrough]({{ site.baseurl }}/walkthrough/act-2/) for the betrayal scene
+- Check the [Chapter 4 Walkthrough]({{ site.baseurl }}/walkthrough/act-4/) for the rescue mission
 
 ---
 

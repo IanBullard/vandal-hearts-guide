@@ -449,10 +449,10 @@ Stack all 3 boxes to create a "bridge" that allows you to reach the elevated Cha
 
 ## Next Steps
 
-- Return to [Trials of Toroah Overview](/trials/) to plan your next Trial
-- Continue the [Walkthrough](/walkthrough/) to progress the story
-- See [Logos Trial Strategy](/trials/logos/) for the fifth Trial (Chapter 5)
-- Review [Spell Reference](/reference/spells/) for optimal golem-clearing spells
+- Return to [Trials of Toroah Overview]({{ site.baseurl }}/trials/) to plan your next Trial
+- Continue the [Walkthrough]({{ site.baseurl }}/walkthrough/) to progress the story
+- See [Logos Trial Strategy]({{ site.baseurl }}/trials/logos/) for the fifth Trial (Chapter 5)
+- Review [Spell Reference]({{ site.baseurl }}/reference/spells/) for optimal golem-clearing spells
 
 ---
 

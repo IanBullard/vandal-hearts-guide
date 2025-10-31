@@ -680,11 +680,11 @@ Maximum survivability
 
 ## Next Steps
 
-- Continue reading about [Archer Class](/job-classes/archer/) (8/10 - ranged specialists)
-- Review [Huxley's Character Page](/characters/huxley-hobbes/) for primary Priest
-- Review [Sara's Character Page](/characters/sara/) for secondary Priest
-- Check [Spell Reference](/reference/spells/) for complete spell lists
-- Plan [Party Composition](/strategies/party-composition/) around dual healers
+- Continue reading about [Archer Class]({{ site.baseurl }}/job-classes/archer/) (8/10 - ranged specialists)
+- Review [Huxley's Character Page]({{ site.baseurl }}/characters/huxley-hobbes/) for primary Priest
+- Review [Sara's Character Page]({{ site.baseurl }}/characters/sara/) for secondary Priest
+- Check [Spell Reference]({{ site.baseurl }}/reference/spells/) for complete spell lists
+- Plan [Party Composition]({{ site.baseurl }}/characters/) around dual healers
 
 ---
 

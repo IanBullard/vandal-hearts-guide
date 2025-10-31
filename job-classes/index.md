@@ -125,7 +125,7 @@ Vandal Hearts features a branching class advancement system. Most characters sta
 
 **Available to**: Ash Lambert only
 **Rating**: Hero/Champion/Paragon: **8/10** | Vandalier: **10/10**
-**Requirement**: Complete all [Trials of Toroah](/trials/)
+**Requirement**: Complete all [Trials of Toroah]({{ site.baseurl }}/trials/)
 
 ---
 
@@ -276,6 +276,6 @@ Vandal Hearts uses a class effectiveness system:
 
 ## Next Steps
 
-- Explore individual [class pages](/job-classes/) for detailed spell lists and strategies
-- Plan your [character](/characters/) advancement paths
-- See classes in action in the [Walkthrough](/walkthrough/)
+- Explore individual [class pages]({{ site.baseurl }}/job-classes/) for detailed spell lists and strategies
+- Plan your [character]({{ site.baseurl }}/characters/) advancement paths
+- See classes in action in the [Walkthrough]({{ site.baseurl }}/walkthrough/)

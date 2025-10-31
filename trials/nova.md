@@ -272,10 +272,10 @@ The enemy count and levels scale based on **Ash's level** when you start the Tri
 
 ## Next Steps
 
-- Return to [Trials of Toroah Overview](/trials/) to plan your next Trial
-- Continue the [Walkthrough](/walkthrough/) to progress the story
-- See [Earth Trial Strategy](/trials/earth/) for the second Trial (Chapter 2)
-- Review [Ash's Character Page](/characters/ash-lambert/) for class advancement info
+- Return to [Trials of Toroah Overview]({{ site.baseurl }}/trials/) to plan your next Trial
+- Continue the [Walkthrough]({{ site.baseurl }}/walkthrough/) to progress the story
+- See [Earth Trial Strategy]({{ site.baseurl }}/trials/earth/) for the second Trial (Chapter 2)
+- Review [Ash's Character Page]({{ site.baseurl }}/characters/ash-lambert/) for class advancement info
 
 ---
 

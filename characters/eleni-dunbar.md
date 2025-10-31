@@ -519,10 +519,10 @@ CLOSED LOOP: Eleni IS Leena, Leena IS Eleni
 
 ## Next Steps
 
-- Continue reading about [Huxley Hobbes](/characters/huxley-hobbes/) - Eleni's tutor
-- Review [Mage Class Guide](/job-classes/mage/) for Eleni's optimal path
-- Check [Chapter 5 Walkthrough](/walkthrough/act-5/) for the Leena revelation scene
-- Plan your [Party Composition](/strategies/party-composition/) around Eleni's magic
+- Continue reading about [Huxley Hobbes]({{ site.baseurl }}/characters/huxley-hobbes/) - Eleni's tutor
+- Review [Mage Class Guide]({{ site.baseurl }}/job-classes/mage/) for Eleni's optimal path
+- Check [Chapter 5 Walkthrough]({{ site.baseurl }}/walkthrough/act-5/) for the Leena revelation scene
+- Plan your [Party Composition]({{ site.baseurl }}/characters/) around Eleni's magic
 
 ---
 

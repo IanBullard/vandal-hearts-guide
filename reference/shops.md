@@ -524,8 +524,8 @@ Before final chapter battles:
 
 ## Next Steps
 
-- Review [Equipment Reference](/reference/equipment/) for complete weapon/armor stats
-- Review [Secrets Guide](/reference/secrets/) for hidden equipment locations
+- Review [Equipment Reference]({{ site.baseurl }}/reference/equipment/) for complete weapon/armor stats
+- Review [Secrets Guide]({{ site.baseurl }}/reference/secrets/) for hidden equipment locations
 - Plan your shopping route based on available gold
 - Prioritize Mage Gems and Life Orbs for Trials
 

@@ -514,10 +514,10 @@ Healers in protected center!
 
 ## Next Steps
 
-- Continue reading about [Kira Wulfstan](/characters/kira-wulfstan/) - the spy who seeks redemption
-- Review [Priest Class Guide](/job-classes/priest/) for Huxley's optimal path
-- Check the [Strategies Guide](/strategies/) for healing tactics
-- Plan your [Party Composition](/strategies/party-composition/) around Huxley's healing
+- Continue reading about [Kira Wulfstan]({{ site.baseurl }}/characters/kira-wulfstan/) - the spy who seeks redemption
+- Review [Priest Class Guide]({{ site.baseurl }}/job-classes/priest/) for Huxley's optimal path
+- Check the [Strategies Guide]({{ site.baseurl }}/walkthrough/) for healing tactics
+- Plan your [Party Composition]({{ site.baseurl }}/characters/) around Huxley's healing
 
 ---
 

@@ -30,7 +30,7 @@ The protagonist of Vandal Hearts and leader of the resistance against tyranny.
 | **Unique** | Only character with Hero class line |
 
 {: .note }
-> \* Vandalier class requires completing all six [Trials of Toroah](/trials/)
+> \* Vandalier class requires completing all six [Trials of Toroah]({{ site.baseurl }}/trials/)
 
 ---
 
@@ -158,7 +158,7 @@ With limited options, Ash journeys north to obtain the Vandal Heart, a power cap
 
 ## Trials of Toroah
 
-Ash must equip each Key and enter a Dojo to access the six Trials. See the [Trials of Toroah](/trials/) section for detailed strategies.
+Ash must equip each Key and enter a Dojo to access the six Trials. See the [Trials of Toroah]({{ site.baseurl }}/trials/) section for detailed strategies.
 
 **Keys Required**:
 1. Nova Key → Nova Prism
@@ -183,7 +183,7 @@ Ash must equip each Key and enter a Dojo to access the six Trials. See the [Tria
 
 ## Related Pages
 
-- [Hero Class](/job-classes/hero/) - Detailed class analysis
-- [Trials of Toroah](/trials/) - Complete guide to obtaining Vandalier
-- [Vandalier Spells](/reference/spells/vandalier/) - Full spell list
-- [Walkthrough](/walkthrough/) - See Ash's story unfold
+- [Hero Class]({{ site.baseurl }}/job-classes/hero/) - Detailed class analysis
+- [Trials of Toroah]({{ site.baseurl }}/trials/) - Complete guide to obtaining Vandalier
+- [Vandalier Spells]({{ site.baseurl }}/reference/spells/vandalier/) - Full spell list
+- [Walkthrough]({{ site.baseurl }}/walkthrough/) - See Ash's story unfold

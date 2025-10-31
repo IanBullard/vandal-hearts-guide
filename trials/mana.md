@@ -351,10 +351,10 @@ All other chests scattered across the map contain Mimics. Open for experience an
 
 ## Next Steps
 
-- Return to [Trials of Toroah Overview](/trials/) to plan your next Trial
-- Continue the [Walkthrough](/walkthrough/) to progress the story
-- See [Chaos Trial Strategy](/trials/chaos/) for the fourth Trial (Chapter 4)
-- Review [Character Guides](/characters/) for party optimization
+- Return to [Trials of Toroah Overview]({{ site.baseurl }}/trials/) to plan your next Trial
+- Continue the [Walkthrough]({{ site.baseurl }}/walkthrough/) to progress the story
+- See [Chaos Trial Strategy]({{ site.baseurl }}/trials/chaos/) for the fourth Trial (Chapter 4)
+- Review [Character Guides]({{ site.baseurl }}/characters/) for party optimization
 
 ---
 

@@ -2065,24 +2065,25 @@ Vandal Hearts remains a beloved classic of the tactical RPG genre, known for its
 **Other Guides in This Collection:**
 
 ### Walkthrough
-- [Act 1: A Premonition of War](/walkthrough/act1/)
-- [Act 2: Island of Madness](/walkthrough/act2/)
-- [Act 3: Escape to Tomorrow](/walkthrough/act3/)
-- [Act 4: The Successor](/walkthrough/act4/)
-- [Act 5: The Legacy](/walkthrough/act5/)
+- [Act 1: A Premonition of War]({{ site.baseurl }}/walkthrough/act1/)
+- [Act 2: Island of Madness]({{ site.baseurl }}/walkthrough/act2/)
+- [Act 3: Escape to Tomorrow]({{ site.baseurl }}/walkthrough/act3/)
+- [Act 4: The Successor]({{ site.baseurl }}/walkthrough/act4/)
+- [Act 5: The Legacy]({{ site.baseurl }}/walkthrough/act5/)
 - **Act 6: A Fool's Epitaph** ← You are here
 
 ### Reference Guides
-- [All Characters](/characters/) - Complete character backgrounds and analysis
-- [All Job Classes](/classes/) - Class progression paths and recommendations
-- [All Trials of Toroah](/trials/) - Challenge battle guides
-- [Equipment Tables](/reference/equipment/) - All weapons and armor
-- [Spell Lists](/reference/spells/) - Complete magic system
-- [Item Reference](/reference/items/) - All consumables and treasures
+- [All Characters]({{ site.baseurl }}/characters/) - Complete character backgrounds and analysis
+- [All Job Classes]({{ site.baseurl }}/job-classes/) - Class progression paths and recommendations
+- [All Trials of Toroah]({{ site.baseurl }}/trials/) - Challenge battle guides
+- [Spells]({{ site.baseurl }}/reference/spells/) - Complete magic system
+- [Bestiary]({{ site.baseurl }}/reference/bestiary/) - Enemy database
+- [Shops]({{ site.baseurl }}/reference/shops/) - Shop inventories
+- [Secrets]({{ site.baseurl }}/reference/secrets/) - Hidden items
 
 ---
 
-**Previous Act:** [Act 5: The Legacy](/walkthrough/act5/)
+**Previous Act:** [Act 5: The Legacy]({{ site.baseurl }}/walkthrough/act5/)
 
 **End of Walkthrough** - Game Complete!
 

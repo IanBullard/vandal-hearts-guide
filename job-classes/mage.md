@@ -504,11 +504,11 @@ Archers support
 
 ## Next Steps
 
-- Continue reading about [Priest Class](/job-classes/priest/) (9/10 - second-best)
-- Review [Eleni's Character Page](/characters/eleni-dunbar/) for mage-specific story
-- Review [Zohar's Character Page](/characters/zohar/) for second mage
-- Check [Spell Reference](/reference/spells/) for complete spell lists
-- Plan [Party Composition](/strategies/party-composition/) around dual mages
+- Continue reading about [Priest Class]({{ site.baseurl }}/job-classes/priest/) (9/10 - second-best)
+- Review [Eleni's Character Page]({{ site.baseurl }}/characters/eleni-dunbar/) for mage-specific story
+- Review [Zohar's Character Page]({{ site.baseurl }}/characters/zohar/) for second mage
+- Check [Spell Reference]({{ site.baseurl }}/reference/spells/) for complete spell lists
+- Plan [Party Composition]({{ site.baseurl }}/characters/) around dual mages
 
 ---
 

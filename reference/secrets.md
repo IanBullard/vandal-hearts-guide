@@ -786,9 +786,9 @@ Complete guide to all treasure chests, hidden items, secret equipment, and Trial
 
 ## Next Steps
 
-- Review [Shop Guide](/reference/shops/) for purchasable equipment
-- Review [Trials Guide](/trials/) for using Trial keys
-- Check [Walkthrough](/walkthrough/) for battle-specific locations
+- Review [Shop Guide]({{ site.baseurl }}/reference/shops/) for purchasable equipment
+- Review [Trials Guide]({{ site.baseurl }}/trials/) for using Trial keys
+- Check [Walkthrough]({{ site.baseurl }}/walkthrough/) for battle-specific locations
 - Plan item collection route for optimal play
 
 ---

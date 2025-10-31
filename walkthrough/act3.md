@@ -2086,7 +2086,7 @@ This is a grueling battle combining:
 **Unlock Requirement:** MANA KEY (from Battle 3.6)
 
 {: .note }
-> Detailed strategy for the Mana Trial is available in the dedicated [Trial of Mana guide](/trials/mana/). This section provides a brief overview.
+> Detailed strategy for the Mana Trial is available in the dedicated [Trial of Mana guide]({{ site.baseurl }}/trials/mana/). This section provides a brief overview.
 
 ### Quick Overview
 
@@ -2109,7 +2109,7 @@ This is a grueling battle combining:
 **Recommended Level:** 16-18
 **Recommended Party:** Full party with Sorcerors for Phase Shift
 
-For complete strategy, see [Trial of Mana guide](/trials/mana/).
+For complete strategy, see [Trial of Mana guide]({{ site.baseurl }}/trials/mana/).
 
 ---
 
@@ -2334,17 +2334,17 @@ For complete strategy, see [Trial of Mana guide](/trials/mana/).
 
 ---
 
-**Previous Act:** [Act 2: Island of Madness](/walkthrough/act2/)
-**Next Act:** [Act 4: The Successor](/walkthrough/act4/)
+**Previous Act:** [Act 2: Island of Madness]({{ site.baseurl }}/walkthrough/act2/)
+**Next Act:** [Act 4: The Successor]({{ site.baseurl }}/walkthrough/act4/)
 
 **See Also:**
-- [Trial of Mana Guide](/trials/mana/) - Complete strategy for Trial #3
-- [Trial of Chaos Guide](/trials/chaos/) - Requires TAROT from this Act
-- [Character Guide: Zohar](/characters/zohar/) - New character this Act
-- [Character Guide: Darius](/characters/darius/) - New character this Act
-- [Job Class Guide: Mage](/job-classes/mage/) - Zohar's class & Phase Shift analysis
-- [Reference: Bestiary](/reference/bestiary/) - Enemy analysis including new types
-- [Reference: Secrets](/reference/secrets/) - All hidden item locations
+- [Trial of Mana Guide]({{ site.baseurl }}/trials/mana/) - Complete strategy for Trial #3
+- [Trial of Chaos Guide]({{ site.baseurl }}/trials/chaos/) - Requires TAROT from this Act
+- [Character Guide: Zohar]({{ site.baseurl }}/characters/zohar/) - New character this Act
+- [Character Guide: Darius]({{ site.baseurl }}/characters/darius/) - New character this Act
+- [Job Class Guide: Mage]({{ site.baseurl }}/job-classes/mage/) - Zohar's class & Phase Shift analysis
+- [Reference: Bestiary]({{ site.baseurl }}/reference/bestiary/) - Enemy analysis including new types
+- [Reference: Secrets]({{ site.baseurl }}/reference/secrets/) - All hidden item locations
 
 ---
 

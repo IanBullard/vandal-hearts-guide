@@ -87,7 +87,7 @@ To unlock Trial #4 (Chaos), you must collect all 3 Collector's Treasures:
 **Map Size:** 24×21 grid
 
 {: .note }
-> This Trial becomes accessible after Act 3. Detailed strategy available in [Trial of Mana guide](/trials/mana/). This section provides complete battle information.
+> This Trial becomes accessible after Act 3. Detailed strategy available in [Trial of Mana guide]({{ site.baseurl }}/trials/mana/). This section provides complete battle information.
 
 ### How to Access
 
@@ -295,7 +295,7 @@ For players who want safer approach:
 
 **3 of 6 Prisms obtained!**
 
-For more detailed strategy, see [Trial of Mana guide](/trials/mana/).
+For more detailed strategy, see [Trial of Mana guide]({{ site.baseurl }}/trials/mana/).
 
 ---
 
@@ -1634,7 +1634,7 @@ The challenge isn't the enemies (relatively straightforward), but the **time lim
 **Map Size:** 20×16 grid
 
 {: .note }
-> This Trial becomes accessible after trading all 3 treasures. Detailed strategy available in [Trial of Chaos guide](/trials/chaos/). This section provides complete battle information.
+> This Trial becomes accessible after trading all 3 treasures. Detailed strategy available in [Trial of Chaos guide]({{ site.baseurl }}/trials/chaos/). This section provides complete battle information.
 
 ### How to Access
 
@@ -1874,7 +1874,7 @@ The combat is straightforward (all Armor weak to magic), but the **box puzzle re
 
 **4 of 6 Prisms obtained! Two-thirds complete!**
 
-For more detailed strategy, see [Trial of Chaos guide](/trials/chaos/).
+For more detailed strategy, see [Trial of Chaos guide]({{ site.baseurl }}/trials/chaos/).
 
 ---
 
@@ -2482,16 +2482,16 @@ This is the most complex timed battle yet:
 
 ---
 
-**Previous Act:** [Act 3: Escape to Tomorrow](/walkthrough/act3/)
-**Next Act:** [Act 5: The Legacy](/walkthrough/act5/)
+**Previous Act:** [Act 3: Escape to Tomorrow]({{ site.baseurl }}/walkthrough/act3/)
+**Next Act:** [Act 5: The Legacy]({{ site.baseurl }}/walkthrough/act5/)
 
 **See Also:**
-- [Trial of Mana Guide](/trials/mana/) - Complete strategy for Trial #3
-- [Trial of Chaos Guide](/trials/chaos/) - Box puzzle solution for Trial #4
-- [Job Class Guide: All Classes](/job-classes/) - Final tier advancement info
-- [Reference: Bestiary](/reference/bestiary/) - Death Angel and boss analysis
-- [Reference: Secrets](/reference/secrets/) - All hidden item locations
-- [Reference: Shops](/reference/shops/) - Equipment purchasing guide
+- [Trial of Mana Guide]({{ site.baseurl }}/trials/mana/) - Complete strategy for Trial #3
+- [Trial of Chaos Guide]({{ site.baseurl }}/trials/chaos/) - Box puzzle solution for Trial #4
+- [Job Class Guide: All Classes]({{ site.baseurl }}/job-classes/) - Final tier advancement info
+- [Reference: Bestiary]({{ site.baseurl }}/reference/bestiary/) - Death Angel and boss analysis
+- [Reference: Secrets]({{ site.baseurl }}/reference/secrets/) - All hidden item locations
+- [Reference: Shops]({{ site.baseurl }}/reference/shops/) - Equipment purchasing guide
 
 ---
 

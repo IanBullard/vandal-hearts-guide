@@ -43,7 +43,7 @@ The story begins with Ash Lambert, a platoon leader in the Ishtarian Security Fo
 **New Characters**: Eleni, Huxley, Kira, Grog
 **Key Available**: Nova Key (Trial #1)
 
-[Start Act I →](/walkthrough/act1/)
+[Start Act I →]({{ site.baseurl }}/walkthrough/act1/)
 
 ---
 
@@ -57,7 +57,7 @@ Ash and his companions journey to Gillbaris Island to find General Magnus, only 
 **Keys Available**: Earth Key (Trial #2)
 **Major Event**: Magnus corrupted, Time Rift opened
 
-[Start Act II →](/walkthrough/act2/)
+[Start Act II →]({{ site.baseurl }}/walkthrough/act2/)
 
 ---
 
@@ -71,7 +71,7 @@ Ash emerges from the Time Rift three years in the future to find Hel Spites has 
 **Keys Available**: Mana Key (Trial #3)
 **Major Event**: Three years have passed, Hel's dictatorship established
 
-[Start Act III →](/walkthrough/act3/)
+[Start Act III →]({{ site.baseurl }}/walkthrough/act3/)
 
 ---
 
@@ -85,7 +85,7 @@ The search for the Royal Ring leads to Trade City Kerachi and a confrontation wi
 **Keys Available**: Chaos Key (Trial #4)
 **Major Event**: Dolf kills Hel, seizes power
 
-[Start Act IV →](/walkthrough/act4/)
+[Start Act IV →]({{ site.baseurl }}/walkthrough/act4/)
 
 ---
 
@@ -98,7 +98,7 @@ The journey to the Torog Mountains to seek the legendary Vandal Heart, the only 
 **Keys Available**: Logos Key (Trial #5)
 **Major Event**: Obtain the Vandal Heart sword
 
-[Start Act V →](/walkthrough/act5/)
+[Start Act V →]({{ site.baseurl }}/walkthrough/act5/)
 
 ---
 
@@ -111,7 +111,7 @@ The final confrontation with Dolf and his forces. Ash must master the Vandal Hea
 **Keys Available**: Heaven Key (Trial #6)
 **Major Event**: Final battle with Dolf
 
-[Start Act VI →](/walkthrough/act6/)
+[Start Act VI →]({{ site.baseurl }}/walkthrough/act6/)
 
 ---
 
@@ -120,7 +120,7 @@ The final confrontation with Dolf and his forces. Ash must master the Vandal Hea
 ### By Battle Type
 
 - **Story Battles** - Main storyline encounters
-- **Optional Battles** - Trials of Toroah (see [Trials section](/trials/))
+- **Optional Battles** - Trials of Toroah (see [Trials section]({{ site.baseurl }}/trials/))
 - **Boss Battles** - Major antagonists and mini-bosses
 
 ### By Goal
@@ -182,6 +182,6 @@ This walkthrough consolidates strategies from:
 
 Ready to begin? Choose your starting point:
 
-- [Act I - A Premonition of War](/walkthrough/act1/) - Start from the beginning
-- [Characters](/characters/) - Review your party first
-- [Job Classes](/job-classes/) - Plan your advancement strategy
+- [Act I - A Premonition of War]({{ site.baseurl }}/walkthrough/act1/) - Start from the beginning
+- [Characters]({{ site.baseurl }}/characters/) - Review your party first
+- [Job Classes]({{ site.baseurl }}/job-classes/) - Plan your advancement strategy

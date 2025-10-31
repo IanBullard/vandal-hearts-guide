@@ -467,10 +467,10 @@ The charismatic, headstrong archer who left wealth behind to fight for justice a
 
 ## Next Steps
 
-- Continue reading about [Eleni Dunbar](/characters/eleni-dunbar/) - the mage
-- Review [Archer Class Guide](/job-classes/archer/) for Diego's paths
-- Review [Airman Class Guide](/job-classes/airman/) if choosing flying path
-- Check the [Walkthrough](/walkthrough/) for Diego's Kerachi scene (Chapter 4)
+- Continue reading about [Eleni Dunbar]({{ site.baseurl }}/characters/eleni-dunbar/) - the mage
+- Review [Archer Class Guide]({{ site.baseurl }}/job-classes/archer/) for Diego's paths
+- Review [Airman Class Guide]({{ site.baseurl }}/job-classes/airman/) if choosing flying path
+- Check the [Walkthrough]({{ site.baseurl }}/walkthrough/) for Diego's Kerachi scene (Chapter 4)
 
 ---
 

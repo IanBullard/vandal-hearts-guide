@@ -319,10 +319,10 @@ The Earth Trial features a gradual advancement map where enemy strength increase
 
 ## Next Steps
 
-- Return to [Trials of Toroah Overview](/trials/) to plan your next Trial
-- Continue the [Walkthrough](/walkthrough/) to progress the story
-- See [Mana Trial Strategy](/trials/mana/) for the third Trial (Chapter 3)
-- Review [Equipment Guide](/items/) to prepare for future Trials
+- Return to [Trials of Toroah Overview]({{ site.baseurl }}/trials/) to plan your next Trial
+- Continue the [Walkthrough]({{ site.baseurl }}/walkthrough/) to progress the story
+- See [Mana Trial Strategy]({{ site.baseurl }}/trials/mana/) for the third Trial (Chapter 3)
+- Review [Reference Materials]({{ site.baseurl }}/reference/) to prepare for future Trials
 
 ---
 

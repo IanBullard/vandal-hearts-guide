@@ -527,10 +527,10 @@ The infamous sailor who drowns his sorrows in wine until a brother's betrayal fo
 
 ## Next Steps
 
-- Continue reading about [Dolan](/characters/dolan/) - Magnus's loyal officer
-- Review [Knight Class Guide](/job-classes/knight/) for Grog's optimal path
-- Check the [Chapter 1 Walkthrough](/walkthrough/act-1/) for Hassan battle
-- Plan your [Party Composition](/strategies/party-composition/) with multiple knights
+- Continue reading about [Dolan]({{ site.baseurl }}/characters/dolan/) - Magnus's loyal officer
+- Review [Knight Class Guide]({{ site.baseurl }}/job-classes/knight/) for Grog's optimal path
+- Check the [Chapter 1 Walkthrough]({{ site.baseurl }}/walkthrough/act-1/) for Hassan battle
+- Plan your [Party Composition]({{ site.baseurl }}/characters/) with multiple knights
 
 ---
 

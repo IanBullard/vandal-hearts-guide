@@ -464,10 +464,10 @@ If you want zero risk:
 
 ## Next Steps
 
-- Return to [Trials of Toroah Overview](/trials/) to plan your final Trial
-- Continue the [Walkthrough](/walkthrough/) to progress to Chapter 6
-- See [Heaven Trial Strategy](/trials/heaven/) for the FINAL Trial
-- Review [Vandalier Class Guide](/characters/ash-lambert/) to prepare for ultimate power
+- Return to [Trials of Toroah Overview]({{ site.baseurl }}/trials/) to plan your final Trial
+- Continue the [Walkthrough]({{ site.baseurl }}/walkthrough/) to progress to Chapter 6
+- See [Heaven Trial Strategy]({{ site.baseurl }}/trials/heaven/) for the FINAL Trial
+- Review [Vandalier Class Guide]({{ site.baseurl }}/characters/ash-lambert/) to prepare for ultimate power
 
 ---
 

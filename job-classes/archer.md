@@ -758,7 +758,7 @@ Perfect positioning
 - **Recommended for 1-2 of your 4 archers**
 
 {: .important }
-> See [Airman Class Guide](/job-classes/airman/) for detailed comparison and Hawknight path analysis.
+> See [Airman Class Guide]({{ site.baseurl }}/job-classes/airman/) for detailed comparison and Hawknight path analysis.
 
 ---
 
@@ -788,11 +788,11 @@ Perfect positioning
 
 ## Next Steps
 
-- Continue reading about [Hero Class](/job-classes/hero/) (Ash's unique path, 8-10/10)
-- Review [Airman Class Guide](/job-classes/airman/) for flying archer path (7/10)
-- Check [Diego's Character Page](/characters/diego-renault/) for first archer
-- Check [Kira's Character Page](/characters/kira-wulfstan/) for second archer
-- Plan [Party Composition](/strategies/party-composition/) with 2-3 archers
+- Continue reading about [Hero Class]({{ site.baseurl }}/job-classes/hero/) (Ash's unique path, 8-10/10)
+- Review [Airman Class Guide]({{ site.baseurl }}/job-classes/airman/) for flying archer path (7/10)
+- Check [Diego's Character Page]({{ site.baseurl }}/characters/diego-renault/) for first archer
+- Check [Kira's Character Page]({{ site.baseurl }}/characters/kira-wulfstan/) for second archer
+- Plan [Party Composition]({{ site.baseurl }}/characters/) with 2-3 archers
 
 ---
 

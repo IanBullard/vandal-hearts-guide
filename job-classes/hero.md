@@ -389,7 +389,7 @@ Hero ─────────> Champion ─────> Paragon ────
 6. **Heaven Trial** (Ch. 6 only, final boss rush)
 
 {: .important }
-> See [Trials of Toroah](/trials/) section for detailed strategies for each trial.
+> See [Trials of Toroah]({{ site.baseurl }}/trials/) section for detailed strategies for each trial.
 
 ### Post-Vandalier Strategy (Chapter 6)
 
@@ -587,7 +587,7 @@ Hero ─────────> Champion ─────> Paragon ────
 
 **Solution:**
 - **Complete ALL 6 Trials** (mandatory for optimal play)
-- See [Trials section](/trials/) for detailed strategies
+- See [Trials section]({{ site.baseurl }}/trials/) for detailed strategies
 - Worth the effort - Vandalier is game-changing
 
 ### Mistake #3: Exposing Ash to Danger
@@ -759,9 +759,9 @@ Hero ─────────> Champion ─────> Paragon ────
 
 ## Next Steps
 
-- Continue reading about [Airman Class](/job-classes/airman/) (flying units, 7/10)
-- Review [Ash's Character Page](/characters/ash-lambert/) for protagonist story
-- Check [Trials of Toroah](/trials/) for detailed trial strategies
+- Continue reading about [Airman Class]({{ site.baseurl }}/job-classes/airman/) (flying units, 7/10)
+- Review [Ash's Character Page]({{ site.baseurl }}/characters/ash-lambert/) for protagonist story
+- Check [Trials of Toroah]({{ site.baseurl }}/trials/) for detailed trial strategies
 - Plan your leveling strategy to keep Ash low until Trials complete
 
 ---

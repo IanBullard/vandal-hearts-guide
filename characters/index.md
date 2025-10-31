@@ -28,28 +28,28 @@ Vandal Hearts features 12 playable characters, each with unique backgrounds, abi
 
 | Character | Starting Class | Join Location | Initial Level |
 |:----------|:--------------|:--------------|:--------------|
-| [Ash Lambert](/characters/ash-lambert/) | Hero | Start | 5 |
-| [Clint Picard](/characters/clint-picard/) | Soldier | Start | 4 |
-| [Diego Renault](/characters/diego-renault/) | Archer | Start | 4 |
-| [Eleni Dunbar](/characters/eleni-dunbar/) | Mage | Palace Ruins | 7 |
-| [Huxley Hobbes](/characters/huxley-hobbes/) | Healer | Palace Ruins | 7 |
-| [Kira Wulfstan](/characters/kira-wulfstan/) | Archer | Rhine Bridge | 8 |
-| [Grog Drinkwater](/characters/grog-drinkwater/) | Soldier | Gadar Sea | 9 |
+| [Ash Lambert]({{ site.baseurl }}/characters/ash-lambert/) | Hero | Start | 5 |
+| [Clint Picard]({{ site.baseurl }}/characters/clint-picard/) | Soldier | Start | 4 |
+| [Diego Renault]({{ site.baseurl }}/characters/diego-renault/) | Archer | Start | 4 |
+| [Eleni Dunbar]({{ site.baseurl }}/characters/eleni-dunbar/) | Mage | Palace Ruins | 7 |
+| [Huxley Hobbes]({{ site.baseurl }}/characters/huxley-hobbes/) | Healer | Palace Ruins | 7 |
+| [Kira Wulfstan]({{ site.baseurl }}/characters/kira-wulfstan/) | Archer | Rhine Bridge | 8 |
+| [Grog Drinkwater]({{ site.baseurl }}/characters/grog-drinkwater/) | Soldier | Gadar Sea | 9 |
 
 ### Mid-Game Additions (Act 2)
 
 | Character | Starting Class | Join Location | Initial Level |
 |:----------|:--------------|:--------------|:--------------|
-| [Dolan](/characters/dolan/) | Soldier | Ygdra Canyon | 10 |
-| [Amon](/characters/amon/) | Archer | Ygdra Canyon | 9 |
-| [Sara](/characters/sara/) | Healer | Ygdra Canyon | 9 |
+| [Dolan]({{ site.baseurl }}/characters/dolan/) | Soldier | Ygdra Canyon | 10 |
+| [Amon]({{ site.baseurl }}/characters/amon/) | Archer | Ygdra Canyon | 9 |
+| [Sara]({{ site.baseurl }}/characters/sara/) | Healer | Ygdra Canyon | 9 |
 
 ### Late Additions (Act 3)
 
 | Character | Starting Class | Join Location | Initial Level |
 |:----------|:--------------|:--------------|:--------------|
-| [Zohar Abu Sa'id](/characters/zohar/) | Mage | Plain of Sorrow | 14 |
-| [Darius](/characters/darius/) | Archer | Prison Fortress | 14 |
+| [Zohar Abu Sa'id]({{ site.baseurl }}/characters/zohar/) | Mage | Plain of Sorrow | 14 |
+| [Darius]({{ site.baseurl }}/characters/darius/) | Archer | Prison Fortress | 14 |
 
 ---
 
@@ -109,6 +109,6 @@ Based on multiple FAQ authors' recommendations:
 
 ## Next Steps
 
-- Explore individual [character pages](/characters/) for detailed backgrounds and strategies
-- Review [Job Classes](/job-classes/) to plan your advancement paths
-- Check the [Walkthrough](/walkthrough/) to see when each character joins
+- Explore individual [character pages]({{ site.baseurl }}/characters/) for detailed backgrounds and strategies
+- Review [Job Classes]({{ site.baseurl }}/job-classes/) to plan your advancement paths
+- Check the [Walkthrough]({{ site.baseurl }}/walkthrough/) to see when each character joins

@@ -637,9 +637,9 @@ Enemies are classified by their combat role:
 
 ## Next Steps
 
-- Review [Spell Database](/reference/spells/) for enemy spell details
-- Review [Job Classes](/job-classes/) for countering enemy types
-- Check [Trial Guides](/trials/) for specific enemy formations
+- Review [Spell Database]({{ site.baseurl }}/reference/spells/) for enemy spell details
+- Review [Job Classes]({{ site.baseurl }}/job-classes/) for countering enemy types
+- Check [Trial Guides]({{ site.baseurl }}/trials/) for specific enemy formations
 - Plan party composition to counter expected enemies
 
 ---
