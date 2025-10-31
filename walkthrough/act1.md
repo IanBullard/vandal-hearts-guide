@@ -77,6 +77,7 @@ Complete walkthrough for all Act 1 battles including enemy stats, strategies, tr
 **Treasure Chests:** None
 
 **Hidden Items:**
+
 | Coordinates | Item | Location |
 |:------------|:-----|:---------|
 | (14,15) | **Mad Book** | NE corner, dirt hole |
