@@ -28,7 +28,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "View on GitHub":
-    - "//github.com/yourusername/vandal-hearts-guide" # IMPORTANT: Update with your GitHub username
+    - "//github.com/IanBullard/vandal-hearts-guide"
   "Original FAQs":
     - "/credits"
 

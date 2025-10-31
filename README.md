@@ -2,7 +2,7 @@
 
 A comprehensive guide and FAQ collection for **Vandal Hearts** (PlayStation, 1997), consolidating information from six classic FAQs into a modern, searchable format.
 
-🎮 **[View the Live Guide](https://yourusername.github.io/vandal-hearts-guide/)** ← Update this after setup
+🎮 **[View the Live Guide](https://ianbullard.github.io/vandal-hearts-guide/)**
 
 ## 🎮 About Vandal Hearts
 
