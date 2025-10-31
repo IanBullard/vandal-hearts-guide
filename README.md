@@ -176,7 +176,7 @@ All original FAQ files are preserved in the root directory (`*.txt` files).
    - Source: Deploy from branch `main`, folder `/ (root)`
    - Click Save
 4. **Wait 2-3 minutes** for deployment
-5. **Site will be live at:** `https://yourusername.github.io/vandal-hearts-guide/`
+5. **Site will be live at:** `https://ianbullard.github.io/vandal-hearts-guide/`
 6. **Update _config.yml** with your GitHub username (see setup instructions below)
 
 ### Netlify (Free)
