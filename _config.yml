@@ -1,11 +1,17 @@
 # Site settings
 title: Vandal Hearts Complete Guide
 description: A comprehensive guide and FAQ collection for Vandal Hearts (PlayStation, 1997)
-baseurl: "/vandal-hearts-guide" # IMPORTANT: Update this to match your GitHub repo name
-url: "" # GitHub Pages will set this automatically
+baseurl: "/vandal-hearts-guide"
+url: "https://ianbullard.github.io"
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs
+
+# SEO and sitemap
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 color_scheme: dark # or "light"
 
 # Logo and favicon
