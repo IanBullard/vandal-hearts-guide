@@ -4,6 +4,7 @@ title: Act 6 Walkthrough
 parent: Walkthrough
 nav_order: 6
 permalink: /walkthrough/act6/
+description: "Vandal Hearts Act 6 walkthrough — A Fool's Epitaph. Strategies for all 4 final battles, Heaven Key location, and the final boss fight with Dolf."
 ---
 
 # Act 6: A Fool's Epitaph

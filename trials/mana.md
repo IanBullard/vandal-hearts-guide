@@ -4,6 +4,7 @@ title: Mana Trial
 parent: Trials of Toroah
 nav_order: 3
 permalink: /trials/mana/
+description: "Vandal Hearts Mana Trial guide — how to get the Mana Key, mimic maze battle strategy, and earning the Mana Prism."
 ---
 
 # Mana Trial

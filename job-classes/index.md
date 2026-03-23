@@ -4,6 +4,7 @@ title: Job Classes
 nav_order: 3
 has_children: true
 permalink: /job-classes/
+description: "Complete Vandal Hearts job class guide — tier rankings, advancement paths, and recommended builds for all 8 classes including Knight, Archer, Mage, Priest, and Vandalier."
 ---
 
 # Job Classes

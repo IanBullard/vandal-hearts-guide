@@ -4,6 +4,7 @@ title: Act 4 Walkthrough
 parent: Walkthrough
 nav_order: 4
 permalink: /walkthrough/act4/
+description: "Vandal Hearts Act 4 walkthrough — The Successor. Strategies for all 5 battles, Chaos Key location, and collector's treasure guide."
 ---
 
 # Act 4: The Successor

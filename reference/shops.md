@@ -4,6 +4,7 @@ title: Shops & Inventory
 parent: Reference
 nav_order: 2
 permalink: /reference/shops/
+description: "Complete Vandal Hearts shop guide — equipment and item inventories for all 7 villages with prices and shopping strategies."
 ---
 
 # Shops & Inventory Guide

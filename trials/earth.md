@@ -4,6 +4,7 @@ title: Earth Trial
 parent: Trials of Toroah
 nav_order: 2
 permalink: /trials/earth/
+description: "Vandal Hearts Earth Trial guide — how to get the Earth Key, battle strategy against all-archer enemies, and earning the Earth Prism."
 ---
 
 # Earth Trial (Ice Trial)

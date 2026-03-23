@@ -4,6 +4,7 @@ title: Logos Trial
 parent: Trials of Toroah
 nav_order: 5
 permalink: /trials/logos/
+description: "Vandal Hearts Logos Trial guide — how to get the Logos Key, mixed-unit battle strategy, and earning the Logos Prism."
 ---
 
 # Logos Trial

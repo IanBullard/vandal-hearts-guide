@@ -4,6 +4,7 @@ title: Trials of Toroah
 nav_order: 5
 has_children: true
 permalink: /trials/
+description: "Complete guide to all 6 Trials of Toroah in Vandal Hearts — key locations, battle strategies, Ash leveling tips, and how to unlock the Vandalier class."
 ---
 
 # Trials of Toroah

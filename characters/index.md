@@ -4,6 +4,7 @@ title: Characters
 nav_order: 2
 has_children: true
 permalink: /characters/
+description: "Guide to all 12 playable characters in Vandal Hearts — recruitment order, starting classes, recommended advancement paths, and optimal party composition."
 ---
 
 # Characters

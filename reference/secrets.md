@@ -4,6 +4,7 @@ title: Secrets & Hidden Items
 parent: Reference
 nav_order: 4
 permalink: /reference/secrets/
+description: "All Vandal Hearts secrets — hidden items, treasure chest locations, Trial keys, collector's treasures, and secret equipment with map coordinates."
 ---
 
 # Secrets & Hidden Items Guide

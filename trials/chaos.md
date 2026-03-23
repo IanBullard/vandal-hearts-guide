@@ -4,6 +4,7 @@ title: Chaos Trial
 parent: Trials of Toroah
 nav_order: 4
 permalink: /trials/chaos/
+description: "Vandal Hearts Chaos Trial guide — how to get the Chaos Key with collector's treasures, golem battle strategy, and earning the Chaos Prism."
 ---
 
 # Chaos Trial

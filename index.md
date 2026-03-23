@@ -2,7 +2,7 @@
 layout: home
 title: Home
 nav_order: 1
-description: "A comprehensive guide and FAQ collection for Vandal Hearts (PlayStation, 1997)"
+description: "Complete Vandal Hearts (PS1) guide — walkthrough for all 34 battles, job class tier list, Trials of Toroah, secrets, bestiary, and party building strategies."
 permalink: /
 ---
 

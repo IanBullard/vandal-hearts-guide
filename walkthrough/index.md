@@ -4,6 +4,7 @@ title: Walkthrough
 nav_order: 4
 has_children: true
 permalink: /walkthrough/
+description: "Step-by-step walkthrough for all 34 Vandal Hearts battles across 6 acts, with multiple strategy perspectives, treasure locations, and boss tactics."
 ---
 
 # Walkthrough

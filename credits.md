@@ -3,6 +3,7 @@ layout: default
 title: Credits
 nav_order: 99
 permalink: /credits/
+description: "Credits and attribution for the Vandal Hearts Complete Guide — original FAQ authors Jeff Chan, Lancel0t, Shotgunnova, Syonyx, Richard Uyeyama, and Wolverine Inc."
 ---
 
 # Credits & Attribution

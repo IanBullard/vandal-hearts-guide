@@ -4,6 +4,7 @@ title: Act 1 Walkthrough
 parent: Walkthrough
 nav_order: 1
 permalink: /walkthrough/act1/
+description: "Vandal Hearts Act 1 walkthrough — A Premonition of War. Strategies for all 6 battles, Nova Key location, and early party building tips."
 ---
 
 # Act 1: A Premonition of War

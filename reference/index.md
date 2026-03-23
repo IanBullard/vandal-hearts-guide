@@ -4,6 +4,7 @@ title: Reference
 nav_order: 6
 has_children: true
 permalink: /reference/
+description: "Vandal Hearts quick reference — experience system, item rarity, class effectiveness chart, battle conditions, equipment progression, and stat guides."
 ---
 
 # Quick Reference

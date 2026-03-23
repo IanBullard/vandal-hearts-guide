@@ -4,6 +4,7 @@ title: Act 2 Walkthrough
 parent: Walkthrough
 nav_order: 2
 permalink: /walkthrough/act2/
+description: "Vandal Hearts Act 2 walkthrough — Island of Madness. Strategies for all 6 battles, Earth Key location, and new party member recruitment."
 ---
 
 # Act 2: Island of Madness

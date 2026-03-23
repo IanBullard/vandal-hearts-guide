@@ -4,6 +4,7 @@ title: Bestiary
 parent: Reference
 nav_order: 3
 permalink: /reference/bestiary/
+description: "Complete Vandal Hearts bestiary — enemy stats, spells, class types, and strategic counters for every enemy in the game."
 ---
 
 # Complete Bestiary

@@ -4,6 +4,7 @@ title: Nova Trial
 parent: Trials of Toroah
 nav_order: 1
 permalink: /trials/nova/
+description: "Vandal Hearts Nova Trial guide — how to get the Nova Key, battle strategy for mixed enemy types, and earning the Nova Prism."
 ---
 
 # Nova Trial

@@ -4,6 +4,7 @@ title: Spells
 parent: Reference
 nav_order: 1
 permalink: /reference/spells/
+description: "Complete Vandal Hearts spell database — all spells organized by class with MP costs, range, area of effect, and strategic notes."
 ---
 
 # Complete Spell Database

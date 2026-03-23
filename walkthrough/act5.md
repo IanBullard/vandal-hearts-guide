@@ -4,6 +4,7 @@ title: Act 5 Walkthrough
 parent: Walkthrough
 nav_order: 5
 permalink: /walkthrough/act5/
+description: "Vandal Hearts Act 5 walkthrough — The Legacy. Strategies for all 6 battles, Logos Key location, and obtaining the Vandal Heart sword."
 ---
 
 # Act 5: The Legacy

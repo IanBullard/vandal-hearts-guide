@@ -4,6 +4,7 @@ title: Act 3 Walkthrough
 parent: Walkthrough
 nav_order: 3
 permalink: /walkthrough/act3/
+description: "Vandal Hearts Act 3 walkthrough — Escape to Tomorrow. Strategies for all 7 battles, Mana Key location, tower defense, and prison rescue."
 ---
 
 # Act 3: Escape to Tomorrow

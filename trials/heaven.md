@@ -4,6 +4,7 @@ title: Heaven Trial
 parent: Trials of Toroah
 nav_order: 6
 permalink: /trials/heaven/
+description: "Vandal Hearts Heaven Trial guide — how to get the Heaven Key, boss rush battle strategy, and earning the final Heaven Prism for Vandalier."
 ---
 
 # Heaven Trial
