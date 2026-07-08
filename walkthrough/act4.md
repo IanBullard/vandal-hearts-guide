@@ -23,6 +23,10 @@ description: "Vandal Hearts Act 4 walkthrough — The Successor. Strategies for 
 
 ## Act Overview
 
+<div class="quick-ref" markdown="1">
+**Act 4 — The Successor.** Chase the Royal Ring to Kerachi as the rebellion drives the Empire back. 5 story battles · Lv 16–21 · full 12-member roster (no new joins). Characters hit Lv20 — visit the Dojo for second class advancement. Missable this act: **RAMEN** (last Chaos Key item; with Macroman + Tarot, trade at Kerachi Tavern for the Chaos Key).
+</div>
+
 **Standard Level Range:** 16-21
 **Total Battles:** 5 story battles (plus 2 optional Trials)
 **Recommended Party Size:** 12 (full roster)
@@ -81,226 +85,24 @@ To unlock Trial #4 (Chaos), you must collect all 3 Collector's Treasures:
 
 ---
 
-## Optional: Trial of Mana (Trial #3)
-
-**Unlock Requirement:** MANA KEY (from Act 3, Battle 3.6)
-**Recommended Level:** 16-18
-**Map Size:** 24×21 grid
-
-{: .note }
-> This Trial becomes accessible after Act 3. Detailed strategy available in [Trial of Mana guide]({{ site.baseurl }}/trials/mana/). This section provides complete battle information.
-
-### How to Access
-
-1. Ensure **MANA KEY** is in inventory (from Prison Fortress II in Act 3)
-2. Give MANA KEY to Ash (equip as item)
-3. Enter any Dojo
-4. Select "Leave" option
-5. Dojomaster asks about transformation
-6. Select "Yes" to enter Trial
-
-### Enemy Composition
-
-| Enemy Type | Count | Level | HP | AT | DF | AGL | Notes |
-|:-----------|:------|:------|:---|:---|:---|:----|:------|
-| **Brigand** (Boss) | 1 | Scales with Ash | ~133 | Varies | Varies | Varies | Keep alive! |
-| **Mimic** (Mo) | 19 | Scales with Ash | ~123 | Varies | Varies | Varies | Hidden in chests! |
-
-**Total Enemies:** 20 (1 boss + 19 Mimics)
-
-{: .danger }
-> **Enemy Scaling:** All enemies scale with Ash's level. If Ash is Level 18, all enemies are Level 18.
-
-**Total Gold:** 200 G (minimal)
-
-### Treasure & Items
-
-**Chests (20 total - 19 are MIMICS!):**
-
-| Location | Coordinates | Contents | Safe? |
-|:---------|:------------|:---------|:------|
-| (7,4) | Multiple locations | **MIMIC** | ❌ |
-| (7,16) | | **MIMIC** | ❌ |
-| (10,1) | | **MIMIC** | ❌ |
-| (10,7) | | **MIMIC** | ❌ |
-| (10,13) | | **MIMIC** | ❌ |
-| (10,19) | | **MIMIC** | ❌ |
-| (13,4) | | **MIMIC** | ❌ |
-| (13,10) | | **MIMIC** | ❌ |
-| (13,16) | | **MIMIC** | ❌ |
-| (16,1) | | **MIMIC** | ❌ |
-| (16,7) | | **MIMIC** | ❌ |
-| (16,13) | | **MIMIC** | ❌ |
-| (16,19) | | **MIMIC** | ❌ |
-| (19,4) | | **MIMIC** | ❌ |
-| (19,10) | | **MIMIC** | ❌ |
-| (19,16) | | **MIMIC** | ❌ |
-| (22,7) | | **MIMIC** | ❌ |
-| (22,13) | | **MIMIC** | ❌ |
-| (22,19) | | **MIMIC** | ❌ |
-| **NE Corner** | **(22,1)** | **MANA PRISM** | ✓ **THE PRIZE!** |
-
-{: .danger }
-> **CRITICAL WARNING:** If you defeat ALL enemies before collecting the MANA PRISM, the battle ends and you lose access to the prism forever! You CANNOT retry this Trial!
-
-### Battle Strategy
-
-**Difficulty Assessment:** High - "Most Mimic-heavy Trial"
-
-This is the most dangerous Trial for getting trapped. 19 of 20 chests contain aggressive Mimic monsters. The challenge is navigating the maze, fighting Mimics, and collecting the prism before running out of enemies.
-
-#### Core Strategy: Insurance Enemy Method
-
-**Critical Rule:** **Keep at least 1 enemy alive** until you have the MANA PRISM!
-
-**Recommended Insurance Enemy:**
-- **Brigand** (boss) - Keep him alive as "insurance"
-- Don't kill him until prism is secured
-- If you accidentally open too many Mimic chests early, keep 1 Mimic alive
-
-#### Turn-by-Turn Execution
-
-**Turn 1 - Split Party Formation:**
-
-**Why Split:**
-- Map has chests distributed across entire field
-- Need to open chests to progress (Mimics block paths)
-- Faster collection if party spreads out
-- Each group can handle Mimics as encountered
-
-**Group Assignments:**
-
-**Group 1 - SE Mission (Priority!):**
-- **Diego** (if Hawknight/Sky Lord) or fastest ranged unit
-- **Purpose:** Rush directly to **(22,1)** for MANA PRISM
-- **Support:** 1 healer if possible
-
-**Group 2 - West Side:**
-- 3-4 characters
-- Clear west column of chests
-- Fight Mimics as encountered
-
-**Group 3 - Center:**
-- 3-4 characters
-- Clear center columns
-- Engage Brigand but DON'T KILL
-
-**Group 4 - East Side:**
-- Remaining characters
-- Support SE mission group
-- Clear eastern chests
-
-**Turn 2-4 - Chest Opening & Mimic Combat:**
-
-**Mimic Engagement Tactics:**
-1. **One chest at a time** - Don't open multiple simultaneously
-2. **Gang up** - 2-3 characters per Mimic
-3. **Ranged attacks** - Archers fire from safety
-4. **AOE magic** - Phase Shift if multiple Mimics grouped
-
-**Mimic Stats (at Level 18):**
-- 123 HP
-- High agility (~76)
-- Physical attacks
-- Can kill weakened characters
-
-**Combat Tips:**
-- Mimics appear immediately when chest opened
-- They're aggressive and attack nearest character
-- Heal after each Mimic fight
-- Don't let characters get surrounded
-
-**Turn 3-5 - SE Corner Rush:**
-
-**Diego's Mission (or equivalent fast unit):**
-1. Make **direct path** to SE corner
-2. Open chests in the way (fight resulting Mimics)
-3. Allies support by killing Mimics behind him
-4. Reach **(22,1)** as fast as possible
-5. **Open chest → MANA PRISM**
-6. **VERIFY IT'S IN INVENTORY!**
-
-**Why Hawknight/Sky Lord Ideal:**
-- Flying movement ignores terrain
-- Can fly directly over obstacles
-- Fastest route to SE corner
-- Can escape if surrounded
-
-**Turn 5-8 - Cleanup:**
-
-**After Securing Prism:**
-1. **Verify MANA PRISM in inventory** (critical!)
-2. Continue opening remaining chests if desired (EXP/gold)
-3. Kill Brigand when ready
-4. Finish any remaining Mimics
-5. Battle ends when all enemies dead
-
-#### Alternative Strategy: Conservative Clear
-
-For players who want safer approach:
-
-**Phase 1 - Establish Base:**
-1. Stay grouped at start
-2. Open nearest chests one at a time
-3. Kill each Mimic before opening next
-4. Create "cleared zone"
-
-**Phase 2 - Systematic Progression:**
-1. Advance as group toward SE
-2. Clear one column at a time
-3. Keep Brigand away (don't engage)
-4. Slow but safe
-
-**Phase 3 - Final Sprint:**
-1. When close to SE, send fast unit
-2. Rush to (22,1)
-3. Get prism
-4. Return to group safety
-
-### Common Mistakes
-
-**❌ Killing All Enemies Too Fast:**
-- Opening all chests without planning
-- Forgetting to get prism before last kill
-- Battle ends = prism lost forever
-
-**❌ Getting Overwhelmed:**
-- Opening multiple chests at once
-- 4-5 Mimics surrounding party
-- Can't reach SE corner
-
-**❌ Ignoring the Brigand:**
-- Killing him early removes insurance
-- If you misjudge Mimic count, could lose prism access
-
-**✓ Correct Approach:**
-- Keep Brigand alive as insurance
-- Rush SE corner early with fast unit
-- Get prism first, clear Mimics second
-- Verify prism in inventory before finishing
-
-### Post-Trial
-
-**Reward:**
-- **MANA PRISM** (3/6 Prisms for Vandalier)
-- 200 G
-- Minimal EXP (Mimics scale with Ash)
-
-**Progress:**
-- ✅ Nova Prism (Trial #1)
-- ✅ Earth Prism (Trial #2)
-- ✅ **Mana Prism (Trial #3)** ← Just obtained!
-- ⬜ Chaos Prism (Trial #4 - can get this Act after collecting RAMEN)
-- ⬜ Logos Prism (Trial #5 - Act 5)
-- ⬜ Heaven Prism (Trial #6 - Act 6)
-
-**3 of 6 Prisms obtained!**
-
-For more detailed strategy, see [Trial of Mana guide]({{ site.baseurl }}/trials/mana/).
-
----
-
 ## Battle 4.1: Khanos City - Four Generals Ambush
+
+<div class="quick-ref" markdown="1">
+**Goal:** Reach the village exit gate · **Lose:** Ash dies · **Lv:** 16
+
+**Treasure:** HOLY H2O @ (18,15) East · AURA GEM @ (18,21) NE · *[hidden]* GOLD AXE @ (13,26) NE, tile marked by 3 holes
+
+**Strategy:** Four bosses at once, all can heal. Turn 1: move the box 1 space east to block Kurtz's charge. Kill Dallas first (closest, armor = magic-weak) with Phase Shift before he Extra-Heals — he can OHKO for ~128. Archers focus-fire the C. Hawks before they reach mages. Heal every turn (Ultra Healing); rotate counterattackers; kill bosses one at a time. Collect treasures at the end, then move everyone to the exit gate.
+
+**Enemies:**
+- Kane Assassin (boss) ×1 — Lv22, 161 HP, 91/79 — Healing Circle(2) R5, starts far SE
+- Sabina Valkyrie (boss) ×1 — Lv18, 119 HP, 66/53 — Hyper Healing R8, starts SW
+- Dallas Greatarmor (boss) ×1 — Lv21, 176 HP, 99/107 — Extra Healing R5, can OHKO, starts NW
+- Kurtz War Master (boss) ×1 — Lv21, 143 HP, 69/65 — Dagger Storm R5 AOE, starts NE
+- C. Knight ×10 — Lv19, 140 HP, 80/69
+- C. Armor ×2 — Lv19, 160 HP, 90/97
+- C. Hawk ×2 — Lv18, 142 HP, 93/73 — flying, kill first
+</div>
 
 **Recommended Level:** 16
 **Map Size:** 20×28 grid
@@ -749,6 +551,10 @@ For players who want faster/safer completion:
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Dolf learns Kira helped Clint escape and throws her in the brig; Xeno swears to help Dolf overthrow Hel. Khanos City is now inaccessible — you cannot return to shop.
+</div>
+
 **Story Events:**
 - **Dolf discovers Kira helped Clint escape** (prison liberation in Act 3)
 - Xeno witnessed her betrayal
@@ -768,6 +574,18 @@ For players who want faster/safer completion:
 ---
 
 ## Battle 4.2: Great Masai Forest
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat all enemies · **Lose:** Ash dies · **Lv:** 18
+
+**Treasure:** None · *[hidden]* KINGFOIL @ (17,22) NE riverside crater · *[hidden]* AURA GEM @ (11,5) S, spiral/shell tile at top of waterfall
+
+**Strategy:** 22 low-level enemies but easy. Split the party across the two bridges (north and south) with a healer in each group. Use trees to obscure the Bugaboos' huge ranged attacks. One strong hit kills a Bugaboo (69 HP); Wights take 2. Grab both secrets, converge in the middle, clean up.
+
+**Enemies:**
+- Bugaboo ×12 — Lv10, 69 HP, 39/31 — long-range flying archers, gang up
+- Wight ×10 — Lv11, 84 HP, 49/43 — close-range fighters
+</div>
 
 **Recommended Level:** 18
 **Map Size:** 20×24 grid
@@ -975,6 +793,14 @@ Despite 22 enemies, this is one of the easier battles in Act 4. Enemies are lowe
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Zohar reveals Xeno was his pupil 300 years ago and caused his time warp. In Kerachi, Carlo is revealed as Diego's estranged father; the Royal Ring exchange is arranged at the Old Town Warehouse.
+</div>
+
+<div class="shop-strategy" markdown="1">
+**Shop (Kerachi):** Life Orbs now available (9,000 G, full heal) plus Great-tier weapons — buy everything before the warehouse. Dojo now offers second advancement for Lv20 characters (Swordsman → Duelist, Sorceror → Enchanter).
+</div>
+
 **Story Events:**
 
 **Scene: Xeno Revelation:**
@@ -1025,6 +851,19 @@ Despite 22 enemies, this is one of the easier battles in Act 4. Enemies are lowe
 ---
 
 ## Battle 4.3: Old Town Warehouse - Trap Battle
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat all enemies · **Lose:** Ash dies · **Lv:** 19
+
+**Treasure:** None
+
+**Strategy:** You start surrounded with the enemy on high ground. Pick ONE direction and move the whole party as a group toward it — don't split. Phase Shift spam wrecks the Gold Golems (100+ dmg, armor = magic-weak) and softens Skeletons for counterattack kills. Kill the flying Eggworm "spitters" early — their long range is the main threat. Watch gang-ups and keep Ash protected; expect some casualties.
+
+**Enemies:**
+- Skeleton ×8 — Lv16, 119 HP, 68/59 — close-range fighters
+- Eggworm ×4 — Lv13, 88 HP, 49/39 — flying archers, kill early
+- Gold Golem ×4 — Lv16, 136 HP, 77/83 — heavy armor, weak to magic
+</div>
 
 **Recommended Level:** 19
 **Map Size:** 23×23 grid
@@ -1271,6 +1110,10 @@ Despite 22 enemies, this is one of the easier battles in Act 4. Enemies are lowe
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Carlo had set up the ambush with Xeno, but at the last moment defends Ash's party and reconciles somewhat with Diego. The Royal Ring is being moved to Shumeria by train — intercept it at the Magic Train Station.
+</div>
+
 **Story Events:**
 
 **Carlo's Redemption:**
@@ -1299,6 +1142,20 @@ Despite 22 enemies, this is one of the easier battles in Act 4. Enemies are lowe
 ---
 
 ## Battle 4.4: Magic Train Railroad - Moving Train Battle
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Dallas · **Lose:** Ash dies · **Lv:** 20
+
+**Treasure:** None · *[hidden]* RAMEN @ (11,3) front car floor grate near Dallas — Collector's Treasure #3 for the Chaos Key
+
+**Strategy:** Longest map in the game (64×8); the flatbed cars disconnect on a timer, so advance forward fast. Clear each car with 2 Roman Fires + arrows. Conserve MP for Dallas's car — Phase Shift the C. Armors and Dallas (armor = magic-weak; his physical hits can OHKO, so keep mages out of melee). Kill the C. Shooters before flying Hawknights forward. GRAB RAMEN @ (11,3) BEFORE killing Dallas — his death ends the battle and you lose it forever.
+
+**Enemies:**
+- Dallas Greatarmor (boss) ×1 — Lv21, 176 HP, 99/107 — Extra Healing R5, physical can OHKO
+- C. Knight ×8 — Lv17, 126 HP, 72/63
+- C. Shooter ×4 — Lv17, 113 HP, 63/50 — ranged
+- C. Armor ×4 — Lv18, 152 HP, 86/93 — heavy armor
+</div>
 
 **Recommended Level:** 20
 **Map Size:** 64×8 grid (**LONGEST MAP IN GAME!**)
@@ -1597,6 +1454,14 @@ The challenge isn't the enemies (relatively straightforward), but the **time lim
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+<span class="vandalier">🔑 VANDALIER: RAMEN is Collector's Treasure #3 of 3 for the Chaos Key — grab it @ (11,3) BEFORE killing Dallas (his death ends the battle). With MACROMAN (Act 2) + TAROT (Act 3) + RAMEN, trade at the Kerachi Tavern for the CHAOS KEY, which unlocks the Chaos Trial.</span>
+</div>
+
+<div class="story-callout" markdown="1">
+**Story:** Royal Ring obtained. Xeno appears and offers to trade Kira for the Ring; the party heads to Fort Dain next.
+</div>
+
 **Story Events:**
 - **Royal Ring obtained!** Party secures the artifact
 - **Xeno appears** - confrontation
@@ -1628,258 +1493,24 @@ The challenge isn't the enemies (relatively straightforward), but the **time lim
 
 ---
 
-## Optional: Trial of Chaos (Trial #4)
-
-**Unlock Requirement:** CHAOS KEY (trade 3 Collector's Treasures at Kerachi Tavern)
-**Recommended Level:** 20-21
-**Map Size:** 20×16 grid
-
-{: .note }
-> This Trial becomes accessible after trading all 3 treasures. Detailed strategy available in [Trial of Chaos guide]({{ site.baseurl }}/trials/chaos/). This section provides complete battle information.
-
-### How to Access
-
-1. **Collect all 3 Collector's Treasures:**
-   - MACROMAN (Act 2, Battle 2.1)
-   - TAROT (Act 3, Battle 3.3)
-   - RAMEN (Act 4, Battle 4.4)
-2. **Trade at Kerachi Tavern** → receive CHAOS KEY
-3. Give CHAOS KEY to Ash (equip as item)
-4. Enter any Dojo
-5. Select "Leave" option
-6. Dojomaster asks about transformation
-7. Select "Yes" to enter Trial
-
-### Enemy Composition
-
-| Enemy Type | Count | Level | HP | AT | DF | AGL | Notes |
-|:-----------|:------|:------|:---|:---|:---|:----|:------|
-| Clay Golem (Ar) | 3 | Scales with Ash | Varies | Varies | Varies | Varies | Weakest golems |
-| Dark Golem (Ar) | 7 | Scales with Ash | Varies | Varies | Varies | Varies | Medium golems |
-| Gold Golem (Ar) | 8 | Scales with Ash | ~176 | Varies | Varies | Varies | Strongest golems |
-
-**Total Enemies:** 18 Golems (all Armor class!)
-
-{: .important }
-> **All Armor Types:** Every enemy is Armor class. Mages are EXTREMELY effective! Phase Shift dominates.
-
-**Total Gold:** 180 G (minimal)
-
-### Special Mechanic: Box Puzzle
-
-**Map Layout:**
-- Multi-tiered arena
-- **3 boxes** (crates/boulders) positioned on different tiers
-- **Aqueducts** connecting tiers
-- Chest on highest tier (requires bridge)
-- **Must stack all 3 boxes** to create bridge to chest
-
-{: .danger }
-> **CRITICAL PUZZLE:** Need ALL 3 boxes to form bridge to chest! If you trap a box in a corner, you fail the puzzle and cannot get the Chaos Prism!
-
-### Treasure & Items
-
-**Chests (1):**
-
-| Location | Coordinates | Item | Notes |
-|:---------|:------------|:-----|:------|
-| NE high tier | (13,14) | **CHAOS PRISM** | **Must build bridge to reach!** |
-
-{: .danger }
-> **YOU MUST GET THE CHAOS PRISM!** If you defeat all enemies without collecting it, you lose access to the prism forever. Cannot retry Trial!
-
-### Battle Strategy
-
-**Difficulty Assessment:** Medium - "Golems are easy" but puzzle is tricky
-
-The combat is straightforward (all Armor weak to magic), but the **box puzzle requires planning**. Many players fail by trapping boxes incorrectly.
-
-#### Phase 1: Golem Cleanup (Turns 1-5)
-
-**Why Kill Most Golems First:**
-- Need time to solve box puzzle
-- Golems interfere with box pushing
-- Can't focus on puzzle while fighting
-- **Leave 3 golems at top alone** - they buy time
-
-**Combat Strategy:**
-
-**Zohar/Eleni (Enchanters):**
-1. **Phase Shift spam** - "Do a bunch of Phase Shifts"
-2. 100+ damage to each Golem
-3. One-shot or near one-shot most
-4. R3-7, F1 = can hit multiple at once
-5. Most effective spell in this Trial
-
-**Physical Attackers:**
-1. "Couple of attacks" finish wounded Golems
-2. Clean up stragglers
-3. Support magic users
-
-**Target Priority:**
-1. **Lower tier Golems first** (near start)
-2. Work up toward higher tiers
-3. **Leave 3 Gold Golems on top tier alive**
-   - They're far from boxes
-   - Need them as "timers" while solving puzzle
-   - Insurance so battle doesn't end
-
-{: .important }
-> **Keep 3 Golems Alive:** Critical! Need time to push boxes without battle ending. "Leave 3 golems at top alone"
-
-#### Phase 2: Understanding the Box Puzzle
-
-**Goal:**
-- Stack all 3 boxes to create bridge
-- Bridge allows access to highest tier
-- Chest with Chaos Prism on highest tier
-
-**Box Locations:**
-
-| Box | Starting Tier | Notes |
-|:----|:--------------|:------|
-| Box 1 | Lowest tier (1st) | Must move first |
-| Box 2 | Middle tier (2nd) | Moves second |
-| Box 3 | Upper tier (3rd) | Moves last |
-
-**Aqueducts:**
-- Channels connecting tiers
-- Boxes can be pushed through aqueducts
-- Boxes stack on top of each other
-- Creates "stairs" or "bridge"
-
-{: .danger }
-> **THE TRICK:** Don't get 1st tier box trapped in a corner! "The trick is NOT to get the 1st tier box trapped in a corner"
-
-#### Phase 3: Box Puzzle Solution (Turns 5-10)
-
-**Step 1 - Position Box 1 (Lowest Tier):**
-
-**Initial Setup:**
-1. Push lowest tier box to wall
-2. Allows characters to climb to 2nd tier
-3. This is temporary position
-
-**Moving Box 1 Around:**
-1. **Push 1st tier box ALL the way around** perimeter
-2. Don't push across middle (traps it!)
-3. Push around edges **by chest area** (final destination)
-4. "Spend next couple rounds pushing 1st tier box all the way around by chest"
-5. This takes several turns
-
-**Critical Warning:**
-> "The trick is NOT to get the 1st tier box trapped in a corner"
-
-- If pushed into corner = can't get out
-- If can't reach aqueduct = can't use for bridge
-- Puzzle fails = no Chaos Prism
-
-**Step 2 - Move Characters to 3rd Tier:**
-
-**While Pushing Box 1:**
-1. **Move 1-2 characters to 3rd tier** (highest)
-2. Recommended: Ash + Healer
-   - "Author used Ash"
-   - Healer for safety
-3. **DON'T ATTACK the golems** yet
-   - Need them alive for time
-   - Insurance enemies
-
-**Why Characters on 3rd Tier:**
-- Can handle 3 remaining Golems if needed
-- Protected position
-- Ready to get chest when bridge complete
-
-**Step 3 - Push Box 2 (Middle Tier):**
-
-**After Box 1 in Position:**
-1. Box 1 is now near chest area (on 1st tier)
-2. **Push 2nd tier box through aqueduct**
-3. Box 2 lands **on top of Box 1**
-4. First part of bridge complete!
-
-**Step 4 - Push Box 3 (Upper Tier):**
-
-**Final Box:**
-1. Push 3rd tier box to where 2nd one started
-2. **Push through aqueduct**
-3. Box 3 lands **on top of other two**
-4. **VOILA, instant bridge!** (three boxes stacked)
-5. "Beauty, eh?"
-
-**Bridge Complete:**
-- All 3 boxes stacked
-- Creates stairs/bridge to highest tier
-- Can now reach chest
-
-#### Phase 4: Get Prism & Finish (Turn 10+)
-
-**Collect Chaos Prism:**
-1. Character walks across box bridge
-2. Reach highest tier where chest is
-3. Open chest → **CHAOS PRISM**
-4. **VERIFY IN INVENTORY!**
-
-**Cleanup:**
-1. Kill 3 remaining Golems on top tier
-2. Easy with character already there + Phase Shift
-3. Victory
-
-### Common Mistakes
-
-**❌ Trapping Box 1 in Corner:**
-- Pushing box into corner
-- Can't get it out
-- Can't complete bridge
-- Puzzle fails = no prism
-
-**❌ Killing All Golems Too Fast:**
-- Battle ends before puzzle solved
-- No time to push boxes
-- Lose prism access
-
-**❌ Not Leaving Insurance Golems:**
-- Kill all enemies
-- Battle ends immediately
-- Can't get to chest
-
-**❌ Pushing Boxes Wrong Order:**
-- Trying to move Box 3 before Box 1
-- Doesn't work
-- Must go in sequence
-
-**✓ Correct Approach:**
-- Kill most Golems (Phase Shift spam)
-- Leave 3 on top tier
-- Push Box 1 around perimeter to chest area
-- Stack Box 2 on Box 1 (through aqueduct)
-- Stack Box 3 on others (through aqueduct)
-- Cross bridge, get Chaos Prism
-- Verify in inventory
-- Kill last 3 Golems
-
-### Post-Trial
-
-**Reward:**
-- **CHAOS PRISM** (4/6 Prisms for Vandalier)
-- 180 G
-- Minimal EXP
-
-**Progress:**
-- ✅ Nova Prism (Trial #1)
-- ✅ Earth Prism (Trial #2)
-- ✅ Mana Prism (Trial #3)
-- ✅ **Chaos Prism (Trial #4)** ← Just obtained!
-- ⬜ Logos Prism (Trial #5 - Act 5)
-- ⬜ Heaven Prism (Trial #6 - Act 6)
-
-**4 of 6 Prisms obtained! Two-thirds complete!**
-
-For more detailed strategy, see [Trial of Chaos guide]({{ site.baseurl }}/trials/chaos/).
-
----
-
 ## Battle 4.5: Fort Dain - Kira Rescue (Timed Battle)
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destroy all 8 Death Devices within 8 turns · **Lose:** Turn 9 arrives, or Ash or Kira dies · **Lv:** 21
+
+**Treasure:** LIFE ORB @ (3,1) SW · L.MASK @ (21,17) NE · *[hidden]* MITHRIL @ (18,1) SE spiral tile · *[hidden]* KINGFOIL @ (9,21) N crater
+
+**Strategy:** 8-turn timed rescue. Split the party evenly with a healer in each group. Kill BOTH Death Angels on Turn 2-3 — their Harmful Wave is Range 8 and can wipe you; hide behind corners to break line of sight until ready. Then clear Acid Ghosts and Gold Golems (magic) to open paths, and destroy all 8 Death Devices (14 HP each — even bishops' Holy Lightning kills them). Protect Kira; the Devices are the only objective.
+
+**Enemies:**
+- Death Device ×8 — Lv1, 14 HP, 0/5 — objectives, destroy all 8
+- Kira (protect) ×1 — Lv1, 14 HP, 0/5 — NPC ally, her death = defeat
+- Skeleton ×4 — Lv20, 147 HP, 84/73
+- Eggworm ×2 — Lv19, 126 HP, 69/55 — ranged
+- Gold Golem ×3 — Lv20, 168 HP, 95/102 — heavy armor
+- Acid Ghost ×4 — Lv20, 157 HP, 102/80 — flying, poison
+- Death Angel ×2 — Lv19, 110 HP, 45/38 — Thunder Ball R5, Harmful Wave R8; kill first
+</div>
 
 **Recommended Level:** 21
 **Map Size:** 23×23 grid
@@ -2242,6 +1873,10 @@ This is the most complex timed battle yet:
 - Victory by Turn 8
 
 ### Post-Battle
+
+<div class="story-callout" markdown="1">
+**Story:** Kira is rescued and rejoins the party. She is revealed to be of Royal blood from the Ashah Dynasty, and Zohar deciphers the Royal Ring's inscription. Act 4 ends.
+</div>
 
 **Story Events:**
 

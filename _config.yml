@@ -12,6 +12,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-remote-theme
 color_scheme: dark # or "light"
 
 # Logo and favicon

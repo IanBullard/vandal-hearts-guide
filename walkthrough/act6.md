@@ -23,6 +23,10 @@ description: "Vandal Hearts Act 6 walkthrough — A Fool's Epitaph. Strategies f
 
 ## Act Overview
 
+<div class="quick-ref" markdown="1">
+**Act 6 — A Fool's Epitaph.** The finale: Kane becomes the Black Knight, Ash fights the Vandal Heart's curse, and the party makes its last stand against Dolf. 4 story battles · Lv ~27–32 · all 12 available. Gold doesn't carry over — spend it before the final battle. Grab the **Heaven Key** in Glasgow City to unlock the final Trial.
+</div>
+
 **Chapter Title:** VI. A Fool's Epitaph
 
 **Total Battles:** 4 story battles + 1 optional Trial
@@ -47,237 +51,13 @@ description: "Vandal Hearts Act 6 walkthrough — A Fool's Epitaph. Strategies f
 
 ---
 
-## Heaven Trial - The Ultimate Test (Optional)
-
-{: .important }
-> **Prerequisites:**
-> - All 5 Prisms collected (Nova, Earth, Mana, Chaos, Logos)
-> - Talk to Weird Man in Glasgow City tavern to receive **HEAVEN KEY**
-> - Give Heaven Key to Ash, enter any Dojo, select "Leave" option
-
-**Map Type:** Boss Rush Gauntlet
-
-**Map Size:** 64×2 (extremely long and narrow path)
-
-**Objective:**
-- Victory: Destruction of all enemies
-- Failure: Death of Ash
-
-### Enemy Forces - Boss Reunion!
-
-{: .danger }
-> **ALL PREVIOUS BOSSES RETURN!** 23+ enemies, all former boss characters with healing abilities!
-
-| Enemy Type | Count | Level* | HP* | Abilities |
-|:-----------|:------|:-------|:----|:----------|
-| Evilstatue (Mage) | 2 | ~29 | ~165 HP | PIERCING LIGHT |
-| Sabina (Valkyrie) | 4 | ~29 | ~189 HP | HYPER HEALING |
-| Kurtz (War Master) | 4 | ~29 | ~195 HP | DAGGER STORM |
-| Dallas (Greatarmor) | 3 | ~29 | ~240 HP | EXTRA HEALING |
-| Dark Mage | 4 | ~29 | ~165 HP | DARK HURRICANE, EVIL STREAM |
-| Lando (Hitman) | 2 | ~29 | ~189 HP | SELF HEALING |
-| Dumas (Jailmaster) | 4 | ~29 | ~240 HP | SELF HEALING |
-| Zoot (Thief Lord) | 4 | ~29 | ~210 HP | SELF HEALING |
-
-**Total Enemies:** 27 bosses
-
-*Enemy levels scale with Ash's level (typical for all Trials)
-
-{: .warning }
-> **Many bosses can heal themselves and each other!** Multiple Sabinas with HYPER HEALING, Dallas with EXTRA HEALING, and various SELF HEALING abilities make this a war of attrition.
-
-### Treasure Locations
-
-**Treasure Chests:**
-- **HEAVEN PRISM** - End of path at (62,1)
-
-{: .danger }
-> **CRITICAL - DO NOT FORGET:** You MUST collect the HEAVEN PRISM from the chest before defeating all enemies! This is your ONLY chance to get it. Without it, Ash cannot become Vandalier!
-
-**Hidden Items:**
-- None
-
-### Battle Strategy
-
-#### Overview
-
-**Map Layout:**
-- 64 squares long, only 2 squares wide
-- Single narrow path
-- All 27 bosses positioned along the gauntlet
-- No retreat possible - must advance forward
-
-**Difficulty Assessment:** ⭐⭐⭐⭐ (Challenging but manageable)
-
-{: .note }
-> **Author's Assessment:** "Talk about your ghosts from Christmas Past! It's a walk in the park if you maintain good positioning."
-
-#### Phase 1: Tight Formation March (Turns 1-15)
-
-**Critical Strategy: Phalanx Formation**
-
-1. **Stay Together**
-   - Keep entire party in tight single-file or double-file formation
-   - Never spread out on narrow path
-   - Best fighters (Ash, Duelists, Dragoons) at front
-   - Healers and mages in middle/back
-   - Maintain formation throughout entire battle
-
-2. **Priority Targets**
-   - **Dark Mages FIRST** - Their Dark Hurricane and Evil Stream are devastating
-   - Take them out with long-range arrows immediately when in range
-   - **Sabina Valkyries SECOND** - Can Hyper Heal entire enemy groups
-   - **Dallas Greatarmors THIRD** - Heavy defense + Extra Healing extends battle
-   - Standard bosses (Kurtz, Dumas, etc.) are manageable after healers eliminated
-
-3. **Spell Conservation**
-   - Don't waste high-MP attack spells early
-   - Save MP for critical moments
-   - Use basic attacks and arrows when possible
-   - Bishops: Use Magic Charge to restore MP to critical casters
-
-#### Phase 2: Dark Mage Elimination (Priority)
-
-**Dark Mage Threat Analysis:**
-- **Dark Hurricane** - Range 9, Field 2, 8 MP (devastating AoE)
-- **Evil Stream** - Range 9, 8 MP (single target, high damage)
-- 4 Dark Mages total - extremely dangerous if all active simultaneously
-
-**Counter-Tactics:**
-1. **Long-Range Sniping**
-   - Use Snipers with maximum range (5-6 spaces)
-   - Position archers at front of formation
-   - Eliminate each Dark Mage before advancing further
-   - **Never engage more than 1 Dark Mage at a time if possible**
-
-2. **Magic Defense Formation**
-   - Put high-defense characters (Ash, Dragoons) at front
-   - Keep Hawknights/Sky Lords BEHIND front line (vulnerable to magic)
-   - Expose spellcasters (Bishops, Enchanters) intentionally - they have better magic defense
-   - Use this to bait Dark Mage attacks away from physical fighters
-
-#### Phase 3: Healer Bosses (Turns 10-20)
-
-**Multiple Healing Threats:**
-
-**Sabina Valkyrie (4 total):**
-- HYPER HEALING (restores ~120 HP to all adjacent allies)
-- Can extend battle significantly
-- **Kill BEFORE killing their nearby allies**
-- Use Phase Shift or Roman Fire to damage multiple targets simultaneously
-
-**Dallas Greatarmor (3 total):**
-- EXTRA HEALING (restores ~80 HP to self)
-- 240 HP + heavy armor
-- Weak to magic (use Phase Shift, Dark Fire)
-- **Don't let them stall while Sabinas heal them**
-
-**Self-Healing Bosses (Lando, Dumas, Zoot):**
-- Each can restore their own HP
-- Lower priority than group healers
-- Focus fire to burst them down before they can heal
-
-#### Phase 4: Standard Boss Cleanup (Turns 15+)
-
-**Kurtz War Masters (4 total):**
-- DAGGER STORM - Range 1, hits all adjacent (moderate damage)
-- Don't surround him with weak units
-- Use ranged attacks when possible
-
-**Evilstatue (2 total):**
-- PIERCING LIGHT - Long-range magic attack
-- Standard mage threat
-- Kill with arrows/physical attacks
-
-**Dumas Jailmasters (4 total):**
-- Heavy armor type
-- Self healing ability
-- Weak to magic
-
-**Zoot Thief Lords (4 total):**
-- Fast, agile fighters
-- Self healing
-- Moderate threat
-
-#### General Combat Tips
-
-1. **Healing Management**
-   - Heal every turn if necessary
-   - Use Ultra Healing liberally
-   - Bishops' Holy Pressure can damage multiple enemies
-   - Keep full HP at all times
-
-2. **Defensive Approach**
-   - Let enemies come to you when possible
-   - Use chokepoint created by narrow path
-   - Control engagement range
-   - Patience is key - this is a marathon, not a sprint
-
-3. **Spell Efficiency**
-   - Area attacks (Phase Shift, Roman Fire, Holy Pressure) hit multiple enemies
-   - Very effective on narrow path
-   - Can damage multiple bosses simultaneously
-   - Save for groups of 2-3+ enemies
-
-4. **Vandalier Ash Advantage**
-   - If Ash already has Heaven Prism from previous completion: N/A
-   - This IS the trial to GET Heaven Prism for first time
-   - Completing this allows Vandalier advancement at Dojo
-
-#### Special Considerations
-
-**Battle Length:**
-- Expect 20-30 rounds
-- Tedious but not difficult with proper tactics
-- Stay patient and methodical
-
-**Don't Forget the Prism!**
-- Chest is at end of path (coordinates 62,1)
-- **Must collect before killing final enemy**
-- Cannot retry this Trial if missed
-
-### Rewards
-
-**Total Gold:** 270 G (minimal, as all Trials)
-
-**Critical Reward:**
-- **HEAVEN PRISM** - The 6th and final Prism!
-
-### Post-Trial: Becoming Vandalier
-
-{: .danger }
-> **DO NOT LEAVE THE DOJO WITHOUT ADVANCING ASH!**
-
-**Vandalier Class Requirements:**
-- All 6 Prisms collected: ✅ Nova, ✅ Earth, ✅ Mana, ✅ Chaos, ✅ Logos, ✅ Heaven
-- Ash must be Level 20+ (already achieved)
-- Ash must be Paragon class (Champion → Paragon at L20)
-
-**Vandalier Benefits:**
-- **Access to EVERY spell in the entire game!**
-  - PLASMA WAVE - Damages all enemies on board
-  - LIFE ORB - Restores all HP & MP for 0 MP
-  - All Hero, Mage, Healer, and Monk spells
-- Enhanced statistics beyond Paragon
-- Exclusive Vandal Heart equipment
-- Special bonus ending screen
-- True completionist achievement
-
-**How to Advance:**
-1. After collecting Heaven Prism, return to any Dojo
-2. Select Ash
-3. Class change option will show **Vandalier** available
-4. Advance immediately
-5. Ash is now the ultimate warrior-mage hybrid
-
-{: .important }
-> **Highly Recommended:** Become Vandalier before tackling final battles. The spell access makes Act 6 significantly easier AND you get bonus ending content!
-
----
-
 ## Story Progression (Pre-Battle)
 
 ### Glasgow City - Heaven Key Acquisition
+
+<div class="story-callout" markdown="1">
+<span class="vandalier">🔑 VANDALIER: In **Glasgow City**, talk to the **Weird Man** in the tavern — with all 5 prior Prisms he simply gives you the **HEAVEN KEY**, which unlocks the Heaven Trial (Trial #6).</span>
+</div>
 
 **Location:** Glasgow City Tavern
 
@@ -292,6 +72,10 @@ description: "Vandal Hearts Act 6 walkthrough — A Fool's Epitaph. Strategies f
 - Heaven Key unlocks Heaven Trial at any Dojo
 
 ### Pre-Act 6 Preparation
+
+<div class="shop-strategy" markdown="1">
+**Shop (pre-Act 6):** Stock several Holy H2O (full-party heal, any range) and Life Orbs (HP+MP), and fully equip all 12 characters with Master-tier gear before you start.
+</div>
 
 **Recommended Party Levels:** 27-30
 
@@ -328,6 +112,23 @@ description: "Vandal Hearts Act 6 walkthrough — A Fool's Epitaph. Strategies f
 ---
 
 ## Battle 6-1: Fort Gareth
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Kane · **Lose:** Ash dies · **Lv:** 27-32
+
+**Treasure:** None · *[hidden]* Necklace @ (40,8) east manhole (needs a flying unit)
+
+**Strategy:** Hardest battle in the game. Phase 1: kill the Warlock/Priest on your tower and on the adjacent tower first, keep Hawknights behind cover from Crimson Shooters, and clear the ground at full HP. Cluster the whole party tightly at the wall base — everyone at 100% HP — then push the boulder: Xeno transforms Kane into the **Black Knight** with **Plasma Wave** (hits the entire board for 50-150). Advance immediately toward the castle, heal every turn, kill the last Warlock. On the stairs Kane drops Plasma Wave for melee — surround with your best fighters and only strike when fully healed (his counters can OHKO).
+
+**Enemies:**
+- Kane (Assassin, boss) ×1 — Lv29, 210 HP — transforms into Black Knight
+- Kane (Black Knight) — Lv30, 217 HP, 122/106 — PLASMA WAVE, whole-board magic
+- Crimson Knight ×6 — Lv27, 196 HP
+- Crimson Armor ×6 — Lv27, 224 HP
+- Crimson Shooter ×4 — Lv26, 170 HP — ranged
+- Crimson Priest ×3 — Lv26, 135 HP — healer
+- Crimson Warlock ×3 — Lv26, 148 HP — kill on sight
+</div>
 
 **Location:** Fort Gareth (Final Crimson Guard Stronghold)
 
@@ -615,6 +416,10 @@ Once you start climbing stairs toward Kane:
 
 ### Story Events
 
+<div class="story-callout" markdown="1">
+**Story:** As the wall falls, **Xeno transforms Kane into the Black Knight** (Plasma Wave). Beating Kane yields **Caliburn**; afterward the ghosts of Ash's past taunt him about his "traitor" father.
+</div>
+
 **Before Battle:**
 - Party arrives at Fort Gareth, final Crimson Guard stronghold
 - Kane awaits inside
@@ -645,6 +450,19 @@ Once you start climbing stairs toward Kane:
 ---
 
 ## Battle 6-2: Cobalt Beach
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat all enemies · **Lose:** Ash dies · **Lv:** 27-32
+
+**Treasure:** Life Orb @ (3,2) SW chest · Holy H2O @ (18,7) east plateau · Ragnarok (axe) @ (20,13) NE chest
+
+**Strategy:** Easiest battle in the act. Take the central hilltop and roll boulders down — each deals 50% of the target's HP. Then have archers focus the flying **Blood Bats** first (they paralyze); cure paralysis with healers or Aura Gems. Mop up the boulder-weakened Centurions and Grenadiers and grab all three chests.
+
+**Enemies:**
+- Centurion ×7 — Lv28, 203 HP
+- Grenadier ×4 — Lv28, 182 HP — ranged
+- Blood Bat ×4 — Lv28, 217 HP — flying, inflicts paralysis (kill first)
+</div>
 
 **Location:** Cobalt Beach (Approach to Capital)
 
@@ -819,6 +637,10 @@ Once you start climbing stairs toward Kane:
 
 ### Story Events
 
+<div class="story-callout" markdown="1">
+**Story:** The **Vandal Heart possesses Ash** and he nearly kills Clive. Clive then confesses he killed Aldor 15 years ago while protecting Arris — **Ash's father was NOT a traitor.**
+</div>
+
 **Before Battle:**
 - Party traveling toward Capital Shumeria
 - Beach is last obstacle before city
@@ -881,6 +703,22 @@ Once you start climbing stairs toward Kane:
 ---
 
 ## Battle 6-3: Capital Shumeria - Xeno Battle
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Xeno · **Lose:** Ash dies · **Lv:** 27-32
+
+**Treasure:** None · *[hidden]* Mojo Robe @ (7,7) manhole W of fountain · *[hidden]* Gold Axe @ (20,4) manhole SE of fountain (0 ATK, sell)
+
+**Strategy:** Four Dark Mages make this hard. Turn 1: don't advance — snipe the first Dark Mage and pull back to the SE corner by the lamppost so enemies arrive in waves. Never fight more than one Dark Mage at once. Kill order: Dark Mages → Bahamuts (flying) → Hellknights (magic-weak, Phase Shift) → Magic Cannons → Mega Guards. Then rush Xeno — only 192 HP, he bursts down in 2-3 strong hits before spending his MP.
+
+**Enemies:**
+- Xeno (boss) ×1 — Lv34, 192 HP, 77/65 — Dark Fire, Explosion; low HP
+- Dark Mage ×4 — Lv29, 165 HP, 66/56 — Dark Hurricane, Evil Stream (top priority)
+- Bahamut ×4 — Lv29, 225 HP, 144/113 — flying
+- Hellknight ×4 — Lv29, 210 HP, 118/103 — magic-weak
+- Mega Guard ×2 — Lv30, 248 HP, 138/149 — very high DEF, magic-weak
+- Magic Cannon ×2 — Lv28, 182 HP, 99/79 — ranged
+</div>
 
 **Location:** Capital Shumeria (City Streets - Fountain Plaza)
 
@@ -1190,6 +1028,10 @@ Wait until:
 
 ### Story Events
 
+<div class="story-callout" markdown="1">
+**Story:** **Xeno is defeated** (drops the **Runewand**) and warns that Dolf means to cleanse the world with fire. The next battle is the final one — save your game.
+</div>
+
 **Before Battle:**
 - Party enters Capital Shumeria
 - Xeno awaits in fountain plaza
@@ -1231,6 +1073,10 @@ Wait until:
 
 {: .important }
 > **FINAL BATTLE AHEAD!** This is your last chance to prepare!
+
+<div class="shop-strategy" markdown="1">
+**Shop (final):** Money doesn't carry over — spend all ~210,000 G on **Holy H2O** (x5+), **Life Orbs** (x5+), **Aura Gems** (x3+), and **Kingfoil** (x2+). Pioneer Town Sorbo has good stock.
+</div>
 
 ### Recommended Actions
 
@@ -1285,6 +1131,23 @@ Expected levels: 28-32
 ---
 
 ## Battle 6-4: Capital Shumeria II - FINAL BATTLE
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Dolf · **Lose:** Ash dies · **Lv:** 28-32
+
+**Treasure:** None
+
+**Strategy:** Two-phase final boss. Don't charge up the middle (kill zone) — split the party and kill the Mega Guard + Bahamut duo on each flank first (Mega Guards are magic-weak, Phase Shift). Then snipe the Dark Mages, Magic Cannons, and Hellknights. Engage Dolf Doom Lord (280 HP) only once all support is dead and everyone is high on HP; surround with your best fighters and watch his Healing Circle. Best line: drop the Doom Lord low, then in a single turn kill him AND burst the Dark Angel form (only 165 HP) before it can cast Dynamo Hum.
+
+**Enemies:**
+- Dolf (Doom Lord, boss) ×1 — Lv34, 280 HP, 165/167 — Healing Circle; transforms
+- Dolf (Dark Angel, 2nd form) — Lv32, 165 HP, 85/68 — Dynamo Hum AoE; very low HP
+- Hellknight ×3 — Lv30, 217 HP, 122/106 — magic-weak
+- Bahamut ×3 — Lv30, 232 HP, 149/117 — flying
+- Mega Guard ×3 — Lv30, 248 HP, 138/149 — very high DEF, magic-weak
+- Magic Cannon ×3 — Lv29, 189 HP, 103/82 — ranged
+- Dark Mage ×2 — Lv30, 170 HP, 69/58 — Dark Hurricane, Evil Stream (top priority)
+</div>
 
 **Location:** Capital Shumeria (Temple of Sacred Flames)
 
@@ -1655,6 +1518,10 @@ This battle becomes trivial:
 
 {: .important }
 > **FINAL STORY SEQUENCE - Spoilers Ahead!**
+
+<div class="story-callout" markdown="1">
+**Story:** Dolf unleashes **Flames of Judgement**; **Ash absorbs the blast with the Vandal Heart**, saving everyone and vanishing into the void. Two endings follow — a special Vandalier ending if Ash reached Vandalier class.
+</div>
 
 ### The Final Confrontation
 

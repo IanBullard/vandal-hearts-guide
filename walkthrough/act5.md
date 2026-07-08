@@ -23,6 +23,10 @@ description: "Vandal Hearts Act 5 walkthrough — The Legacy. Strategies for all
 
 ## Act Overview
 
+<div class="quick-ref" markdown="1">
+**Act 5 — The Legacy.** The party sails to the Torog Mountains seeking a hidden power to counter the Flames of Judgment, while Dolf murders Emperor Hel Spites and seizes total control. 6 story battles + the optional Logos Trial · Lv range 22–26 · no new playable characters (full roster of 12) · Total Gold ~159,130 G (highest-earning Act). Ash obtains the legendary Vandal Heart sword after 5.5; the Logos Trial gives Vandalier Prism 5/6 — don't skip it.
+</div>
+
 **Standard Level Range:** 22-26
 **Total Battles:** 6 story battles (plus optional Logos Trial)
 **Recommended Party Size:** 12 (full roster including Kira)
@@ -85,6 +89,22 @@ After Act 5, you can obtain:
 ---
 
 ## Battle 5.0: Wart Bay
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destroy all enemies · **Lose:** Ash dies · **Lv:** 22
+
+**Treasure:** PLATE Mail @ (16,22) NE corner (crate-push puzzle) · (7,22) NW chest is a MIMIC (Lv21 monster), not real loot
+
+**Strategy:** Move the whole party to the west side of the ship and only step onto the first plank — don't rush the dock. Turn 2, two Phase Shifts into the enemy mass; kill Deathangels first (Harmful Wave R5), then Eggworms. Land and mop up. Leave one Gold Golem alive so you can push the crate to the NE chest for the PLATE Mail.
+
+**Enemies:**
+- Deathangel (Ma) ×2 — Lv18, 104 HP, 43/36 — Thunder Ball / Harmful Wave R5, *kill first*
+- Eggworm (Bo) ×4 — Lv18, 119 HP, 66/53
+- Acid Ghost (Ai) ×2 — Lv19, 150 HP, 97/76 — flying, poison
+- Skeleton (Kn) ×2 — Lv19, 140 HP, 80/69
+- Gold Golem (Ar) ×4 — Lv19, 160 HP, 90/97 — weak to magic
+- Mimic (Mo) ×1 — Lv21, 143 HP, 69/65 — hidden in NW chest
+</div>
 
 **Recommended Level:** 22
 **Map Size:** 21×24 grid
@@ -273,6 +293,14 @@ The challenge is the difficult opening (starting on ship, enemies on land), foll
 
 ### Post-Battle
 
+<div class="shop-strategy" markdown="1">
+**Shop (Pioneer Town Sorbo):** Master-tier weapons and ultimate armor start appearing — stock up before the mountain battles. Dojo has final class tiers for Lv20+ characters.
+</div>
+
+<div class="story-callout" markdown="1">
+**Story:** Rest at Pioneer Town Sorbo; Eleni has a prophetic nightmare. En route to the Torog Mountains, Sabrina tells Kane his father was murdered — Kane flees, leaving you to fight Kurtz.
+</div>
+
 **Story Events:**
 
 **Scene: Pioneer Town Sorbo:**
@@ -308,6 +336,22 @@ The challenge is the difficult opening (starting on ship, enemies on land), foll
 ---
 
 ## Battle 5.1: Torog Mountains - Kurtz Boss Battle
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Kurtz · **Lose:** Ash dies · **Lv:** 22
+
+**Treasure:** None (chests) · *[hidden]* HELSTONE @ (29,12) NE, 3-paw-prints snow tile · *[hidden]* MITHRIL @ (0,7) W edge, 3-paw-prints snow tile · Kurtz drops Panzer Claws (ATK +20)
+
+**Strategy:** Turn 1, Phase Shift the 4 rear C. Armors behind you (armor is very weak to magic) and kill the rear Priest. Then hold at the bridge and kill ALL 6 Hawks before advancing — they 2HKO sword-users. Kill the Warlock the instant he moves to the hill edge. Wipe both Priests before touching Kurtz. Vs Kurtz, spread out — his Dagger Storm R5 hits every adjacent tile; heal after each. Grab both snow secrets.
+
+**Enemies:**
+- Kurtz War Master (boss) ×1 — Lv23, 156 HP, 75/70 — Dagger Storm R5, don't cluster
+- C. Armor (Ar) ×4 — Lv26, 216 HP, 121/130 — weak to magic
+- C. Hawk (Ai) ×6 — Lv23, 180 HP, 116/91 — flying, *kill before advancing*
+- C. Priest (Pr) ×2 — Lv21, 110 HP, 57/46 — Extra Healing R5
+- C. Warlock (Ma) ×1 — Lv21, 121 HP, 49/42 — Rolling Thunder / Magic Arrow, *kill first*
+- C. Shooter (Bo) ×2 — Lv21, 138 HP, 76/61
+</div>
 
 **Recommended Level:** 22
 **Map Size:** 32×16 grid (wide map)
@@ -624,6 +668,10 @@ This battle has multiple phases and requires careful coordination. The bridge me
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Kira details Dolf's takeover — he murdered Emperor Hel to seize absolute power. At Frontier Village, meet elder Orosius; monsters are attacking the fields (rescue mission next).
+</div>
+
 **Rewards:**
 - 21,420 G
 - **Panzer Claws** (boss drop)
@@ -654,6 +702,22 @@ This battle has multiple phases and requires careful coordination. The bridge me
 ---
 
 ## Battle 5.2: Tsukue Plains - Field Rescue
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destroy all enemies · **Lose:** Ash dies · **Lv:** 23
+
+**Treasure:** None real — (12,12) center chest is a MIMIC (Lv23 monster)
+
+**Strategy:** Split into two balanced groups, a healer in each, and take the extreme west wall (easiest elevation). Kill the Death Angels first (Harmful Wave R5), then Phase Shift the Gold Golems (armor, weak to magic). Skip the Mimic chest if you're taking damage. Let the eastern group approach and shoot them, then converge to clean up. Engage groups one at a time.
+
+**Enemies:**
+- Gold Golem (Ar) ×6 — Lv22, 184 HP, 103/111 — weak to magic
+- Skeleton (Kn) ×2 — Lv22, 161 HP, 91/79
+- Eggworm (Bo) ×3 — Lv22, 144 HP, 79/63 — flying
+- Acid Ghost (Ai) ×2 — Lv22, 172 HP, 111/87 — flying, poison
+- Deathangel (Ma) ×2 — Lv22, 126 HP, 51/43 — Thunder Ball / Harmful Wave R5, *kill first*
+- Mimic (Mo) ×1 — Lv23, 156 HP, 75/70 — hidden in center chest
+</div>
 
 **Recommended Level:** 23
 **Map Size:** 24×24 grid
@@ -873,6 +937,10 @@ This is a relatively straightforward battle with standard enemy types. The main 
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Orosius reveals the elders are descendants of Biruni, creators of the Flames of Judgement. He'll help if you defeat Salamander for the Dragon Claw; Leena is assigned as your guide. Tavern hint: the Logos Key hides in the center of the smallest lava lake in the Dragon's Lair.
+</div>
+
 **Story Events:**
 
 **Orosius Reveals Truth:**
@@ -897,6 +965,25 @@ This is a relatively straightforward battle with standard enemy types. The main 
 ---
 
 ## Battle 5.3: Smoking Bones Cave - Salamander Dragon Boss
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Salamander · **Lose:** Ash dies · **Lv:** 24
+
+**Treasure:** D.SPEAR @ (13,6) near box stack (box-push puzzle) · *[hidden]* LOGOS KEY @ (15,13) middle of the smallest lava pool — **flying unit required, MISSABLE** · Salamander drops Wyrmfang
+
+**Strategy:** Salamander stays put and dies very easily, so do NOT kill him until every item is secured. IMMEDIATELY send a flying unit (Hawknight / Sky Lord) to (15,13) in the smallest lava pool for the LOGOS KEY — this is the only chance to get it. Hold the chokepoint one tile north of Ash's start; let enemies funnel in, Phase Shift the Golems, arrow the flyers. Box-push puzzle gets the D.Spear (optional). Kill Salamander LAST and double-check your inventory first.
+
+**Enemies:**
+- Salamander (boss) ×1 — Lv26, 202 HP, 130/102 — flying dragon, no spells, dies easily — *kill last*
+- Gold Golem (Ar) ×4 — Lv23, 192 HP, 108/116 — weak to magic
+- Skeleton (Kn) ×4 — Lv23, 168 HP, 95/83
+- Eggworm (Bo) ×3 — Lv23, 151 HP, 83/66 — flying
+- Acid Ghost (Ai) ×3 — Lv23, 180 HP, 116/91 — flying, poison
+</div>
+
+<div class="story-callout" markdown="1">
+<span class="vandalier">🔑 VANDALIER (5/6): Send a FLYING unit (Hawknight or Sky Lord) to the **Logos Key** in the smallest lava pool @ (15,13) and collect it **before** you kill Salamander. This is the ONLY chance — miss it and the Logos Trial is locked out forever.</span>
+</div>
 
 **Recommended Level:** 24
 **Map Size:** 24×20 grid
@@ -1194,6 +1281,10 @@ Despite being a dragon boss battle, this is surprisingly straightforward. The ch
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Return from the dragon hunt to find Frontier Village in flames (Eleni's premonition come true) and Orosius mortally wounded — the next battle begins immediately.
+</div>
+
 **Rewards:**
 - 24,320 G
 - **Wyrmfang** (boss drop)
@@ -1213,6 +1304,26 @@ Despite being a dragon boss battle, this is surprisingly straightforward. The ch
 ---
 
 ## Battle 5.4: Frontier Village - Sabina & Kane Boss Battle
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Sabina · **Lose:** Ash dies · **Lv:** 25
+
+**Treasure:** None (chests) · *[hidden]* MITHRIL @ (10,1) SW pavement crack by S house · *[hidden]* SHIVBOOK @ (31,5) SE pavement crack by E house · Sabina drops Rune Bow (ATK +25)
+
+**Strategy:** Two-phase fight. Enter the dry riverbed but don't linger — it's a flood trap. Bombard the 9 C. Armors with Roman Fire / Phase Shift (weak to magic); kill Shooters in one round or leave them (Priests heal). Kill Warlocks and Priests ASAP. Turn 4, Kane's reinforcements (boss + 5) arrive by the north sluice — press the switch to flood the riverbed and instant-kill the Armors inside, then fortify the SW high ground. Advance on Sabina last (Hyper Healing R8): kill her supports, grab both secrets, then burst her down.
+
+**Enemies (initial):**
+- Sabina Valkyrie (boss) ×1 — Lv28, 182 HP, 99/79 — Hyper Healing R8, very defensive
+- C. Armor (Ar) ×9 — Lv26–29, 216–240 HP, 121–134/130–144 — weak to magic
+- C. Priest (Pr) ×3 — Lv25–29, 130–150 HP, 67–77/54–62 — Extra Healing R5
+- C. Warlock (Ma) ×2 — Lv25, 143 HP, 58/49 — Rolling Thunder / Magic Arrow, *kill first*
+- C. Shooter (Bo) ×4 — Lv25, 163 HP, 89/71
+
+**Enemies (Turn 4 reinforcements):**
+- Kane Assassin (boss) ×1 — Lv29, 210 HP, 118/103 — Healing Circle R5
+- C. Knight (Kn) ×3 — Lv25, 182 HP, 103/89
+- C. Hawk (Ai) ×2 — Lv24, 187 HP, 121/95 — flying
+</div>
 
 **Recommended Level:** 25
 **Map Size:** 32×16 grid (wide map)
@@ -1574,6 +1685,10 @@ This is one of the hardest battles in Act 5 due to the two-phase structure, heav
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** The dying Orosius sends Leena to Orome Lake to unseal the temple holding the Vandal Heart sword — the weapon that can deal with the Flames of Judgment. Eleni gives Leena her pendant.
+</div>
+
 **Rewards:**
 - **44,820 G** - Highest gold in entire game!
 - **Rune Bow** (boss drop)
@@ -1600,6 +1715,18 @@ This is one of the hardest battles in Act 5 due to the two-phase structure, heav
 ---
 
 ## Battle 5.5: Orome Lake - Temple Guardian Escort
+
+<div class="quick-ref" markdown="1">
+**Goal:** Guide Leena to the temple entrance · **Lose:** Ash or Leena dies · **Lv:** 26
+
+**Treasure:** GOLD AXE @ (21,13) N chest · WYRMFANG @ (18,1) S chest
+
+**Strategy:** Escort mission — control Leena's pace by blocking the walkway with your units so she doesn't trigger spawns early. Groups spawn as she reaches (11,2) [+6] and (17,11) [+2]. Phase Shift the Guardians (armor, weak to magic); arrow the Basilisks (flying, weak to projectiles). Grab BOTH chests before killing the last foe — the battle ends the moment Leena reaches the gate.
+
+**Enemies (spawn in 4 groups):**
+- Guardian (Ar) ×10 — Lv24–25, 200–208 HP, 112–116/121–125 — weak to magic
+- Basilisk (Bo) ×6 — Lv23–24, 151–157 HP, 83–86/66–69 — flying, weak to projectiles
+</div>
 
 **Recommended Level:** 26
 **Map Size:** 28×14 grid
@@ -1876,6 +2003,10 @@ Despite being an escort mission, this is surprisingly simple due to weak enemy t
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** The big twist — Leena is Eleni (an 18-year temporal loop). Xeno appears and his space-time fracture sends Leena to the past; Eleni opens the case and **Ash claims the Vandal Heart sword (ATK +40)** and matching armor. Act 5 complete.
+</div>
+
 **Story Events:**
 
 **MAJOR TIME PARADOX REVEAL!**
@@ -1920,204 +2051,6 @@ Despite being an escort mission, this is surprisingly simple due to weak enemy t
 - Vandal Heart armor also obtained
 
 **End of Act 5**
-
----
-
-## Optional: Trial of Logos (Trial #5)
-
-**Unlock Requirement:** LOGOS KEY (from Battle 5.3 - Smoking Bones Cave)
-**Recommended Level:** 25-27
-**Map Size:** 20×20 grid
-
-{: .note }
-> This Trial becomes accessible after Smoking Bones Cave. Detailed strategy available in [Trial of Logos guide]({{ site.baseurl }}/trials/logos/). This section provides complete battle information.
-
-### How to Access
-
-1. Ensure **LOGOS KEY** is in inventory (from Salamander's cave, lava pool)
-2. Give LOGOS KEY to Ash (equip as item)
-3. Enter any Dojo
-4. Select "Leave" option
-5. Dojomaster asks about transformation
-6. Select "Yes" to enter Trial
-
-### Enemy Composition
-
-| Enemy Type | Count | Level | HP | AT | DF | AGL | Spells |
-|:-----------|:------|:------|:---|:---|:---|:----|:-------|
-| Guardian (Ar) | 13 | Scales with Ash | ~216 | Varies | Varies | Varies | None |
-| Basilisk (Bo) | 5 | Scales with Ash | ~170 | Varies | Varies | Varies | None |
-| Salamander (Ai) | 7 | Scales with Ash | ~202 | Varies | Varies | Varies | None |
-| Dark Mage (Ma) | 2 | Scales with Ash | ~148 | Varies | Varies | Varies | DARK HURRICANE R6F1, EVIL STREAM R9 |
-
-**Total Enemies:** 27 (large battle!)
-
-{: .danger }
-> **Enemy Scaling:** All enemies scale with Ash's level. At Level 26, enemies are Level 26.
-
-{: .warning }
-> **Dark Mages:** 2 Dark Mages have powerful spells! DARK HURRICANE (range 6, field 1) and EVIL STREAM (range 9)!
-
-**Total Gold:** 270 G (minimal)
-
-### Special Note: Translation Error
-
-{: .note }
-> **Item Name:** Called "LOGO PRISM" in U/C version, but should be **LOGOS PRISM** to match "LOGOS KEY" naming. Japanese version uses consistent "Logos" naming.
-
-### Treasure & Items
-
-**Chests (1):**
-
-| Location | Coordinates | Item | Notes |
-|:---------|:------------|:-----|:------|
-| SE area | (17,2) | **LOGOS PRISM** | **Must collect before battle ends!** |
-
-{: .danger }
-> **CRITICAL:** You MUST collect the LOGOS PRISM before defeating all enemies! If you win without it, you cannot retry this Trial!
-
-### Battle Strategy
-
-**Difficulty Assessment:** Medium - "EASY but extremely tedious and boring!" (~25 rounds)
-
-The combat itself isn't hard (if fully equipped), but the **spiral tower grind** makes this the most tedious Trial.
-
-#### Map Layout
-
-**Spiral Tower:**
-- "This board is simply a huge spiral staircase tower with monsters"
-- 27 enemies distributed along spiral
-- Single-file path winding upward
-- Long climb to top
-- Chest at summit (SE area)
-
-#### Recommended Strategy: Single-File March
-
-{: .important }
-> **Core Strategy:** "Stay single file against tower wall as you climb"
-
-**Turn-by-Turn:**
-
-**Formation:**
-1. **Single-file line** along tower wall
-2. Frontline: Knights (high HP/DF)
-3. Mid-line: Archers and Monks
-4. Rear: Mages and Priests
-5. March upward systematically
-
-**Combat Approach:**
-
-**Don't Waste Attack Spells Early:**
-> "Don't waste your attack spells until closer to end"
-
-1. **Conserve MP** for later enemies
-2. Use physical attacks primarily
-3. Archers very effective
-4. Save Phase Shift for emergencies
-
-**Dark Mage Priority:**
-> "Pause only to put an arrow through the Mages"
-
-1. **Kill Dark Mages ASAP** when encountered
-2. DARK HURRICANE and EVIL STREAM dangerous
-3. 2-3 arrows should kill them (low HP ~148)
-4. Don't let them cast repeatedly
-
-**Guardians (13 total):**
-- Armor class = weak to magic
-- But conserve MP
-- Physical attacks work fine
-- High DF but killable with good weapons
-
-**Basilisks (5 total):**
-- Flying archers
-- Shoot them with your archers
-- 2-3 arrows each
-- Not threatening
-
-**Salamanders (7 total):**
-- Flying dragon-types
-- Higher HP (~202)
-- 3-4 attacks to kill
-- Magic or physical both work
-
-**Pace:**
-- ~25 rounds total
-- Extremely long grind
-- Tedious but not difficult
-- Bring healing items
-
-**Phase Shift Usage:**
-- Save for grouped enemies near top
-- When 3+ enemies clustered
-- Late battle when MP less needed
-- Speeds up final push
-
-#### Final Push & Prism Collection
-
-**Near Top (Rounds 20-25):**
-1. Enemies thinning
-2. Chest visible in SE (17,2)
-3. **Leave at least 1 enemy alive** as insurance
-
-**Collect Prism:**
-1. Character reaches chest
-2. **Open → LOGOS PRISM**
-3. **VERIFY IN INVENTORY!**
-
-**Finish:**
-1. Kill remaining enemies
-2. Victory
-
-### Common Mistakes
-
-**❌ Not Conserving MP:**
-- Wasting Phase Shift on early enemies
-- Running out of MP for Dark Mages
-- Tedious ending with no spells
-
-**❌ Spreading Out:**
-- Breaking single-file formation
-- Getting flanked on spiral
-- Healers can't reach frontline
-
-**❌ Ignoring Dark Mages:**
-- Letting them cast EVIL STREAM (range 9!)
-- Party-wide damage
-- Accumulates over time
-
-**❌ Forgetting Prism:**
-- Killing all enemies first
-- Battle ends, can't get prism
-- Locked out of 5th Prism forever
-
-**✓ Correct Approach:**
-- Single-file against wall
-- Physical attacks primarily
-- Arrow the Dark Mages immediately
-- Conserve MP for emergencies
-- Leave 1 enemy for prism
-- Verify prism collected
-- Kill last enemy
-
-### Post-Trial
-
-**Reward:**
-- **LOGOS PRISM** (5/6 Prisms for Vandalier)
-- 270 G
-- Minimal EXP (scales with Ash)
-
-**Progress:**
-- ✅ Nova Prism (Trial #1)
-- ✅ Earth Prism (Trial #2)
-- ✅ Mana Prism (Trial #3)
-- ✅ Chaos Prism (Trial #4)
-- ✅ **Logos Prism (Trial #5)** ← Just obtained!
-- ⬜ Heaven Prism (Trial #6 - Act 6)
-
-**5 of 6 Prisms obtained! Only Heaven Trial remains for Vandalier!**
-
-For more detailed strategy, see [Trial of Logos guide]({{ site.baseurl }}/trials/logos/).
 
 ---
 

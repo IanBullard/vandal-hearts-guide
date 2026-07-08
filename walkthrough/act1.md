@@ -23,6 +23,10 @@ Complete walkthrough for all Act 1 battles including enemy stats, strategies, tr
 
 ## Act 1 Overview
 
+<div class="quick-ref" markdown="1">
+**Act 1 — A Premonition of War.** Ash investigates General Magnus's disappearance as conspiracy stirs in Ishtaria. 6 story battles + the optional Nova Trial · Lv range 5–10 · joins: Eleni, Huxley, Kira, Grog. Nova Trial gives Vandalier Prism 1/6 — don't skip it.
+</div>
+
 **Chapter Summary:** Ash Lambert begins his investigation into General Magnus's disappearance, uncovering the early signs of conspiracy within Ishtaria.
 
 **Battles:** 6 story battles + 1 optional Trial
@@ -33,6 +37,19 @@ Complete walkthrough for all Act 1 battles including enemy stats, strategies, tr
 ---
 
 ## Battle 1.0: Valley of Thieves
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Zoot Gach (Thief Lord) · **Lose:** Ash dies · **Lv:** 5
+
+**Treasure:** *[hidden]* Mad Book @ (14,15) NE dirt hole · *[hidden]* Long Sword (+4 ATK) @ (15,1) SE color splotch
+
+**Strategy:** Diego focus-fires Hunters first (2-hit kills). Ash + Clint advance together on Zoot; burst him before he self-heals (~10 HP/heal). Brigands last.
+
+**Enemies:**
+- Zoot Gach (boss) ×1 — Lv1, 14 HP, 11/10 — self-heals 2 MP
+- Hunter ×2 — Lv1, 12 HP, 10/8 — *kill first*
+- Brigand ×3 — Lv1, 14 HP, 11/10 — fodder
+</div>
 
 **Location:** Valley of Thieves
 **Recommended Level:** 5
@@ -91,6 +108,14 @@ Complete walkthrough for all Act 1 battles including enemy stats, strategies, tr
 
 ### Post-Battle
 
+<div class="shop-strategy" markdown="1">
+**Shop (Capital Shumeria):** Long Sword for Ash if you skipped the hidden one (120G) · Light Bow for Diego (110G) · 5× Herb (1,000G).
+</div>
+
+<div class="story-callout" markdown="1">
+**Story:** Begin investigating General Magnus's disappearance.
+</div>
+
 **Shopping:** Visit Capital Shumeria shop
 - Buy Long Sword for Ash if you didn't find hidden one (120G)
 - Buy Light Bow for Diego (110G)
@@ -101,6 +126,18 @@ Complete walkthrough for all Act 1 battles including enemy stats, strategies, tr
 ---
 
 ## Battle 1.1: Dover District
+
+<div class="quick-ref" markdown="1">
+**Goal:** Reach the Church (NE corner) · **Lose:** Ash dies · **Lv:** 6
+
+**Treasure:** Herb @ (1,1) SW · Herb @ (22,10) NE · *[hidden]* Light Bow @ (4,3) SW grass circle · *[hidden]* Mushroom (Poison Cloud) @ (12,0) SE cracked tile
+
+**Strategy:** Reach-objective, not defeat-all. Push NE along the east edge; Diego shoots the flying War Ghosts blocking the path (archers deal bonus vs airmen). Skip needless fights — Ash reaching the church wins it.
+
+**Enemies:**
+- War Ghost (airman) ×4 — Lv2, 22 HP, 18/14 — flying, hits back line
+- Hunterimp (archer) ×2 — Lv3, 25 HP, 16/13
+</div>
 
 **Location:** Dover District, Capital Shumeria
 **Recommended Level:** 6
@@ -164,6 +201,14 @@ Complete walkthrough for all Act 1 battles including enemy stats, strategies, tr
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Eleni (Mage, Lv7) and Huxley (Healer, Lv7) join the party.
+</div>
+
+<div class="shop-strategy" markdown="1">
+**Shop:** Wool Robe for Eleni (70G, essential) · Iron Staff for Eleni/Huxley (400G ea) · Leather Band for mages (60G ea).
+</div>
+
 **Story:** Meet Eleni and Huxley
 - Eleni (Mage, Lv.7) joins party
 - Huxley (Healer, Lv.7) joins party
@@ -176,6 +221,17 @@ Complete walkthrough for all Act 1 battles including enemy stats, strategies, tr
 ---
 
 ## Battle 1.2: Palace Ruins
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat all enemies · **Lose:** Ash dies · **Lv:** 7
+
+**Treasure:** Elixir @ (8,1) S chest · Herb @ (15,16) NE chest · *[hidden]* Fire Gem @ (14,0) SE dirt hole
+
+**Strategy:** First Golem fight — DEF 37, so swords do only ~8–12. Win with magic: Eleni's Dark Star (~25–35) and Ash's Ice Storm bypass DEF. Focus one Golem at a time; physical units finish wounded ones (<20 HP). Keep Eleni protected.
+
+**Enemies:**
+- Clay Golem (armor) ×9 — Lv6, 56 HP, 34/37 — high DEF, hit with magic
+</div>
 
 **Location:** Palace Ruins
 **Recommended Level:** 7
@@ -252,12 +308,29 @@ Protect Eleni - she's MVP this battle
 
 ### Post-Battle
 
+<div class="shop-strategy" markdown="1">
+**Shop:** Stock Mage Oil (MP restore) — magic is now your answer to high-DEF enemies.
+</div>
+
 **Lesson Learned:** Magic is essential vs high-DEF enemies
 **Preparation:** Stock MP restoration items (Mage Oil)
 
 ---
 
 ## Battle 1.3: Rhine Bridge
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat all enemies · **Lose:** Ash dies · **Lv:** 8
+
+**Treasure:** None
+
+**Strategy:** Big force (12) with flying Hell Bats that reach your back line. Rounds 1–2: hold a defensive formation — Diego shoots Hell Bats (bonus vs airmen), Eleni Dark Stars clusters, Huxley heals. Round 3+: Kira arrives (E side) — she + Diego focus Hell Bats. Target order: Hell Bats → Hunters → Brigands.
+
+**Enemies:**
+- Brigand (knight) ×6 — Lv5, 42 HP, 26/23 — fodder
+- Hell Bat (airman) ×4 — Lv5, 45 HP, 32/25 — flying, hits back line
+- Hunter (archer) ×2 — Lv5, 37 HP, 23/18
+</div>
 
 **Location:** Rhine Bridge
 **Recommended Level:** 8
@@ -326,6 +399,10 @@ Knights hold front
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Kira (Archer, Lv8) permanently joins — party is now 6.
+</div>
+
 **New Character:** Kira (Archer, Lv.8) permanently joins
 **Party Size:** Now 6 characters (full starting roster)
 **Shopping:** Upgrade equipment at Shumeria if needed
@@ -333,6 +410,18 @@ Knights hold front
 ---
 
 ## Battle 1.4: Sand Dunes of Sea
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Death Ant (boss) · **Lose:** Ash dies · **Lv:** 9
+
+**Treasure:** None
+
+**Strategy:** Death Ant spawns Ant Arms endlessly (max 6, up to 4/round) — they give zero EXP/gold, so **ignore them** and send everyone at the Death Ant. DEF 55, so lead with magic: Eleni Dark Star, Ash Ice Storm; archers add safe ranged damage. Killing the Death Ant ends the fight and clears the adds (~5–7 rounds).
+
+**Enemies:**
+- Death Ant (boss) ×1 — Lv10, 88 HP, 51/55 — magic only; the sole target
+- Ant Arm ×6 max — Lv1, 13 HP, 9/8 — infinite spawn, zero reward, ignore
+</div>
 
 **Location:** Sand Dunes of Sea
 **Recommended Level:** 9
@@ -396,6 +485,10 @@ Knights hold front
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+<span class="vandalier">🔑 VANDALIER (1/6): After this battle, go to **Port City Minato** and talk to the **Woman at the Tavern** to get the **Nova Key** — it unlocks the Nova Trial (first Prism). Don't leave the act without it.</span>
+</div>
+
 {: .important }
 > **CRITICAL:** After battle, go to **Port City Minato** and talk to **Woman at Tavern** → receive **NOVA KEY** (Trial #1)!
 
@@ -404,84 +497,20 @@ Knights hold front
 
 ---
 
-## Optional: Nova Trial
-
-**Location:** Special battle arena (access via any Dojo with Nova Key)
-**Recommended Level:** 9-12
-**Available Party:** Ash, Clint, Diego, Eleni, Huxley, Kira, Grog
-
-{: .warning }
-> **Enemy Scaling:** All enemy levels = Ash's level ± 2. Lower Ash level = easier Trial!
-
-### Objectives
-
-- **Victory:** Defeat all enemies + **collect Nova Prism from chest**
-- **Defeat:** Death of Ash
-
-{: .danger }
-> **MUST COLLECT PRISM!** Defeating enemies without getting chest = cannot retry Trial!
-
-### Enemy Composition
-
-| Enemy Type | Count | Scales with Ash |
-|:-----------|:------|:----------------|
-| Buccaneer (Knight) | 4 | Yes |
-| Hunterimp (Archer) | 4 | Yes |
-| Dark Golem (Armor) | 2 | Yes |
-| War Ghost (Airman) | 2 | Yes |
-| Sparkie (Airman) | 2 | Yes |
-
-**Total Enemies:** 14
-
-**Example Stats (Ash Lv.10):**
-- Enemies: Lv.8-12
-- HP: 40-80 depending on type
-- Moderate challenge
-
-### Battle Strategy
-
-**Key Challenge:** Hill assault - enemies have high ground advantage
-
-**Phase 1: Eliminate Airmen**
-- **Diego/Kira:** Shoot War Ghosts and Sparkies (priority)
-- Airmen can bypass hill defenses
-- Kill before they reach your mages
-
-**Phase 2: Advance Up Hill**
-- **Clint/Grog:** Tank front, climb hill
-- **Eleni:** Dark Star on enemy clusters
-- **Huxley:** Heal climbers
-- **Archers:** Support from range
-
-**Phase 3: Secure Summit**
-- Clear enemies near chest (center-ish location)
-- **DON'T FORGET CHEST** - coordinates (7,8)
-- Collect **NOVA PRISM**
-- Clean up remaining enemies
-
-**Difficulty:** Moderate (depends on Ash's level)
-
-### Treasure & Items
-
-**Treasure Chests:**
-
-| Coordinates | Item | CRITICAL |
-|:------------|:-----|:---------|
-| (7,8) | **NOVA PRISM** | **MUST COLLECT!** |
-
-{: .danger }
-> **Nova Prism is mandatory!** This is 1 of 6 Prisms needed for Vandalier class. Missing it = no Vandalier!
-
-**Total Gold:** 140G (very low - Trials give minimal gold)
-
-### Post-Trial
-
-**Reward:** Nova Prism (1/6 for Vandalier)
-**Next Trial:** Earth Trial (requires Banana from Act 2)
-
----
-
 ## Battle 1.5: Gadar Sea
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Hassan (Pirate Captain) · **Lose:** Ash dies · **Lv:** 9
+
+**Treasure:** None
+
+**Strategy:** Crowded ship deck; Hassan heals ~30 HP and has DEF 46. Phase 1: thin the adds — archers shoot Corsairs, knights hold the Buccaneers, Eleni Dark Stars, Huxley heals. Phase 2: swarm Hassan with magic and burst him from under 50% in 2–3 rounds so he can't heal back to full.
+
+**Enemies:**
+- Hassan (boss) ×1 — Lv8, 72 HP, 43/46 — heals 3 MP; magic to break DEF
+- Buccaneer (knight) ×8 — Lv6, 49 HP, 30/26
+- Corsair (archer) ×4 — Lv6, 44 HP, 26/21
+</div>
 
 **Location:** Gadar Sea (Ship Battle)
 **Recommended Level:** 9
@@ -554,6 +583,10 @@ Archers in back
 **Total Gold:** 2,380G (highest in Act 1!)
 
 ### Post-Battle
+
+<div class="story-callout" markdown="1">
+**Story:** Grog (Soldier, Lv9) joins — Hassan was his brother. Act 1 complete; on to Act 2 (Island of Madness).
+</div>
 
 **Story:** Grog's tragic backstory revealed (Hassan killed his crew)
 **Completion:** Act 1 complete!

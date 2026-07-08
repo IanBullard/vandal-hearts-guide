@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vandal Hearts - Walkthrough (PixelGuide)</title>
+<style>
+:root {
+  --bg:#fff; --fg:#1b1b1f; --muted:#5c5f66; --rule:#d7d9de; --link:#1a56db; --card:#f5f6f8;
+  --qr:#1a56db; --qr-bg:#eaf1fe; --shop:#1e7e45; --shop-bg:#e7f6ec;
+  --story:#7c3aed; --story-bg:#f3ecfe; --vand:#c0392b; --vand-bg:#fbe4e0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#16161a; --fg:#e6e6ea; --muted:#a0a3ab; --rule:#33343a; --link:#7aa2ff; --card:#1f2026;
+    --qr:#7aa2ff; --qr-bg:#1b2436; --shop:#57c98a; --shop-bg:#152a1e;
+    --story:#b794f6; --story-bg:#241a33; --vand:#ef6a5c; --vand-bg:#3a1f1b;
+  }
+}
+* { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; }
+body {
+  margin:0 auto; max-width:52rem; padding:1rem 1.1rem 4rem;
+  background:var(--bg); color:var(--fg);
+  font:1rem/1.55 -apple-system,"Segoe UI",Roboto,system-ui,sans-serif; overflow-wrap:break-word;
+}
+a { color:var(--link); }
+h1 { font-size:1.6rem; border-bottom:2px solid var(--rule); padding-bottom:.3em; margin:1.4em 0 .5em; }
+h2 { font-size:1.25rem; margin:1.6em 0 .4em; }
+section { scroll-margin-top:1rem; }
+p, ul { margin:.4em 0; }
+ul { padding-left:1.2em; }
+li { margin:.15em 0; }
+#toc { background:var(--card); border:1px solid var(--rule); border-radius:8px; padding:.4em 1.1em .9em; }
+#toc ol { margin:.3em 0; padding-left:1.3em; }
+/* Card blocks -- mirror the website styling, self-contained here. */
+.quick-ref, .shop-strategy, .story-callout {
+  border-radius:6px; padding:.55rem .85rem; margin:.5rem 0 1.1rem; font-size:.92rem;
+}
+.quick-ref > :first-child, .shop-strategy > :first-child, .story-callout > :first-child { margin-top:0; }
+.quick-ref > :last-child, .shop-strategy > :last-child, .story-callout > :last-child { margin-bottom:0; }
+.quick-ref { border:1px solid var(--rule); border-left:4px solid var(--qr); background:var(--qr-bg); }
+.shop-strategy { border-left:4px solid var(--shop); background:var(--shop-bg); }
+.story-callout { border-left:4px solid var(--story); background:var(--story-bg); }
+.vandalier {
+  display:block; border:2px solid var(--vand); background:var(--vand-bg);
+  border-radius:6px; padding:.45rem .7rem; margin:.5rem 0; font-weight:600;
+}
+</style>
+</head>
+<body>
+<nav id="toc" aria-label="Contents">
+  <ol>
+  <li><a href="#act1-act-1-overview">Act 1 Overview</a></li>
+  <li><a href="#act1-battle-1-0-valley-of-thieves">Battle 1.0: Valley of Thieves</a></li>
+  <li><a href="#act1-battle-1-1-dover-district">Battle 1.1: Dover District</a></li>
+  <li><a href="#act1-battle-1-2-palace-ruins">Battle 1.2: Palace Ruins</a></li>
+  <li><a href="#act1-battle-1-3-rhine-bridge">Battle 1.3: Rhine Bridge</a></li>
+  <li><a href="#act1-battle-1-4-sand-dunes-of-sea">Battle 1.4: Sand Dunes of Sea</a></li>
+  <li><a href="#act1-battle-1-5-gadar-sea">Battle 1.5: Gadar Sea</a></li>
+  <li><a href="#act2-act-2-overview">Act 2 Overview</a></li>
+  <li><a href="#act2-battle-2-0-village-of-yuzu">Battle 2.0: Village of Yuzu</a></li>
+  <li><a href="#act2-battle-2-1-ygdra-canyon">Battle 2.1: Ygdra Canyon</a></li>
+  <li><a href="#act2-battle-2-2-loris-beach">Battle 2.2: Loris Beach</a></li>
+  <li><a href="#act2-battle-2-3-castle-ruins-outside">Battle 2.3: Castle Ruins (Outside)</a></li>
+  <li><a href="#act2-battle-2-4-castle-ruins-inside-boss-battle">Battle 2.4: Castle Ruins (Inside) - Boss Battle</a></li>
+  <li><a href="#act2-battle-2-5-castle-ruins-outside-2-timed-escape">Battle 2.5: Castle Ruins (Outside 2) - Timed Escape</a></li>
+  <li><a href="#act3-act-overview">Act Overview</a></li>
+  <li><a href="#act3-battle-3-0-plain-of-sorrow">Battle 3.0: Plain of Sorrow</a></li>
+  <li><a href="#act3-battle-3-1-plain-of-sorrow-ii-tower-defense">Battle 3.1: Plain of Sorrow II - Tower Defense</a></li>
+  <li><a href="#act3-battle-3-2-terasu-village-reunion">Battle 3.2: Terasu Village - Reunion</a></li>
+  <li><a href="#act3-battle-3-3-basil-gate">Battle 3.3: Basil Gate</a></li>
+  <li><a href="#act3-battle-3-4-reed-highway-prevent-escape">Battle 3.4: Reed Highway - Prevent Escape</a></li>
+  <li><a href="#act3-battle-3-5-prison-fortress-juggernaut-maze">Battle 3.5: Prison Fortress - Juggernaut Maze</a></li>
+  <li><a href="#act3-battle-3-6-prison-fortress-ii-dumas-boss-battle">Battle 3.6: Prison Fortress II - Dumas Boss Battle</a></li>
+  <li><a href="#act4-act-overview">Act Overview</a></li>
+  <li><a href="#act4-battle-4-1-khanos-city-four-generals-ambush">Battle 4.1: Khanos City - Four Generals Ambush</a></li>
+  <li><a href="#act4-battle-4-2-great-masai-forest">Battle 4.2: Great Masai Forest</a></li>
+  <li><a href="#act4-battle-4-3-old-town-warehouse-trap-battle">Battle 4.3: Old Town Warehouse - Trap Battle</a></li>
+  <li><a href="#act4-battle-4-4-magic-train-railroad-moving-train-battle">Battle 4.4: Magic Train Railroad - Moving Train Battle</a></li>
+  <li><a href="#act4-battle-4-5-fort-dain-kira-rescue-timed-battle">Battle 4.5: Fort Dain - Kira Rescue (Timed Battle)</a></li>
+  <li><a href="#act5-act-overview">Act Overview</a></li>
+  <li><a href="#act5-battle-5-0-wart-bay">Battle 5.0: Wart Bay</a></li>
+  <li><a href="#act5-battle-5-1-torog-mountains-kurtz-boss-battle">Battle 5.1: Torog Mountains - Kurtz Boss Battle</a></li>
+  <li><a href="#act5-battle-5-2-tsukue-plains-field-rescue">Battle 5.2: Tsukue Plains - Field Rescue</a></li>
+  <li><a href="#act5-battle-5-3-smoking-bones-cave-salamander-dragon-boss">Battle 5.3: Smoking Bones Cave - Salamander Dragon Boss</a></li>
+  <li><a href="#act5-battle-5-4-frontier-village-sabina-kane-boss-battle">Battle 5.4: Frontier Village - Sabina &amp; Kane Boss Battle</a></li>
+  <li><a href="#act5-battle-5-5-orome-lake-temple-guardian-escort">Battle 5.5: Orome Lake - Temple Guardian Escort</a></li>
+  <li><a href="#act6-act-overview">Act Overview</a></li>
+  <li><a href="#act6-story-progression-pre-battle">Story Progression (Pre-Battle)</a></li>
+  <li><a href="#act6-battle-6-1-fort-gareth">Battle 6-1: Fort Gareth</a></li>
+  <li><a href="#act6-battle-6-2-cobalt-beach">Battle 6-2: Cobalt Beach</a></li>
+  <li><a href="#act6-battle-6-3-capital-shumeria-xeno-battle">Battle 6-3: Capital Shumeria - Xeno Battle</a></li>
+  <li><a href="#act6-pre-final-battle-preparation">Pre-Final Battle Preparation</a></li>
+  <li><a href="#act6-battle-6-4-capital-shumeria-ii-final-battle">Battle 6-4: Capital Shumeria II - FINAL BATTLE</a></li>
+  <li><a href="#act6-final-cutscene-ending">Final Cutscene &amp; Ending</a></li>
+  <li><a href="#trials-nova-trial">Nova Trial</a></li>
+  <li><a href="#trials-earth-trial">Earth Trial</a></li>
+  <li><a href="#trials-mana-trial">Mana Trial</a></li>
+  <li><a href="#trials-chaos-trial">Chaos Trial</a></li>
+  <li><a href="#trials-logos-trial">Logos Trial</a></li>
+  <li><a href="#trials-heaven-trial">Heaven Trial</a></li>
+  </ol>
+</nav>
+
+<h1>Act 1: A Premonition of War</h1>
+
+<section id="act1-act-1-overview">
+<h2>Act 1 Overview</h2>
+<div class="quick-ref"><p><strong>Act 1 — A Premonition of War.</strong> Ash investigates General Magnus’s disappearance as conspiracy stirs in Ishtaria. 6 story battles + the optional Nova Trial · Lv range 5–10 · joins: Eleni, Huxley, Kira, Grog. Nova Trial gives Vandalier Prism 1/6 — don’t skip it.</p></div>
+</section>
+
+<section id="act1-battle-1-0-valley-of-thieves">
+<h2>Battle 1.0: Valley of Thieves</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Zoot Gach (Thief Lord) · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 5</p> <p><strong>Treasure:</strong> <em>[hidden]</em> Mad Book @ (14,15) NE dirt hole · <em>[hidden]</em> Long Sword (+4 ATK) @ (15,1) SE color splotch</p> <p><strong>Strategy:</strong> Diego focus-fires Hunters first (2-hit kills). Ash + Clint advance together on Zoot; burst him before he self-heals (~10 HP/heal). Brigands last.</p> <p><strong>Enemies:</strong></p> <ul> <li>Zoot Gach (boss) ×1 — Lv1, 14 HP, 11/10 — self-heals 2 MP</li> <li>Hunter ×2 — Lv1, 12 HP, 10/8 — <em>kill first</em></li> <li>Brigand ×3 — Lv1, 14 HP, 11/10 — fodder</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Begin investigating General Magnus’s disappearance.</p></div>
+<div class="shop-strategy"><p><strong>Shop (Capital Shumeria):</strong> Long Sword for Ash if you skipped the hidden one (120G) · Light Bow for Diego (110G) · 5× Herb (1,000G).</p></div>
+</section>
+
+<section id="act1-battle-1-1-dover-district">
+<h2>Battle 1.1: Dover District</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Reach the Church (NE corner) · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 6</p> <p><strong>Treasure:</strong> Herb @ (1,1) SW · Herb @ (22,10) NE · <em>[hidden]</em> Light Bow @ (4,3) SW grass circle · <em>[hidden]</em> Mushroom (Poison Cloud) @ (12,0) SE cracked tile</p> <p><strong>Strategy:</strong> Reach-objective, not defeat-all. Push NE along the east edge; Diego shoots the flying War Ghosts blocking the path (archers deal bonus vs airmen). Skip needless fights — Ash reaching the church wins it.</p> <p><strong>Enemies:</strong></p> <ul> <li>War Ghost (airman) ×4 — Lv2, 22 HP, 18/14 — flying, hits back line</li> <li>Hunterimp (archer) ×2 — Lv3, 25 HP, 16/13</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Eleni (Mage, Lv7) and Huxley (Healer, Lv7) join the party.</p></div>
+<div class="shop-strategy"><p><strong>Shop:</strong> Wool Robe for Eleni (70G, essential) · Iron Staff for Eleni/Huxley (400G ea) · Leather Band for mages (60G ea).</p></div>
+</section>
+
+<section id="act1-battle-1-2-palace-ruins">
+<h2>Battle 1.2: Palace Ruins</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 7</p> <p><strong>Treasure:</strong> Elixir @ (8,1) S chest · Herb @ (15,16) NE chest · <em>[hidden]</em> Fire Gem @ (14,0) SE dirt hole</p> <p><strong>Strategy:</strong> First Golem fight — DEF 37, so swords do only ~8–12. Win with magic: Eleni’s Dark Star (~25–35) and Ash’s Ice Storm bypass DEF. Focus one Golem at a time; physical units finish wounded ones (&lt;20 HP). Keep Eleni protected.</p> <p><strong>Enemies:</strong></p> <ul> <li>Clay Golem (armor) ×9 — Lv6, 56 HP, 34/37 — high DEF, hit with magic</li> </ul></div>
+<div class="shop-strategy"><p><strong>Shop:</strong> Stock Mage Oil (MP restore) — magic is now your answer to high-DEF enemies.</p></div>
+</section>
+
+<section id="act1-battle-1-3-rhine-bridge">
+<h2>Battle 1.3: Rhine Bridge</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 8</p> <p><strong>Treasure:</strong> None</p> <p><strong>Strategy:</strong> Big force (12) with flying Hell Bats that reach your back line. Rounds 1–2: hold a defensive formation — Diego shoots Hell Bats (bonus vs airmen), Eleni Dark Stars clusters, Huxley heals. Round 3+: Kira arrives (E side) — she + Diego focus Hell Bats. Target order: Hell Bats → Hunters → Brigands.</p> <p><strong>Enemies:</strong></p> <ul> <li>Brigand (knight) ×6 — Lv5, 42 HP, 26/23 — fodder</li> <li>Hell Bat (airman) ×4 — Lv5, 45 HP, 32/25 — flying, hits back line</li> <li>Hunter (archer) ×2 — Lv5, 37 HP, 23/18</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Kira (Archer, Lv8) permanently joins — party is now 6.</p></div>
+</section>
+
+<section id="act1-battle-1-4-sand-dunes-of-sea">
+<h2>Battle 1.4: Sand Dunes of Sea</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Death Ant (boss) · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 9</p> <p><strong>Treasure:</strong> None</p> <p><strong>Strategy:</strong> Death Ant spawns Ant Arms endlessly (max 6, up to 4/round) — they give zero EXP/gold, so <strong>ignore them</strong> and send everyone at the Death Ant. DEF 55, so lead with magic: Eleni Dark Star, Ash Ice Storm; archers add safe ranged damage. Killing the Death Ant ends the fight and clears the adds (~5–7 rounds).</p> <p><strong>Enemies:</strong></p> <ul> <li>Death Ant (boss) ×1 — Lv10, 88 HP, 51/55 — magic only; the sole target</li> <li>Ant Arm ×6 max — Lv1, 13 HP, 9/8 — infinite spawn, zero reward, ignore</li> </ul></div>
+<div class="story-callout"><p><span class="vandalier">🔑 VANDALIER (1/6): After this battle, go to <strong>Port City Minato</strong> and talk to the <strong>Woman at the Tavern</strong> to get the <strong>Nova Key</strong> — it unlocks the Nova Trial (first Prism). Don’t leave the act without it.</span></p></div>
+</section>
+
+<section id="act1-battle-1-5-gadar-sea">
+<h2>Battle 1.5: Gadar Sea</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Hassan (Pirate Captain) · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 9</p> <p><strong>Treasure:</strong> None</p> <p><strong>Strategy:</strong> Crowded ship deck; Hassan heals ~30 HP and has DEF 46. Phase 1: thin the adds — archers shoot Corsairs, knights hold the Buccaneers, Eleni Dark Stars, Huxley heals. Phase 2: swarm Hassan with magic and burst him from under 50% in 2–3 rounds so he can’t heal back to full.</p> <p><strong>Enemies:</strong></p> <ul> <li>Hassan (boss) ×1 — Lv8, 72 HP, 43/46 — heals 3 MP; magic to break DEF</li> <li>Buccaneer (knight) ×8 — Lv6, 49 HP, 30/26</li> <li>Corsair (archer) ×4 — Lv6, 44 HP, 26/21</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Grog (Soldier, Lv9) joins — Hassan was his brother. Act 1 complete; on to Act 2 (Island of Madness).</p></div>
+</section>
+
+<h1>Act 2: Island of Madness</h1>
+
+<section id="act2-act-2-overview">
+<h2>Act 2 Overview</h2>
+<div class="quick-ref"><p><strong>Act 2 — Island of Madness.</strong> Ash investigates Gillbaris and uncovers Hel Spites’ conspiracy; it culminates in a confrontation with Magnus at the Castle Ruins and a time warp that sends Ash 3 years into the future. 6 story battles + the optional Earth Trial · Lv range 10–14 · joins: Dolan, Amon, Sara. Earth Trial gives Vandalier Prism 2/6 — don’t skip it.</p></div>
+</section>
+
+<section id="act2-battle-2-0-village-of-yuzu">
+<h2>Battle 2.0: Village of Yuzu</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destroy all Evil Statues · <strong>Lose:</strong> Ash dies <strong>or</strong> any Villager killed · <strong>Lv:</strong> 10</p> <p><strong>Treasure:</strong> Herb @ (9,6) center · Mage Oil @ (22,6) E · <em>[hidden]</em> Moon Pie @ (10,2) S by fence gap · <em>[hidden]</em> Mushroom @ (11,11) N dirt hole</p> <p><strong>Strategy:</strong> The 9 “enemy” Villagers must NOT be killed — hitting one is instant defeat, and they wander randomly. Snipe the 7 Evil Statues one at a time with archers; skip Eleni’s Dark Star in crowds (single-target only). Statues are fragile (33 HP, DEF 12) — 2–3 hits each.</p> <p><strong>Enemies:</strong></p> <ul> <li>Evil Statue (mage) ×7 — Lv5, 33 HP, 15/12 — Piercing Light; fragile, kill these</li> <li>Villager (civilian) ×9 — Lv1, 13 HP, 9/8 — <strong>DO NOT KILL</strong> (instant defeat)</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Investigate the Gillbaris mission under Magnus’s orders.</p></div>
+<div class="shop-strategy"><p><strong>Shop (Yuzu / Village 2):</strong> Iron weapons for fighters (500G ea) · Iron Bow for archers (450G ea) · Chain Mail for front-line (450G ea) · Masters Robes for mages (350G ea) — budget ~6,000–8,000G.</p></div>
+</section>
+
+<section id="act2-battle-2-1-ygdra-canyon">
+<h2>Battle 2.1: Ygdra Canyon</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies · <strong>Lose:</strong> Ash or Dolan dies · <strong>Lv:</strong> 10</p> <p><strong>Treasure:</strong> Moodring @ (22,2) SE · Elixir @ (22,16) NE · <em>[hidden]</em> Mad Book @ (1,0) SW dirt crater · <em>[hidden]</em> MACROMAN @ (1,17) NW dirt hole</p> <p><strong>Strategy:</strong> 15 enemies vs your 10. Use the canyon chokepoints to funnel them; dual healers (Huxley + Sara) sustain while triple archers (Diego/Kira/Amon) focus-fire and Eleni Dark Stars clusters. Kill Guarddogs first (faster, more dangerous), Madsoldiers second.</p> <p><strong>Enemies:</strong></p> <ul> <li>Madsoldier (knight) ×10 — Lv8, 63 HP, 38/33 — melee fodder</li> <li>Guarddog (monster) ×5 — Lv6, 45 HP, 24/22 — <em>kill first</em></li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Dolan (Soldier Lv10), Amon (Archer Lv9), and Sara (Healer Lv9) join — party is now 10.</p></div>
+<div class="story-callout"><p><span class="vandalier">🔑 VANDALIER: Grab <strong>MACROMAN</strong> from the hidden hole @ (1,17) NW corner — it’s Collector’s Treasure #1 of 3 needed for the Chaos Key (Trial #4). Missable: only available in this battle.</span></p></div>
+</section>
+
+<section id="act2-battle-2-2-loris-beach">
+<h2>Battle 2.2: Loris Beach</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 11</p> <p><strong>Treasure:</strong> None · <em>[hidden]</em> BANANA @ (8,1) S edge, middle of cross-shaped swamp</p> <p><strong>Strategy:</strong> Mixed force. Archers focus Bloodghosts first (flying, threaten mages/healers), then Shooterimps. Eleni Dark Stars the Dark Golems (magic ~30 vs physical ~10 into DEF 51). Madsoldiers last. Dual healers keep the party topped up.</p> <p><strong>Enemies:</strong></p> <ul> <li>Madsoldier (knight) ×6 — Lv9, 70 HP, 42/36 — cleanup last</li> <li>Shooterimp (archer) ×3 — Lv9, 63 HP, 36/29</li> <li>Dark Golem (armor) ×3 — Lv9, 80 HP, 47/51 — hit with magic</li> <li>Bloodghost (airman) ×3 — Lv9, 75 HP, 51/40 — flying, <em>kill first</em></li> </ul></div>
+<div class="story-callout"><p><span class="vandalier">🔑 VANDALIER: Grab <strong>BANANA</strong> @ (8,1) and trade it to the <strong>Young Man at Yuzu Tavern</strong> for the <strong>KEY OF EARTH</strong> (Trial #2). Missable.</span></p></div>
+</section>
+
+<section id="act2-battle-2-3-castle-ruins-outside">
+<h2>Battle 2.3: Castle Ruins (Outside)</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Reach the Entrance (north side) · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 12</p> <p><strong>Treasure:</strong> Mage Oil @ (15,1) S · Moodring @ (15,14) N near entrance · <em>[hidden]</em> Ironboot @ (7,7) W archer-guard area · <em>[hidden]</em> Chain Mail @ (23,15) NE corner, X marks spot</p> <p><strong>Strategy:</strong> Reach-objective on a huge 32×16 map — push to the north entrance, don’t clear everything. Kill only enemies blocking the route; skip the flanks. If fighting, drop Bloodghosts and Evil Statues with archers and let Eleni handle Dark Golems. Ash reaching the entrance wins.</p> <p><strong>Enemies:</strong></p> <ul> <li>Madsoldier (knight) ×6 — Lv11, 84 HP, 49/43 — avoid if possible</li> <li>Shooterimp (archer) ×4 — Lv9, 63 HP, 36/29</li> <li>Dark Golem (armor) ×2 — Lv11, 96 HP, 56/60 — hit with magic</li> <li>Bloodghost (airman) ×3 — Lv11, 90 HP, 60/47 — flying, <em>kill first</em></li> <li>Evil Statue (mage) ×2 — Lv11, 66 HP, 28/23 — Piercing Light</li> </ul></div>
+</section>
+
+<section id="act2-battle-2-4-castle-ruins-inside-boss-battle">
+<h2>Battle 2.4: Castle Ruins (Inside) - Boss Battle</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Magnus Dark Lord (boss) · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 13</p> <p><strong>Treasure:</strong> None</p> <p><strong>Strategy:</strong> Phase 1 — clear the adds in order: Bloodghosts → Shooterimps → Dark Golems → Madsoldiers. Phase 2 — focus Magnus with magic: DEF 79 makes physicals ~10–15 while Eleni’s Dark Star (~35–50) and Ash’s Ice Storm bite. He self-heals (18 MP = up to 9 heals) and Rainbow Storms a 3×3 AOE, so spread out and burst him down fast.</p> <p><strong>Enemies:</strong></p> <ul> <li>Magnus Dark Lord (boss) ×1 — Lv15, 128 HP, 73/79 — self-heals 2 MP, Rainbow Storm AOE; magic only</li> <li>Madsoldier (knight) ×4 — Lv12, 91 HP, 53/46</li> <li>Shooterimp (archer) ×3 — Lv11, 75 HP, 43/34</li> <li>Dark Golem (armor) ×2 — Lv12, 104 HP, 60/65 — hit with magic</li> <li>Bloodghost (airman) ×3 — Lv12, 97 HP, 65/51 — flying, <em>kill first</em></li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Time warp! Ash, Sara, Grog, and Magnus are pulled into a temporal rift and skip 3 years into the future. The remaining 7 (Clint, Diego, Eleni, Huxley, Kira, Dolan, Amon) must escape.</p></div>
+</section>
+
+<section id="act2-battle-2-5-castle-ruins-outside-2-timed-escape">
+<h2>Battle 2.5: Castle Ruins (Outside 2) - Timed Escape</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Conquest within 6 turns · <strong>Lose:</strong> Ash dies <strong>or</strong> time runs out · <strong>Lv:</strong> 14</p> <p><strong>Treasure:</strong> None · <em>[hidden]</em> Mage Gem @ (19,0) SE dirt hole · <em>[hidden]</em> Gold Coin @ (19,17) NE crater</p> <p><strong>Strategy:</strong> 12 weak Guarddogs (13 HP, one-shot kills) but a hard 6-turn timer and a reduced party (no Ash, Eleni, Huxley, Kira, Sara). Don’t move as a group — split up, take a full move + attack every turn, each unit clearing ~2 dogs. Speed over safety; corner items may be off the fastest route.</p> <p><strong>Enemies:</strong></p> <ul> <li>Guarddog (monster) ×12 — Lv1, 13 HP, 9/8 — one-shot kills; beat the 6-turn timer</li> </ul></div>
+</section>
+
+<h1>Act 3: Escape to Tomorrow</h1>
+
+<section id="act3-act-overview">
+<h2>Act Overview</h2>
+<div class="quick-ref"><p><strong>Act 3 — Escape to Tomorrow.</strong> Warped 3 years into the future: Hel Spites now rules Ishtaria and Ash is framed for Magnus’s murder. Reunite and rescue the scattered party. 6 story battles · Lv 14–17 · joins: Zohar (3.1), Darius (after 3.4). Missable this act: <strong>TAROT</strong> (Chaos Key item) and the <strong>Mana Key</strong> — don’t finish those battles without them.</p></div>
+</section>
+
+<section id="act3-battle-3-0-plain-of-sorrow">
+<h2>Battle 3.0: Plain of Sorrow</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destruction of all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 14</p> <p><strong>Treasure:</strong> None</p> <p><strong>Strategy:</strong> Very easy intro with only 3 characters (Ash, Grog, Sara). Hold your ground Turn 1 in tight formation against the starting wall — let the weak Sparkies approach and counterattack them to death. Conserve MP/items for later.</p> <p><strong>Enemies:</strong></p> <ul> <li>Sparkie ×5 — Lv8, 67 HP, 46/36 — flying, extremely weak, often one-shot</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Magnus dies, telling Ash to pursue Hel and the Magic Stone. <strong>Zohar Abu Sa’id</strong> (Mage, Lv14) joins the party. If Zohar is Lv10+, visit the Dojo now to advance him to <strong>Sorceror</strong> — unlocks Phase Shift, critical for the next battle.</p></div>
+<div class="shop-strategy"><p><strong>Shop (Remote City):</strong> Buy a Herb for Zohar (his default gear is already optimal) and top off healing items.</p></div>
+</section>
+
+<section id="act3-battle-3-1-plain-of-sorrow-ii-tower-defense">
+<h2>Battle 3.1: Plain of Sorrow II - Tower Defense</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Tower defense — keep at least 1 of the 4 Mage Towers (14 HP, 5 DF) alive through Turn 5 (victory on Turn 6) · <strong>Lose:</strong> All 4 towers destroyed OR Ash dies · <strong>Lv:</strong> 15</p> <p><strong>Treasure:</strong> None</p> <p><strong>Strategy:</strong> Sparkies spawn infinitely (max 6 on field), so you can’t kill them all. Safe play: pick one corner tower and surround it with all 4 characters (Ash, Grog, Sara, Zohar) in a tight square; kill any Sparkie that approaches and hold to Turn 6. Zohar’s Phase Shift (if Sorceror) is the MVP AOE; Sara can heal towers as well as characters.</p> <p><strong>Enemies:</strong></p> <ul> <li>Sparkie (initial) ×6 — Lv8, 67 HP, 46/36 — starting wave</li> <li>Sparkie (spawns) ×∞ — Lv10, 82 HP, 55/43 — infinite spawn, max 6 on field</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> The party enters the warp and returns to “present time” — the major revelation being it’s actually <strong>3 years in the future</strong>. Old companions appear and the reunion battle at Terasu Village begins immediately (no shopping time).</p></div>
+</section>
+
+<section id="act3-battle-3-2-terasu-village-reunion">
+<h2>Battle 3.2: Terasu Village - Reunion</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destruction of all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 15</p> <p><strong>Treasure:</strong> Elixir @ (6,1) SW · Megaherb @ (22,17) NE · <em>[hidden]</em> Unicorn @ (0,7) W edge crater · <em>[hidden]</em> Goldcoin @ (13,16) N edge dirt hole</p> <p><strong>Strategy:</strong> Hard — gang-up AI. Do NOT move Ash’s party Turn 1: hold a defensive wall at the west bridge and let Centurions walk into your counterattacks; have Zohar grab the Unicorn (move 1 south) and Phase Shift groups. Dolan pushes the boulder ~Turn 3 through the enemy mass. Diego snipes Blood Bats (paralysis). Kill everything except one weak enemy (Deacon or Grenadier) to collect treasure safely, then finish — and block NPC Clive from killing that last enemy first.</p> <p><strong>Enemies:</strong></p> <ul> <li>Zoot Thief Lord (boss) ×1 — Lv17, 126 HP, 72/63 — self-heals R2</li> <li>Centurion ×5 — Lv12, 91 HP, 53/46</li> <li>Grenadier ×3 — Lv11, 75 HP, 43/34</li> <li>Blood Bat ×3 — Lv12, 97 HP, 65/51 — flying, inflicts paralysis</li> <li>Warlock ×1 — Lv14, 82 HP, 34/29 — Rainbow Stroke AOE</li> <li>Deacon ×1 — Lv14, 75 HP, 40/32 — heals R3</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Old friends reunite and the 3-year gap is confirmed — Emperor Hel’s dictatorship, a growing rebellion. Party sets its mission: attack the Imperial Prison, rescue Clint, free political prisoners.</p></div>
+<div class="shop-strategy"><p><strong>Shop (Terasu Village):</strong> Steel-tier gear now available; <strong>Megaherbs go on sale (300G ea)</strong> — buy one per character (~2,100G for 7) plus Steel weapons/Scale Mail/Mystic Robe as affordable.</p></div>
+</section>
+
+<section id="act3-battle-3-3-basil-gate">
+<h2>Battle 3.3: Basil Gate</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destruction of all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 16</p> <p><strong>Treasure:</strong> Megaherb @ (9,4) S · Mage Gem (magic +8) @ (14,18) NE · <em>[hidden]</em> Ironboot @ (7,16) N tower X-tile · <em>[hidden]</em> TAROT @ (14,2) SE corner X-tile</p> <p><strong>Strategy:</strong> Form a tight phalanx one square back from the small castle so enemies must group up (front: Ash/Grog/Dolan; rear: Zohar/Sara/Huxley). Push the boulder Turn 2 and follow with Zohar’s Phase Shift on the cluster. Kill order: Warlock (Rainbow Stroke) → Blood Bats (paralysis) → Deacon → Centurions; leave one Grenadier alive while you grab treasure. The (7,16) regen square heals HP/MP each turn.</p> <p><strong>Enemies:</strong></p> <ul> <li>Centurion ×4 — Lv14, 105 HP, 61/53</li> <li>Grenadier ×2 — Lv14, 94 HP, 53/42</li> <li>Blood Bat ×2 — Lv14, 112 HP, 74/58 — flying, paralysis</li> <li>Warlock ×1 — Lv14, 82 HP, 34/29 — Rainbow Stroke AOE</li> <li>Deacon ×1 — Lv14, 75 HP, 40/32 — heals R3</li> </ul></div>
+<div class="story-callout"><p><span class="vandalier">🔑 VANDALIER: The <strong>TAROT</strong> hidden at (14,2) is Collector’s Treasure #2 of 3 for the <strong>Chaos Key</strong> (Trial #4). Missable — only available in this battle. Verify it’s in your inventory before finishing.</span></p></div>
+<div class="story-callout"><p><strong>Story:</strong> The Magic Stone (spark of the Flames of Judgment) and the lost <strong>Royal Ring</strong> of the Ashah Dynasty are revealed; Dolf and Hel are hunting the Ring. <strong>Kira’s loyalty wavers</strong> — Xeno is set to watch her.</p></div>
+</section>
+
+<section id="act3-battle-3-4-reed-highway-prevent-escape">
+<h2>Battle 3.4: Reed Highway - Prevent Escape</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destroy all enemies — but let NO enemy escape off the map (48×12, longest map in the game) · <strong>Lose:</strong> Ash dies OR any enemy escapes off the map · <strong>Lv:</strong> 17</p> <p><strong>Treasure:</strong> <em>[hidden]</em> M.Staff @ (46,5) eastern road crater (optional)</p> <p><strong>Strategy:</strong> Ambush/pursuit — enemies don’t fight back. Turns 1–4: hide in the tree groves flanking the road, position to cut off both exits, and DON’T attack. Turn 5 (when Ash says nothing): Huxley hits the western gate switch, Zohar Phase Shifts the mass, bombard with everything (priests included), and push the crate onto the footbridge to trap the western group. Kill fleeing enemies first; block the east and west edges. Lando self-heals — burst him down.</p> <p><strong>Enemies:</strong></p> <ul> <li>Lando Hitman (mini-boss) ×1 — Lv19, 126 HP, 69/55 — self-heals R2</li> <li>Centurion ×2 — Lv15, 112 HP, 65/56</li> <li>C. Archer ×2 — Lv15, 100 HP, 56/45</li> <li>Guarddog ×4 — Lv18, 123 HP, 60/56 — fast and durable</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> In the prison, <strong>Kira betrays Dolf and frees the captives</strong> — Clint, Claymore, and the newly recruited <strong>Darius</strong> (Archer, Lv14) joins the party. The next battle plays as Clint’s party, not Ash.</p></div>
+</section>
+
+<section id="act3-battle-3-5-prison-fortress-juggernaut-maze">
+<h2>Battle 3.5: Prison Fortress - Juggernaut Maze</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destruction of all enemies · <strong>Lose:</strong> Clint dies (Ash not available) · <strong>Lv:</strong> 15</p> <p><strong>Treasure:</strong> Megaherb @ (9,12) · S.Staff @ (17,12) · Megaherb @ (20,8) · Grimhelm @ (22,1) · MIMIC TRAPS (Lv18 monsters) in chests @ (7,11) &amp; (15,12)</p> <p><strong>Strategy:</strong> Party is Clint, Eleni, Amon, Darius. Juggernauts take damage ONLY from behind (front/side = 0; rear physical = one-hit kill, except Eleni). Use the corridor/chest-barrier trap: lure a Juggernaut to face one character, hit it from the rear for an instant kill. Eleni’s magic (Phase Shift) bypasses the rear rule. Clear nearby Juggernauts before opening the Mimic chests, then gang the Mimic with both archers. No priest here — conserve Herbs for the tougher next battle.</p> <p><strong>Enemies:</strong></p> <ul> <li>Juggernaut ×8–9 — Lv13, 112 HP, 64/69 — rear-attack only</li> <li>Mimic ×2 — Lv18, 123 HP, 60/56 — hidden in chests (7,11) &amp; (15,12)</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> The party escapes outside, but the <strong>Dungeon Keeper</strong> appears and threatens death — setting up the final battle of Act 3, which begins immediately. Check HP/MP.</p></div>
+</section>
+
+<section id="act3-battle-3-6-prison-fortress-ii-dumas-boss-battle">
+<h2>Battle 3.6: Prison Fortress II - Dumas Boss Battle</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Dumas · <strong>Lose:</strong> Clint dies · <strong>Lv:</strong> 16</p> <p><strong>Treasure:</strong> <em>[hidden]</em> Goldcoin @ (9,1) spiral tile · <em>[hidden]</em> MANA KEY @ (0,15) fractured crater · Boss drop: Zen Robe (automatic)</p> <p><strong>Strategy:</strong> Split party. Round 1: Clint’s 4 (Clint, Eleni, Amon, Darius) survive vs 17 enemies — keep Eleni far from Juggernauts (AOE both) and move Clint SW toward the wall. Round 2: Ash’s 7 reinforcements arrive on the SW wall — kill the Warlock by Ash ASAP, bishops heal Clint/Eleni. Hit the switch at (3,6–8) to open the western gate and send a fast unit (Diego/Hawknight) to grab the MANA KEY before finishing. Gang Dumas in the open (don’t corner him), hit-and-run, and burst him before he self-heals.</p> <p><strong>Enemies:</strong></p> <ul> <li>Dumas Jailmaster (boss) ×1 — Lv18, 152 HP, 86/93 — self-heals R2, Vorpal Chain (100+ dmg)</li> <li>Centurion ×2 — Lv13, 98 HP, 57/49</li> <li>Centurion ×2 — Lv14, 105 HP, 61/53</li> <li>Grenadier ×3 — Lv12, 81 HP, 46/37</li> <li>Juggernaut ×2 — Lv14, 120 HP, 69/74 — rear-attack only</li> <li>Warlock ×2 — Lv15, 88 HP, 36/31 — Rainbow Stroke AOE</li> <li>Deacon ×2 — Lv15, 80 HP, 42/34 — heals R3</li> <li>Blood Bat ×3 — Lv16, 127 HP, 83/65 — paralysis</li> </ul></div>
+<div class="story-callout"><p><span class="vandalier">🔑 VANDALIER: The <strong>MANA KEY</strong> at (0,15) unlocks Trial #3 (Mana Prism, 3/6 for Vandalier). Missable — this battle is the ONLY chance to get it; collect it before defeating Dumas.</span></p></div>
+<div class="story-callout"><p><strong>Story:</strong> The full party of 12 is reunited. Darius and Huxley recognize each other and bicker incessantly. On to Act 4.</p></div>
+</section>
+
+<h1>Act 4: The Successor</h1>
+
+<section id="act4-act-overview">
+<h2>Act Overview</h2>
+<div class="quick-ref"><p><strong>Act 4 — The Successor.</strong> Chase the Royal Ring to Kerachi as the rebellion drives the Empire back. 5 story battles · Lv 16–21 · full 12-member roster (no new joins). Characters hit Lv20 — visit the Dojo for second class advancement. Missable this act: <strong>RAMEN</strong> (last Chaos Key item; with Macroman + Tarot, trade at Kerachi Tavern for the Chaos Key).</p></div>
+</section>
+
+<section id="act4-battle-4-1-khanos-city-four-generals-ambush">
+<h2>Battle 4.1: Khanos City - Four Generals Ambush</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Reach the village exit gate · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 16</p> <p><strong>Treasure:</strong> HOLY H2O @ (18,15) East · AURA GEM @ (18,21) NE · <em>[hidden]</em> GOLD AXE @ (13,26) NE, tile marked by 3 holes</p> <p><strong>Strategy:</strong> Four bosses at once, all can heal. Turn 1: move the box 1 space east to block Kurtz’s charge. Kill Dallas first (closest, armor = magic-weak) with Phase Shift before he Extra-Heals — he can OHKO for ~128. Archers focus-fire the C. Hawks before they reach mages. Heal every turn (Ultra Healing); rotate counterattackers; kill bosses one at a time. Collect treasures at the end, then move everyone to the exit gate.</p> <p><strong>Enemies:</strong></p> <ul> <li>Kane Assassin (boss) ×1 — Lv22, 161 HP, 91/79 — Healing Circle(2) R5, starts far SE</li> <li>Sabina Valkyrie (boss) ×1 — Lv18, 119 HP, 66/53 — Hyper Healing R8, starts SW</li> <li>Dallas Greatarmor (boss) ×1 — Lv21, 176 HP, 99/107 — Extra Healing R5, can OHKO, starts NW</li> <li>Kurtz War Master (boss) ×1 — Lv21, 143 HP, 69/65 — Dagger Storm R5 AOE, starts NE</li> <li>C. Knight ×10 — Lv19, 140 HP, 80/69</li> <li>C. Armor ×2 — Lv19, 160 HP, 90/97</li> <li>C. Hawk ×2 — Lv18, 142 HP, 93/73 — flying, kill first</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Dolf learns Kira helped Clint escape and throws her in the brig; Xeno swears to help Dolf overthrow Hel. Khanos City is now inaccessible — you cannot return to shop.</p></div>
+</section>
+
+<section id="act4-battle-4-2-great-masai-forest">
+<h2>Battle 4.2: Great Masai Forest</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 18</p> <p><strong>Treasure:</strong> None · <em>[hidden]</em> KINGFOIL @ (17,22) NE riverside crater · <em>[hidden]</em> AURA GEM @ (11,5) S, spiral/shell tile at top of waterfall</p> <p><strong>Strategy:</strong> 22 low-level enemies but easy. Split the party across the two bridges (north and south) with a healer in each group. Use trees to obscure the Bugaboos’ huge ranged attacks. One strong hit kills a Bugaboo (69 HP); Wights take 2. Grab both secrets, converge in the middle, clean up.</p> <p><strong>Enemies:</strong></p> <ul> <li>Bugaboo ×12 — Lv10, 69 HP, 39/31 — long-range flying archers, gang up</li> <li>Wight ×10 — Lv11, 84 HP, 49/43 — close-range fighters</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Zohar reveals Xeno was his pupil 300 years ago and caused his time warp. In Kerachi, Carlo is revealed as Diego’s estranged father; the Royal Ring exchange is arranged at the Old Town Warehouse.</p></div>
+<div class="shop-strategy"><p><strong>Shop (Kerachi):</strong> Life Orbs now available (9,000 G, full heal) plus Great-tier weapons — buy everything before the warehouse. Dojo now offers second advancement for Lv20 characters (Swordsman → Duelist, Sorceror → Enchanter).</p></div>
+</section>
+
+<section id="act4-battle-4-3-old-town-warehouse-trap-battle">
+<h2>Battle 4.3: Old Town Warehouse - Trap Battle</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 19</p> <p><strong>Treasure:</strong> None</p> <p><strong>Strategy:</strong> You start surrounded with the enemy on high ground. Pick ONE direction and move the whole party as a group toward it — don’t split. Phase Shift spam wrecks the Gold Golems (100+ dmg, armor = magic-weak) and softens Skeletons for counterattack kills. Kill the flying Eggworm “spitters” early — their long range is the main threat. Watch gang-ups and keep Ash protected; expect some casualties.</p> <p><strong>Enemies:</strong></p> <ul> <li>Skeleton ×8 — Lv16, 119 HP, 68/59 — close-range fighters</li> <li>Eggworm ×4 — Lv13, 88 HP, 49/39 — flying archers, kill early</li> <li>Gold Golem ×4 — Lv16, 136 HP, 77/83 — heavy armor, weak to magic</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Carlo had set up the ambush with Xeno, but at the last moment defends Ash’s party and reconciles somewhat with Diego. The Royal Ring is being moved to Shumeria by train — intercept it at the Magic Train Station.</p></div>
+</section>
+
+<section id="act4-battle-4-4-magic-train-railroad-moving-train-battle">
+<h2>Battle 4.4: Magic Train Railroad - Moving Train Battle</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Dallas · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 20</p> <p><strong>Treasure:</strong> None · <em>[hidden]</em> RAMEN @ (11,3) front car floor grate near Dallas — Collector’s Treasure #3 for the Chaos Key</p> <p><strong>Strategy:</strong> Longest map in the game (64×8); the flatbed cars disconnect on a timer, so advance forward fast. Clear each car with 2 Roman Fires + arrows. Conserve MP for Dallas’s car — Phase Shift the C. Armors and Dallas (armor = magic-weak; his physical hits can OHKO, so keep mages out of melee). Kill the C. Shooters before flying Hawknights forward. GRAB RAMEN @ (11,3) BEFORE killing Dallas — his death ends the battle and you lose it forever.</p> <p><strong>Enemies:</strong></p> <ul> <li>Dallas Greatarmor (boss) ×1 — Lv21, 176 HP, 99/107 — Extra Healing R5, physical can OHKO</li> <li>C. Knight ×8 — Lv17, 126 HP, 72/63</li> <li>C. Shooter ×4 — Lv17, 113 HP, 63/50 — ranged</li> <li>C. Armor ×4 — Lv18, 152 HP, 86/93 — heavy armor</li> </ul></div>
+<div class="story-callout"><p><span class="vandalier">🔑 VANDALIER: RAMEN is Collector’s Treasure #3 of 3 for the Chaos Key — grab it @ (11,3) BEFORE killing Dallas (his death ends the battle). With MACROMAN (Act 2) + TAROT (Act 3) + RAMEN, trade at the Kerachi Tavern for the CHAOS KEY, which unlocks the Chaos Trial.</span></p></div>
+<div class="story-callout"><p><strong>Story:</strong> Royal Ring obtained. Xeno appears and offers to trade Kira for the Ring; the party heads to Fort Dain next.</p></div>
+</section>
+
+<section id="act4-battle-4-5-fort-dain-kira-rescue-timed-battle">
+<h2>Battle 4.5: Fort Dain - Kira Rescue (Timed Battle)</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destroy all 8 Death Devices within 8 turns · <strong>Lose:</strong> Turn 9 arrives, or Ash or Kira dies · <strong>Lv:</strong> 21</p> <p><strong>Treasure:</strong> LIFE ORB @ (3,1) SW · L.MASK @ (21,17) NE · <em>[hidden]</em> MITHRIL @ (18,1) SE spiral tile · <em>[hidden]</em> KINGFOIL @ (9,21) N crater</p> <p><strong>Strategy:</strong> 8-turn timed rescue. Split the party evenly with a healer in each group. Kill BOTH Death Angels on Turn 2-3 — their Harmful Wave is Range 8 and can wipe you; hide behind corners to break line of sight until ready. Then clear Acid Ghosts and Gold Golems (magic) to open paths, and destroy all 8 Death Devices (14 HP each — even bishops’ Holy Lightning kills them). Protect Kira; the Devices are the only objective.</p> <p><strong>Enemies:</strong></p> <ul> <li>Death Device ×8 — Lv1, 14 HP, 0/5 — objectives, destroy all 8</li> <li>Kira (protect) ×1 — Lv1, 14 HP, 0/5 — NPC ally, her death = defeat</li> <li>Skeleton ×4 — Lv20, 147 HP, 84/73</li> <li>Eggworm ×2 — Lv19, 126 HP, 69/55 — ranged</li> <li>Gold Golem ×3 — Lv20, 168 HP, 95/102 — heavy armor</li> <li>Acid Ghost ×4 — Lv20, 157 HP, 102/80 — flying, poison</li> <li>Death Angel ×2 — Lv19, 110 HP, 45/38 — Thunder Ball R5, Harmful Wave R8; kill first</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Kira is rescued and rejoins the party. She is revealed to be of Royal blood from the Ashah Dynasty, and Zohar deciphers the Royal Ring’s inscription. Act 4 ends.</p></div>
+</section>
+
+<h1>Act 5: The Legacy</h1>
+
+<section id="act5-act-overview">
+<h2>Act Overview</h2>
+<div class="quick-ref"><p><strong>Act 5 — The Legacy.</strong> The party sails to the Torog Mountains seeking a hidden power to counter the Flames of Judgment, while Dolf murders Emperor Hel Spites and seizes total control. 6 story battles + the optional Logos Trial · Lv range 22–26 · no new playable characters (full roster of 12) · Total Gold ~159,130 G (highest-earning Act). Ash obtains the legendary Vandal Heart sword after 5.5; the Logos Trial gives Vandalier Prism 5/6 — don’t skip it.</p></div>
+</section>
+
+<section id="act5-battle-5-0-wart-bay">
+<h2>Battle 5.0: Wart Bay</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destroy all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 22</p> <p><strong>Treasure:</strong> PLATE Mail @ (16,22) NE corner (crate-push puzzle) · (7,22) NW chest is a MIMIC (Lv21 monster), not real loot</p> <p><strong>Strategy:</strong> Move the whole party to the west side of the ship and only step onto the first plank — don’t rush the dock. Turn 2, two Phase Shifts into the enemy mass; kill Deathangels first (Harmful Wave R5), then Eggworms. Land and mop up. Leave one Gold Golem alive so you can push the crate to the NE chest for the PLATE Mail.</p> <p><strong>Enemies:</strong></p> <ul> <li>Deathangel (Ma) ×2 — Lv18, 104 HP, 43/36 — Thunder Ball / Harmful Wave R5, <em>kill first</em></li> <li>Eggworm (Bo) ×4 — Lv18, 119 HP, 66/53</li> <li>Acid Ghost (Ai) ×2 — Lv19, 150 HP, 97/76 — flying, poison</li> <li>Skeleton (Kn) ×2 — Lv19, 140 HP, 80/69</li> <li>Gold Golem (Ar) ×4 — Lv19, 160 HP, 90/97 — weak to magic</li> <li>Mimic (Mo) ×1 — Lv21, 143 HP, 69/65 — hidden in NW chest</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Rest at Pioneer Town Sorbo; Eleni has a prophetic nightmare. En route to the Torog Mountains, Sabrina tells Kane his father was murdered — Kane flees, leaving you to fight Kurtz.</p></div>
+<div class="shop-strategy"><p><strong>Shop (Pioneer Town Sorbo):</strong> Master-tier weapons and ultimate armor start appearing — stock up before the mountain battles. Dojo has final class tiers for Lv20+ characters.</p></div>
+</section>
+
+<section id="act5-battle-5-1-torog-mountains-kurtz-boss-battle">
+<h2>Battle 5.1: Torog Mountains - Kurtz Boss Battle</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Kurtz · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 22</p> <p><strong>Treasure:</strong> None (chests) · <em>[hidden]</em> HELSTONE @ (29,12) NE, 3-paw-prints snow tile · <em>[hidden]</em> MITHRIL @ (0,7) W edge, 3-paw-prints snow tile · Kurtz drops Panzer Claws (ATK +20)</p> <p><strong>Strategy:</strong> Turn 1, Phase Shift the 4 rear C. Armors behind you (armor is very weak to magic) and kill the rear Priest. Then hold at the bridge and kill ALL 6 Hawks before advancing — they 2HKO sword-users. Kill the Warlock the instant he moves to the hill edge. Wipe both Priests before touching Kurtz. Vs Kurtz, spread out — his Dagger Storm R5 hits every adjacent tile; heal after each. Grab both snow secrets.</p> <p><strong>Enemies:</strong></p> <ul> <li>Kurtz War Master (boss) ×1 — Lv23, 156 HP, 75/70 — Dagger Storm R5, don’t cluster</li> <li>C. Armor (Ar) ×4 — Lv26, 216 HP, 121/130 — weak to magic</li> <li>C. Hawk (Ai) ×6 — Lv23, 180 HP, 116/91 — flying, <em>kill before advancing</em></li> <li>C. Priest (Pr) ×2 — Lv21, 110 HP, 57/46 — Extra Healing R5</li> <li>C. Warlock (Ma) ×1 — Lv21, 121 HP, 49/42 — Rolling Thunder / Magic Arrow, <em>kill first</em></li> <li>C. Shooter (Bo) ×2 — Lv21, 138 HP, 76/61</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Kira details Dolf’s takeover — he murdered Emperor Hel to seize absolute power. At Frontier Village, meet elder Orosius; monsters are attacking the fields (rescue mission next).</p></div>
+</section>
+
+<section id="act5-battle-5-2-tsukue-plains-field-rescue">
+<h2>Battle 5.2: Tsukue Plains - Field Rescue</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Destroy all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 23</p> <p><strong>Treasure:</strong> None real — (12,12) center chest is a MIMIC (Lv23 monster)</p> <p><strong>Strategy:</strong> Split into two balanced groups, a healer in each, and take the extreme west wall (easiest elevation). Kill the Death Angels first (Harmful Wave R5), then Phase Shift the Gold Golems (armor, weak to magic). Skip the Mimic chest if you’re taking damage. Let the eastern group approach and shoot them, then converge to clean up. Engage groups one at a time.</p> <p><strong>Enemies:</strong></p> <ul> <li>Gold Golem (Ar) ×6 — Lv22, 184 HP, 103/111 — weak to magic</li> <li>Skeleton (Kn) ×2 — Lv22, 161 HP, 91/79</li> <li>Eggworm (Bo) ×3 — Lv22, 144 HP, 79/63 — flying</li> <li>Acid Ghost (Ai) ×2 — Lv22, 172 HP, 111/87 — flying, poison</li> <li>Deathangel (Ma) ×2 — Lv22, 126 HP, 51/43 — Thunder Ball / Harmful Wave R5, <em>kill first</em></li> <li>Mimic (Mo) ×1 — Lv23, 156 HP, 75/70 — hidden in center chest</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> Orosius reveals the elders are descendants of Biruni, creators of the Flames of Judgement. He’ll help if you defeat Salamander for the Dragon Claw; Leena is assigned as your guide. Tavern hint: the Logos Key hides in the center of the smallest lava lake in the Dragon’s Lair.</p></div>
+</section>
+
+<section id="act5-battle-5-3-smoking-bones-cave-salamander-dragon-boss">
+<h2>Battle 5.3: Smoking Bones Cave - Salamander Dragon Boss</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Salamander · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 24</p> <p><strong>Treasure:</strong> D.SPEAR @ (13,6) near box stack (box-push puzzle) · <em>[hidden]</em> LOGOS KEY @ (15,13) middle of the smallest lava pool — <strong>flying unit required, MISSABLE</strong> · Salamander drops Wyrmfang</p> <p><strong>Strategy:</strong> Salamander stays put and dies very easily, so do NOT kill him until every item is secured. IMMEDIATELY send a flying unit (Hawknight / Sky Lord) to (15,13) in the smallest lava pool for the LOGOS KEY — this is the only chance to get it. Hold the chokepoint one tile north of Ash’s start; let enemies funnel in, Phase Shift the Golems, arrow the flyers. Box-push puzzle gets the D.Spear (optional). Kill Salamander LAST and double-check your inventory first.</p> <p><strong>Enemies:</strong></p> <ul> <li>Salamander (boss) ×1 — Lv26, 202 HP, 130/102 — flying dragon, no spells, dies easily — <em>kill last</em></li> <li>Gold Golem (Ar) ×4 — Lv23, 192 HP, 108/116 — weak to magic</li> <li>Skeleton (Kn) ×4 — Lv23, 168 HP, 95/83</li> <li>Eggworm (Bo) ×3 — Lv23, 151 HP, 83/66 — flying</li> <li>Acid Ghost (Ai) ×3 — Lv23, 180 HP, 116/91 — flying, poison</li> </ul></div>
+<div class="story-callout"><p><span class="vandalier">🔑 VANDALIER (5/6): Send a FLYING unit (Hawknight or Sky Lord) to the <strong>Logos Key</strong> in the smallest lava pool @ (15,13) and collect it <strong>before</strong> you kill Salamander. This is the ONLY chance — miss it and the Logos Trial is locked out forever.</span></p></div>
+<div class="story-callout"><p><strong>Story:</strong> Return from the dragon hunt to find Frontier Village in flames (Eleni’s premonition come true) and Orosius mortally wounded — the next battle begins immediately.</p></div>
+</section>
+
+<section id="act5-battle-5-4-frontier-village-sabina-kane-boss-battle">
+<h2>Battle 5.4: Frontier Village - Sabina &amp; Kane Boss Battle</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Sabina · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 25</p> <p><strong>Treasure:</strong> None (chests) · <em>[hidden]</em> MITHRIL @ (10,1) SW pavement crack by S house · <em>[hidden]</em> SHIVBOOK @ (31,5) SE pavement crack by E house · Sabina drops Rune Bow (ATK +25)</p> <p><strong>Strategy:</strong> Two-phase fight. Enter the dry riverbed but don’t linger — it’s a flood trap. Bombard the 9 C. Armors with Roman Fire / Phase Shift (weak to magic); kill Shooters in one round or leave them (Priests heal). Kill Warlocks and Priests ASAP. Turn 4, Kane’s reinforcements (boss + 5) arrive by the north sluice — press the switch to flood the riverbed and instant-kill the Armors inside, then fortify the SW high ground. Advance on Sabina last (Hyper Healing R8): kill her supports, grab both secrets, then burst her down.</p> <p><strong>Enemies (initial):</strong></p> <ul> <li>Sabina Valkyrie (boss) ×1 — Lv28, 182 HP, 99/79 — Hyper Healing R8, very defensive</li> <li>C. Armor (Ar) ×9 — Lv26–29, 216–240 HP, 121–134/130–144 — weak to magic</li> <li>C. Priest (Pr) ×3 — Lv25–29, 130–150 HP, 67–77/54–62 — Extra Healing R5</li> <li>C. Warlock (Ma) ×2 — Lv25, 143 HP, 58/49 — Rolling Thunder / Magic Arrow, <em>kill first</em></li> <li>C. Shooter (Bo) ×4 — Lv25, 163 HP, 89/71</li> </ul> <p><strong>Enemies (Turn 4 reinforcements):</strong></p> <ul> <li>Kane Assassin (boss) ×1 — Lv29, 210 HP, 118/103 — Healing Circle R5</li> <li>C. Knight (Kn) ×3 — Lv25, 182 HP, 103/89</li> <li>C. Hawk (Ai) ×2 — Lv24, 187 HP, 121/95 — flying</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> The dying Orosius sends Leena to Orome Lake to unseal the temple holding the Vandal Heart sword — the weapon that can deal with the Flames of Judgment. Eleni gives Leena her pendant.</p></div>
+</section>
+
+<section id="act5-battle-5-5-orome-lake-temple-guardian-escort">
+<h2>Battle 5.5: Orome Lake - Temple Guardian Escort</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Guide Leena to the temple entrance · <strong>Lose:</strong> Ash or Leena dies · <strong>Lv:</strong> 26</p> <p><strong>Treasure:</strong> GOLD AXE @ (21,13) N chest · WYRMFANG @ (18,1) S chest</p> <p><strong>Strategy:</strong> Escort mission — control Leena’s pace by blocking the walkway with your units so she doesn’t trigger spawns early. Groups spawn as she reaches (11,2) [+6] and (17,11) [+2]. Phase Shift the Guardians (armor, weak to magic); arrow the Basilisks (flying, weak to projectiles). Grab BOTH chests before killing the last foe — the battle ends the moment Leena reaches the gate.</p> <p><strong>Enemies (spawn in 4 groups):</strong></p> <ul> <li>Guardian (Ar) ×10 — Lv24–25, 200–208 HP, 112–116/121–125 — weak to magic</li> <li>Basilisk (Bo) ×6 — Lv23–24, 151–157 HP, 83–86/66–69 — flying, weak to projectiles</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> The big twist — Leena is Eleni (an 18-year temporal loop). Xeno appears and his space-time fracture sends Leena to the past; Eleni opens the case and <strong>Ash claims the Vandal Heart sword (ATK +40)</strong> and matching armor. Act 5 complete.</p></div>
+</section>
+
+<h1>Act 6: A Fool&#x27;s Epitaph</h1>
+
+<section id="act6-act-overview">
+<h2>Act Overview</h2>
+<div class="quick-ref"><p><strong>Act 6 — A Fool’s Epitaph.</strong> The finale: Kane becomes the Black Knight, Ash fights the Vandal Heart’s curse, and the party makes its last stand against Dolf. 4 story battles · Lv ~27–32 · all 12 available. Gold doesn’t carry over — spend it before the final battle. Grab the <strong>Heaven Key</strong> in Glasgow City to unlock the final Trial.</p></div>
+</section>
+
+<section id="act6-story-progression-pre-battle">
+<h2>Story Progression (Pre-Battle)</h2>
+<div class="story-callout"><p><span class="vandalier">🔑 VANDALIER: In <strong>Glasgow City</strong>, talk to the <strong>Weird Man</strong> in the tavern — with all 5 prior Prisms he simply gives you the <strong>HEAVEN KEY</strong>, which unlocks the Heaven Trial (Trial #6).</span></p></div>
+<div class="shop-strategy"><p><strong>Shop (pre-Act 6):</strong> Stock several Holy H2O (full-party heal, any range) and Life Orbs (HP+MP), and fully equip all 12 characters with Master-tier gear before you start.</p></div>
+</section>
+
+<section id="act6-battle-6-1-fort-gareth">
+<h2>Battle 6-1: Fort Gareth</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Kane · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 27-32</p> <p><strong>Treasure:</strong> None · <em>[hidden]</em> Necklace @ (40,8) east manhole (needs a flying unit)</p> <p><strong>Strategy:</strong> Hardest battle in the game. Phase 1: kill the Warlock/Priest on your tower and on the adjacent tower first, keep Hawknights behind cover from Crimson Shooters, and clear the ground at full HP. Cluster the whole party tightly at the wall base — everyone at 100% HP — then push the boulder: Xeno transforms Kane into the <strong>Black Knight</strong> with <strong>Plasma Wave</strong> (hits the entire board for 50-150). Advance immediately toward the castle, heal every turn, kill the last Warlock. On the stairs Kane drops Plasma Wave for melee — surround with your best fighters and only strike when fully healed (his counters can OHKO).</p> <p><strong>Enemies:</strong></p> <ul> <li>Kane (Assassin, boss) ×1 — Lv29, 210 HP — transforms into Black Knight</li> <li>Kane (Black Knight) — Lv30, 217 HP, 122/106 — PLASMA WAVE, whole-board magic</li> <li>Crimson Knight ×6 — Lv27, 196 HP</li> <li>Crimson Armor ×6 — Lv27, 224 HP</li> <li>Crimson Shooter ×4 — Lv26, 170 HP — ranged</li> <li>Crimson Priest ×3 — Lv26, 135 HP — healer</li> <li>Crimson Warlock ×3 — Lv26, 148 HP — kill on sight</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> As the wall falls, <strong>Xeno transforms Kane into the Black Knight</strong> (Plasma Wave). Beating Kane yields <strong>Caliburn</strong>; afterward the ghosts of Ash’s past taunt him about his “traitor” father.</p></div>
+</section>
+
+<section id="act6-battle-6-2-cobalt-beach">
+<h2>Battle 6-2: Cobalt Beach</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 27-32</p> <p><strong>Treasure:</strong> Life Orb @ (3,2) SW chest · Holy H2O @ (18,7) east plateau · Ragnarok (axe) @ (20,13) NE chest</p> <p><strong>Strategy:</strong> Easiest battle in the act. Take the central hilltop and roll boulders down — each deals 50% of the target’s HP. Then have archers focus the flying <strong>Blood Bats</strong> first (they paralyze); cure paralysis with healers or Aura Gems. Mop up the boulder-weakened Centurions and Grenadiers and grab all three chests.</p> <p><strong>Enemies:</strong></p> <ul> <li>Centurion ×7 — Lv28, 203 HP</li> <li>Grenadier ×4 — Lv28, 182 HP — ranged</li> <li>Blood Bat ×4 — Lv28, 217 HP — flying, inflicts paralysis (kill first)</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> The <strong>Vandal Heart possesses Ash</strong> and he nearly kills Clive. Clive then confesses he killed Aldor 15 years ago while protecting Arris — <strong>Ash’s father was NOT a traitor.</strong></p></div>
+</section>
+
+<section id="act6-battle-6-3-capital-shumeria-xeno-battle">
+<h2>Battle 6-3: Capital Shumeria - Xeno Battle</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Xeno · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 27-32</p> <p><strong>Treasure:</strong> None · <em>[hidden]</em> Mojo Robe @ (7,7) manhole W of fountain · <em>[hidden]</em> Gold Axe @ (20,4) manhole SE of fountain (0 ATK, sell)</p> <p><strong>Strategy:</strong> Four Dark Mages make this hard. Turn 1: don’t advance — snipe the first Dark Mage and pull back to the SE corner by the lamppost so enemies arrive in waves. Never fight more than one Dark Mage at once. Kill order: Dark Mages → Bahamuts (flying) → Hellknights (magic-weak, Phase Shift) → Magic Cannons → Mega Guards. Then rush Xeno — only 192 HP, he bursts down in 2-3 strong hits before spending his MP.</p> <p><strong>Enemies:</strong></p> <ul> <li>Xeno (boss) ×1 — Lv34, 192 HP, 77/65 — Dark Fire, Explosion; low HP</li> <li>Dark Mage ×4 — Lv29, 165 HP, 66/56 — Dark Hurricane, Evil Stream (top priority)</li> <li>Bahamut ×4 — Lv29, 225 HP, 144/113 — flying</li> <li>Hellknight ×4 — Lv29, 210 HP, 118/103 — magic-weak</li> <li>Mega Guard ×2 — Lv30, 248 HP, 138/149 — very high DEF, magic-weak</li> <li>Magic Cannon ×2 — Lv28, 182 HP, 99/79 — ranged</li> </ul></div>
+<div class="story-callout"><p><strong>Story:</strong> <strong>Xeno is defeated</strong> (drops the <strong>Runewand</strong>) and warns that Dolf means to cleanse the world with fire. The next battle is the final one — save your game.</p></div>
+</section>
+
+<section id="act6-pre-final-battle-preparation">
+<h2>Pre-Final Battle Preparation</h2>
+<div class="shop-strategy"><p><strong>Shop (final):</strong> Money doesn’t carry over — spend all ~210,000 G on <strong>Holy H2O</strong> (x5+), <strong>Life Orbs</strong> (x5+), <strong>Aura Gems</strong> (x3+), and <strong>Kingfoil</strong> (x2+). Pioneer Town Sorbo has good stock.</p></div>
+</section>
+
+<section id="act6-battle-6-4-capital-shumeria-ii-final-battle">
+<h2>Battle 6-4: Capital Shumeria II - FINAL BATTLE</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat Dolf · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 28-32</p> <p><strong>Treasure:</strong> None</p> <p><strong>Strategy:</strong> Two-phase final boss. Don’t charge up the middle (kill zone) — split the party and kill the Mega Guard + Bahamut duo on each flank first (Mega Guards are magic-weak, Phase Shift). Then snipe the Dark Mages, Magic Cannons, and Hellknights. Engage Dolf Doom Lord (280 HP) only once all support is dead and everyone is high on HP; surround with your best fighters and watch his Healing Circle. Best line: drop the Doom Lord low, then in a single turn kill him AND burst the Dark Angel form (only 165 HP) before it can cast Dynamo Hum.</p> <p><strong>Enemies:</strong></p> <ul> <li>Dolf (Doom Lord, boss) ×1 — Lv34, 280 HP, 165/167 — Healing Circle; transforms</li> <li>Dolf (Dark Angel, 2nd form) — Lv32, 165 HP, 85/68 — Dynamo Hum AoE; very low HP</li> <li>Hellknight ×3 — Lv30, 217 HP, 122/106 — magic-weak</li> <li>Bahamut ×3 — Lv30, 232 HP, 149/117 — flying</li> <li>Mega Guard ×3 — Lv30, 248 HP, 138/149 — very high DEF, magic-weak</li> <li>Magic Cannon ×3 — Lv29, 189 HP, 103/82 — ranged</li> <li>Dark Mage ×2 — Lv30, 170 HP, 69/58 — Dark Hurricane, Evil Stream (top priority)</li> </ul></div>
+</section>
+
+<section id="act6-final-cutscene-ending">
+<h2>Final Cutscene &amp; Ending</h2>
+<div class="story-callout"><p><strong>Story:</strong> Dolf unleashes <strong>Flames of Judgement</strong>; <strong>Ash absorbs the blast with the Vandal Heart</strong>, saving everyone and vanishing into the void. Two endings follow — a special Vandalier ending if Ash reached Vandalier class.</p></div>
+</section>
+
+<h1>Trials of Toroah</h1>
+
+<section id="trials-nova-trial">
+<h2>Nova Trial</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies <strong>and</strong> grab the Nova Prism from the chest · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 9–12</p> <p><span class="vandalier">🔑 VANDALIER (1/6): Take the <strong>Nova Prism</strong> from the chest @ (7,8) <em>before</em> you kill the last enemy. If the battle ends without it, the Trial can’t be retried and you lose the Prism forever.</span></p> <p><strong>Treasure:</strong> Nova Prism @ (7,8) — the whole point of the Trial</p> <p><strong>Strategy:</strong> Hill assault (enemies scale to Ash’s level ±2, so a lower Ash is easier). First clear the airmen with Diego/Kira before they reach your mages. Then Clint/Grog tank up the hill while Eleni Dark Stars clusters and Huxley heals. Secure the center chest, <strong>grab the Prism</strong>, then finish the rest.</p> <p><strong>Enemies (scale with Ash):</strong></p> <ul> <li>Buccaneer (knight) ×4 · Hunterimp (archer) ×4 · Dark Golem (armor) ×2 · War Ghost (airman) ×2 · Sparkie (airman) ×2</li> </ul></div>
+</section>
+
+<section id="trials-earth-trial">
+<h2>Earth Trial</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies <strong>and</strong> grab the Earth Prism from the chest · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 11–13</p> <p><span class="vandalier">🔑 VANDALIER (2/6): Take the <strong>Earth Prism</strong> from the chest @ (12,7) <em>before</em> you kill the last enemy. If the battle ends without it, the Trial can’t be retried and you lose the Prism forever.</span></p> <p><strong>Treasure:</strong> Earth Prism @ (12,7) — the whole point of the Trial (mislabeled “Ice Prism” in the US/Canada version)</p> <p><strong>Strategy:</strong> All 16 enemies are archers. Bring <strong>ground Snipers, not flying Hawknights/Sky Lords</strong> — airmen take bonus damage from archers and die in 2–3 hits. Focus-fire with Diego/Kira/Amon (3 archers ≈ 1 kill/round), Eleni Dark Stars clusters, and both healers keep archers above 50%. Grab high ground for the range bonus.</p> <p><strong>Enemies (scale with Ash):</strong></p> <ul> <li>Hunter (archer) ×3 · Hunterimp ×3 · Corsair ×3 · Shooterimp ×3 · Grenadier ×2 · C.Archer ×2</li> </ul></div>
+</section>
+
+<section id="trials-mana-trial">
+<h2>Mana Trial</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies <strong>and</strong> grab the Mana Prism from the chest @ (22,1) · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 16-18</p> <p><span class="vandalier">🔑 VANDALIER (3/6): Take the <strong>Mana Prism</strong> from the chest @ (22,1) NE corner <em>before</em> you kill the last enemy. If the battle ends without it, the Trial can’t be retried and you lose the Prism forever.</span></p> <p><strong>Treasure:</strong> MANA PRISM @ (22,1) NE corner — the prize; the other 19 chests are Mimics</p> <p><strong>Strategy:</strong> Keep at least 1 enemy alive (the Brigand boss) as insurance until the prism is secured. Rush a fast/flying unit straight to (22,1) for the Mana Prism, fighting Mimics as chests open (gang up 2-3 per Mimic, one chest at a time). Verify the prism is in inventory, then clean up.</p> <p><strong>Enemies:</strong></p> <ul> <li>Brigand (boss) ×1 — Lv scales with Ash, ~133 HP — keep alive as insurance</li> <li>Mimic ×19 — Lv scales with Ash, ~123 HP — hidden in the chests</li> </ul></div>
+</section>
+
+<section id="trials-chaos-trial">
+<h2>Chaos Trial</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies <strong>and</strong> grab the Chaos Prism from the chest @ (13,14) · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 20-21</p> <p><span class="vandalier">🔑 VANDALIER (4/6): Take the <strong>Chaos Prism</strong> from the chest @ (13,14) NE high tier <em>before</em> you kill the last enemy. If the battle ends without it, the Trial can’t be retried and you lose the Prism forever.</span></p> <p><strong>Treasure:</strong> CHAOS PRISM @ (13,14) NE high tier — build the box bridge to reach it</p> <p><strong>Strategy:</strong> Every enemy is Armor class, so Phase Shift spam dominates (100+ dmg each). Kill most Golems but leave 3 on the top tier alive as a timer while you solve the puzzle. Stack all 3 boxes into a bridge: push Box 1 around the perimeter to the chest area (never into a corner), then push Box 2 and Box 3 through the aqueducts onto it. Cross to the chest, grab the Chaos Prism, then kill the last 3 Golems.</p> <p><strong>Enemies:</strong></p> <ul> <li>Clay Golem ×3 — Lv scales with Ash — weakest golems</li> <li>Dark Golem ×7 — Lv scales with Ash — medium golems</li> <li>Gold Golem ×8 — Lv scales with Ash, ~176 HP — strongest golems</li> </ul></div>
+</section>
+
+<section id="trials-logos-trial">
+<h2>Logos Trial</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies <strong>and</strong> grab the Logos Prism from the chest · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 25–27</p> <p><span class="vandalier">🔑 VANDALIER (5/6): Take the <strong>Logos Prism</strong> from the chest @ (17,2) <em>before</em> you kill the last enemy. Win without it and the Trial can’t be retried — you lose the Prism forever.</span></p> <p><strong>Treasure:</strong> LOGOS PRISM @ (17,2) SE area — the whole point of the Trial</p> <p><strong>Strategy:</strong> Enemies scale to Ash’s level. It’s a spiral-tower grind (~25 rounds) — easy but tedious. Stay single-file against the tower wall, rely on physical attacks and archers, and conserve MP. Arrow the 2 Dark Mages immediately (Dark Hurricane R6F1 / Evil Stream R9). Leave one enemy alive, grab the Prism, then finish.</p> <p><strong>Enemies (scale with Ash):</strong></p> <ul> <li>Guardian (Ar) ×13 · Basilisk (Bo) ×5 · Salamander (Ai) ×7 · Dark Mage (Ma) ×2 — Dark Hurricane R6F1 / Evil Stream R9, <em>kill first</em></li> </ul></div>
+</section>
+
+<section id="trials-heaven-trial">
+<h2>Heaven Trial</h2>
+<div class="quick-ref"><p><strong>Goal:</strong> Defeat all enemies <strong>and</strong> grab the Heaven Prism · <strong>Lose:</strong> Ash dies · <strong>Lv:</strong> 27-30 (enemies scale with Ash)</p> <p><span class="vandalier">🔑 VANDALIER (6/6): Take the <strong>HEAVEN PRISM</strong> from the chest @ (62,1) <em>before</em> you defeat the last enemy — this is your ONLY chance. It is the 6th and final Prism; with it Ash can advance to <strong>Vandalier</strong> at any Dojo.</span></p> <p><strong>Treasure:</strong> Heaven Prism @ (62,1) — the whole point of the Trial</p> <p><strong>Strategy:</strong> Boss-rush gauntlet on a 64×2 single-file path — every previous boss returns (27 total), many with healing. Hold a tight phalanx and never spread out. Kill priority: <strong>Dark Mages first</strong> (Dark Hurricane/Evil Stream), <strong>Sabina Valkyries second</strong> (Hyper Healing), <strong>Dallas Greatarmors third</strong> (Extra Healing), then the rest. Use AoE (Phase Shift, Roman Fire, Holy Pressure) down the corridor and heal every turn. Grab the Prism at (62,1) before the final kill.</p> <p><strong>Enemies:</strong></p> <ul> <li>Dark Mage ×4 — Lv~29, ~165 HP — Dark Hurricane, Evil Stream (top priority)</li> <li>Sabina (Valkyrie) ×4 — Lv~29, ~189 HP — Hyper Healing (kill early)</li> <li>Dallas (Greatarmor) ×3 — Lv~29, ~240 HP — Extra Healing, magic-weak</li> <li>Kurtz (War Master) ×4 — Lv~29, ~195 HP — Dagger Storm</li> <li>Evilstatue (Mage) ×2 — Lv~29, ~165 HP — Piercing Light</li> <li>Lando (Hitman) ×2 — Lv~29, ~189 HP — Self Healing</li> <li>Dumas (Jailmaster) ×4 — Lv~29, ~240 HP — Self Healing</li> <li>Zoot (Thief Lord) ×4 — Lv~29, ~210 HP — Self Healing</li> </ul></div>
+</section>
+</body>
+</html>

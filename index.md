@@ -56,6 +56,10 @@ Quick access to reference materials:
 - **[Trials of Toroah](trials/)** - Detailed guides for all 6 optional endgame challenges
 - **[Credits](credits.html)** - Attribution to all FAQ authors and sources
 
+### Playing on a Handheld?
+
+Reading while you play on a device like the **AYN Thor** with [PixelGuide](https://pixelguide.app/)? Grab the **[single-file PixelGuide walkthrough]({{ '/walkthrough-pixelguide.html' | relative_url }})** — a self-contained, offline version of the complete walkthrough (all six acts plus the Trials of Toroah) with a dense quick-reference card for every battle. No JavaScript and no external files: import the one HTML file into PixelGuide and go.
+
 ---
 
 ## What's in This Guide

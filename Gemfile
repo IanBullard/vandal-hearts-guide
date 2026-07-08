@@ -22,4 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-sitemap", "~> 1.4"
+  # Required for `remote_theme` in _config.yml to render locally (GitHub Pages
+  # supplies this plugin itself, so it is only needed for local builds).
+  gem "jekyll-remote-theme"
 end

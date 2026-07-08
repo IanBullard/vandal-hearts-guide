@@ -1,0 +1,59 @@
+// Custom styles for the Vandal Hearts guide.
+//
+// just-the-docs imports _sass/custom/custom.scss automatically; a site-level
+// copy overrides the theme's empty placeholder.
+
+// --- Quick Reference card -------------------------------------------------
+// Dense, at-a-glance battle summary shown at the top of each battle section.
+// This same block is what the PixelGuide export extracts, so keep it tight.
+.quick-ref {
+  border: 1px solid $border-color;
+  border-left: 4px solid $link-color;
+  border-radius: 6px;
+  background: rgba($link-color, 0.05);
+  padding: 0.6rem 0.9rem;
+  margin: 0.5rem 0 1.5rem;
+  font-size: 0.85rem;
+
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+
+  p { margin: 0.35rem 0; }
+
+  table { font-size: 0.82rem; margin: 0.5rem 0 0; }
+  td, th { padding: 0.2rem 0.5rem; }
+}
+
+// Between-battle blocks: shopping plan and story/Vandalier callouts.
+.shop-strategy,
+.story-callout {
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+}
+
+.shop-strategy {
+  border-left: 4px solid $green-200;
+  background: rgba($green-000, 0.06);
+}
+
+.story-callout {
+  border-left: 4px solid $purple-200;
+  background: rgba($purple-000, 0.06);
+}
+
+// Vandalier one-shot flags: highest visual priority. These are missable and
+// non-repeatable, so they must jump out.
+.vandalier {
+  display: block;
+  border: 2px solid $red-300;
+  border-radius: 6px;
+  background: rgba($red-000, 0.12);
+  padding: 0.5rem 0.8rem;
+  margin: 0.6rem 0;
+  font-weight: 600;
+}

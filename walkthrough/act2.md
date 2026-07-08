@@ -23,6 +23,10 @@ Complete walkthrough for all Act 2 battles including the Magnus confrontation, t
 
 ## Act 2 Overview
 
+<div class="quick-ref" markdown="1">
+**Act 2 — Island of Madness.** Ash investigates Gillbaris and uncovers Hel Spites' conspiracy; it culminates in a confrontation with Magnus at the Castle Ruins and a time warp that sends Ash 3 years into the future. 6 story battles + the optional Earth Trial · Lv range 10–14 · joins: Dolan, Amon, Sara. Earth Trial gives Vandalier Prism 2/6 — don't skip it.
+</div>
+
 **Chapter Summary:** Ash investigates the island of Gillbaris, uncovering Hel Spites' conspiracy. The act culminates in a confrontation at the Castle Ruins and a mysterious time warp that sends Ash 3 years into the future.
 
 **Battles:** 6 story battles + 1 optional Trial
@@ -36,6 +40,18 @@ Complete walkthrough for all Act 2 battles including the Magnus confrontation, t
 ---
 
 ## Battle 2.0: Village of Yuzu
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destroy all Evil Statues · **Lose:** Ash dies **or** any Villager killed · **Lv:** 10
+
+**Treasure:** Herb @ (9,6) center · Mage Oil @ (22,6) E · *[hidden]* Moon Pie @ (10,2) S by fence gap · *[hidden]* Mushroom @ (11,11) N dirt hole
+
+**Strategy:** The 9 "enemy" Villagers must NOT be killed — hitting one is instant defeat, and they wander randomly. Snipe the 7 Evil Statues one at a time with archers; skip Eleni's Dark Star in crowds (single-target only). Statues are fragile (33 HP, DEF 12) — 2–3 hits each.
+
+**Enemies:**
+- Evil Statue (mage) ×7 — Lv5, 33 HP, 15/12 — Piercing Light; fragile, kill these
+- Villager (civilian) ×9 — Lv1, 13 HP, 9/8 — **DO NOT KILL** (instant defeat)
+</div>
 
 **Location:** Village of Yuzu
 **Recommended Level:** 10
@@ -125,6 +141,14 @@ Let villagers wander safely
 
 ### Post-Battle
 
+<div class="shop-strategy" markdown="1">
+**Shop (Yuzu / Village 2):** Iron weapons for fighters (500G ea) · Iron Bow for archers (450G ea) · Chain Mail for front-line (450G ea) · Masters Robes for mages (350G ea) — budget ~6,000–8,000G.
+</div>
+
+<div class="story-callout" markdown="1">
+**Story:** Investigate the Gillbaris mission under Magnus's orders.
+</div>
+
 **Shopping at Yuzu (Village 2):**
 - **Iron weapons** for all fighters (500G each)
 - **Iron Bow** for archers (450G each)
@@ -138,6 +162,18 @@ Let villagers wander safely
 ---
 
 ## Battle 2.1: Ygdra Canyon
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat all enemies · **Lose:** Ash or Dolan dies · **Lv:** 10
+
+**Treasure:** Moodring @ (22,2) SE · Elixir @ (22,16) NE · *[hidden]* Mad Book @ (1,0) SW dirt crater · *[hidden]* MACROMAN @ (1,17) NW dirt hole
+
+**Strategy:** 15 enemies vs your 10. Use the canyon chokepoints to funnel them; dual healers (Huxley + Sara) sustain while triple archers (Diego/Kira/Amon) focus-fire and Eleni Dark Stars clusters. Kill Guarddogs first (faster, more dangerous), Madsoldiers second.
+
+**Enemies:**
+- Madsoldier (knight) ×10 — Lv8, 63 HP, 38/33 — melee fodder
+- Guarddog (monster) ×5 — Lv6, 45 HP, 24/22 — *kill first*
+</div>
 
 **Location:** Ygdra Canyon
 **Recommended Level:** 10
@@ -218,6 +254,14 @@ Three archers = heavy ranged damage
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Dolan (Soldier Lv10), Amon (Archer Lv9), and Sara (Healer Lv9) join — party is now 10.
+</div>
+
+<div class="story-callout" markdown="1">
+<span class="vandalier">🔑 VANDALIER: Grab **MACROMAN** from the hidden hole @ (1,17) NW corner — it's Collector's Treasure #1 of 3 needed for the Chaos Key (Trial #4). Missable: only available in this battle.</span>
+</div>
+
 **Critical:** Verify you collected **MACROMAN**
 **Next Collector's Items:** TAROT (Act 3), RAMEN (Act 4)
 **Story:** Continue Gillbaris investigation with full 10-character party
@@ -225,6 +269,20 @@ Three archers = heavy ranged damage
 ---
 
 ## Battle 2.2: Loris Beach
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat all enemies · **Lose:** Ash dies · **Lv:** 11
+
+**Treasure:** None · *[hidden]* BANANA @ (8,1) S edge, middle of cross-shaped swamp
+
+**Strategy:** Mixed force. Archers focus Bloodghosts first (flying, threaten mages/healers), then Shooterimps. Eleni Dark Stars the Dark Golems (magic ~30 vs physical ~10 into DEF 51). Madsoldiers last. Dual healers keep the party topped up.
+
+**Enemies:**
+- Madsoldier (knight) ×6 — Lv9, 70 HP, 42/36 — cleanup last
+- Shooterimp (archer) ×3 — Lv9, 63 HP, 36/29
+- Dark Golem (armor) ×3 — Lv9, 80 HP, 47/51 — hit with magic
+- Bloodghost (airman) ×3 — Lv9, 75 HP, 51/40 — flying, *kill first*
+</div>
 
 **Location:** Loris Beach
 **Recommended Level:** 11
@@ -300,6 +358,10 @@ Round 7+: Clean up Madsoldiers
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+<span class="vandalier">🔑 VANDALIER: Grab **BANANA** @ (8,1) and trade it to the **Young Man at Yuzu Tavern** for the **KEY OF EARTH** (Trial #2). Missable.</span>
+</div>
+
 **IMMEDIATELY:** Go to Yuzu Village Tavern
 - Talk to **Young Man**
 - Trade **BANANA** → receive **KEY OF EARTH**
@@ -312,90 +374,22 @@ Round 7+: Clean up Madsoldiers
 
 ---
 
-## Optional: Earth Trial
-
-**Location:** Special battle arena (access via any Dojo with Earth Key)
-**Recommended Level:** 11-13
-**Available Party:** All 10 characters
-
-{: .warning }
-> **ALL ENEMIES ARE ARCHERS!** This Trial features 16 archer-class enemies. Flying units (Hawknights/Sky Lords) are **extremely vulnerable** (take bonus damage)!
-
-### Objectives
-
-- **Victory:** Defeat all enemies + **collect Earth Prism from chest**
-- **Defeat:** Death of Ash
-
-{: .danger }
-> **MUST COLLECT PRISM!** Defeating enemies without getting chest = cannot retry Trial!
-
-### Enemy Composition
-
-| Enemy Type | Count | Notes |
-|:-----------|:------|:------|
-| Hunter (Archer) | 3 | Scales with Ash level |
-| Hunterimp (Archer) | 3 | Scales with Ash level |
-| Corsair (Archer) | 3 | Scales with Ash level |
-| Shooterimp (Archer) | 3 | Scales with Ash level |
-| Grenadier (Archer) | 2 | Scales with Ash level |
-| C.Archer (Archer) | 2 | Scales with Ash level |
-
-**Total Enemies:** 16 Archers
-
-### Battle Strategy
-
-{: .important }
-> **Archer vs Archer battle!** This is unique - only ranged enemies.
-
-**Critical:** **DO NOT bring Hawknights/Sky Lords!**
-- Flying units take **bonus damage** from archers
-- Will die in 2-3 hits
-- Bring **ground Snipers only**
-
-**Recommended Party:**
-- **Archers:** Diego, Kira, Amon (all ground-based)
-- **Mages:** Eleni (Dark Star from range)
-- **Healers:** Huxley, Sara (keep archers healthy)
-- **Knights:** Ash, Clint, Grog, Dolan (tanks, but less useful)
-- **AVOID:** Any flying units
-
-**Strategy:**
-1. **Archer duel** - Your archers vs their archers
-2. **Focus fire** - All 3 archers shoot same target (quick kills)
-3. **Eleni supports** - Dark Star on clustered enemies
-4. **Healers sustain** - Both healers keep archers alive
-5. **Knights advance** - Slow but steady front-line pressure
-
-**Key Tactics:**
-- **Elevation advantage** - Seek high ground (range bonus)
-- **Kiting** - Shoot and retreat (stay at max range)
-- **Focus fire** - 3 archers = 1 enemy dead per round
-- **Heal preemptively** - Don't let archers drop below 50% HP
-
-**Difficulty:** Moderate (if ground archers), Very Hard (if flying units)
-
-### Treasure & Items
-
-**Treasure Chests:**
-
-| Coordinates | Item | CRITICAL |
-|:------------|:-----|:---------|
-| (12,7) | **Earth Prism** | **MUST COLLECT!** |
-
-{: .note }
-> **Translation Note:** Called "Ice Prism" in US/Canada version but actually **Earth Prism** (matches key name). Japanese version correct.
-
-**Total Gold:** 160G
-
-### Post-Trial
-
-**Reward:** Earth Prism (2/6 for Vandalier)
-**Prisms Collected:** 2 of 6 (Nova + Earth)
-**Next Trial:** Mana Trial (requires Mana Key from Act 3)
-
----
-
 ## Battle 2.3: Castle Ruins (Outside)
+
+<div class="quick-ref" markdown="1">
+**Goal:** Reach the Entrance (north side) · **Lose:** Ash dies · **Lv:** 12
+
+**Treasure:** Mage Oil @ (15,1) S · Moodring @ (15,14) N near entrance · *[hidden]* Ironboot @ (7,7) W archer-guard area · *[hidden]* Chain Mail @ (23,15) NE corner, X marks spot
+
+**Strategy:** Reach-objective on a huge 32×16 map — push to the north entrance, don't clear everything. Kill only enemies blocking the route; skip the flanks. If fighting, drop Bloodghosts and Evil Statues with archers and let Eleni handle Dark Golems. Ash reaching the entrance wins.
+
+**Enemies:**
+- Madsoldier (knight) ×6 — Lv11, 84 HP, 49/43 — avoid if possible
+- Shooterimp (archer) ×4 — Lv9, 63 HP, 36/29
+- Dark Golem (armor) ×2 — Lv11, 96 HP, 56/60 — hit with magic
+- Bloodghost (airman) ×3 — Lv11, 90 HP, 60/47 — flying, *kill first*
+- Evil Statue (mage) ×2 — Lv11, 66 HP, 28/23 — Piercing Light
+</div>
 
 **Location:** Castle Ruins - Exterior
 **Recommended Level:** 12
@@ -477,6 +471,21 @@ Round 7+: Clean up Madsoldiers
 ---
 
 ## Battle 2.4: Castle Ruins (Inside) - Boss Battle
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Magnus Dark Lord (boss) · **Lose:** Ash dies · **Lv:** 13
+
+**Treasure:** None
+
+**Strategy:** Phase 1 — clear the adds in order: Bloodghosts → Shooterimps → Dark Golems → Madsoldiers. Phase 2 — focus Magnus with magic: DEF 79 makes physicals ~10–15 while Eleni's Dark Star (~35–50) and Ash's Ice Storm bite. He self-heals (18 MP = up to 9 heals) and Rainbow Storms a 3×3 AOE, so spread out and burst him down fast.
+
+**Enemies:**
+- Magnus Dark Lord (boss) ×1 — Lv15, 128 HP, 73/79 — self-heals 2 MP, Rainbow Storm AOE; magic only
+- Madsoldier (knight) ×4 — Lv12, 91 HP, 53/46
+- Shooterimp (archer) ×3 — Lv11, 75 HP, 43/34
+- Dark Golem (armor) ×2 — Lv12, 104 HP, 60/65 — hit with magic
+- Bloodghost (airman) ×3 — Lv12, 97 HP, 65/51 — flying, *kill first*
+</div>
 
 **Location:** Castle Ruins - Interior
 **Recommended Level:** 13
@@ -569,6 +578,10 @@ Don't cluster in 3×3 areas!
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Time warp! Ash, Sara, Grog, and Magnus are pulled into a temporal rift and skip 3 years into the future. The remaining 7 (Clint, Diego, Eleni, Huxley, Kira, Dolan, Amon) must escape.
+</div>
+
 {: .important }
 > **STORY EVENT:** Time warp occurs! Ash, Sara, Magnus, and Grog are sucked into temporal rift. **Skip 3 years into future!**
 
@@ -581,6 +594,17 @@ Don't cluster in 3×3 areas!
 ---
 
 ## Battle 2.5: Castle Ruins (Outside 2) - Timed Escape
+
+<div class="quick-ref" markdown="1">
+**Goal:** Conquest within 6 turns · **Lose:** Ash dies **or** time runs out · **Lv:** 14
+
+**Treasure:** None · *[hidden]* Mage Gem @ (19,0) SE dirt hole · *[hidden]* Gold Coin @ (19,17) NE crater
+
+**Strategy:** 12 weak Guarddogs (13 HP, one-shot kills) but a hard 6-turn timer and a reduced party (no Ash, Eleni, Huxley, Kira, Sara). Don't move as a group — split up, take a full move + attack every turn, each unit clearing ~2 dogs. Speed over safety; corner items may be off the fastest route.
+
+**Enemies:**
+- Guarddog (monster) ×12 — Lv1, 13 HP, 9/8 — one-shot kills; beat the 6-turn timer
+</div>
 
 **Location:** Castle Ruins - Exterior (different area)
 **Recommended Level:** 14

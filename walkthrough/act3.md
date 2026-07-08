@@ -23,6 +23,10 @@ description: "Vandal Hearts Act 3 walkthrough — Escape to Tomorrow. Strategies
 
 ## Act Overview
 
+<div class="quick-ref" markdown="1">
+**Act 3 — Escape to Tomorrow.** Warped 3 years into the future: Hel Spites now rules Ishtaria and Ash is framed for Magnus's murder. Reunite and rescue the scattered party. 6 story battles · Lv 14–17 · joins: Zohar (3.1), Darius (after 3.4). Missable this act: **TAROT** (Chaos Key item) and the **Mana Key** — don't finish those battles without them.
+</div>
+
 **Standard Level Range:** 14-17
 **Total Battles:** 7 (6 story + optional Mana Trial)
 **Recommended Party Size:** 3-12 (starts reduced, gradually reunites)
@@ -72,6 +76,17 @@ This Act focuses on:
 ---
 
 ## Battle 3.0: Plain of Sorrow
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destruction of all enemies · **Lose:** Ash dies · **Lv:** 14
+
+**Treasure:** None
+
+**Strategy:** Very easy intro with only 3 characters (Ash, Grog, Sara). Hold your ground Turn 1 in tight formation against the starting wall — let the weak Sparkies approach and counterattack them to death. Conserve MP/items for later.
+
+**Enemies:**
+- Sparkie ×5 — Lv8, 67 HP, 46/36 — flying, extremely weak, often one-shot
+</div>
 
 **Recommended Level:** 14
 **Map Size:** 16×17 grid
@@ -145,6 +160,14 @@ This is the easiest battle in Act 3, serving mainly as story setup. Despite havi
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Magnus dies, telling Ash to pursue Hel and the Magic Stone. **Zohar Abu Sa'id** (Mage, Lv14) joins the party. If Zohar is Lv10+, visit the Dojo now to advance him to **Sorceror** — unlocks Phase Shift, critical for the next battle.
+</div>
+
+<div class="shop-strategy" markdown="1">
+**Shop (Remote City):** Buy a Herb for Zohar (his default gear is already optimal) and top off healing items.
+</div>
+
 **Story Events:**
 - Magnus dies, telling Ash to pursue Hel and the Magic Stone
 - Meet **Zohar Abu Sa'id**, an enigmatic figure
@@ -176,6 +199,18 @@ This is the easiest battle in Act 3, serving mainly as story setup. Despite havi
 ---
 
 ## Battle 3.1: Plain of Sorrow II - Tower Defense
+
+<div class="quick-ref" markdown="1">
+**Goal:** Tower defense — keep at least 1 of the 4 Mage Towers (14 HP, 5 DF) alive through Turn 5 (victory on Turn 6) · **Lose:** All 4 towers destroyed OR Ash dies · **Lv:** 15
+
+**Treasure:** None
+
+**Strategy:** Sparkies spawn infinitely (max 6 on field), so you can't kill them all. Safe play: pick one corner tower and surround it with all 4 characters (Ash, Grog, Sara, Zohar) in a tight square; kill any Sparkie that approaches and hold to Turn 6. Zohar's Phase Shift (if Sorceror) is the MVP AOE; Sara can heal towers as well as characters.
+
+**Enemies:**
+- Sparkie (initial) ×6 — Lv8, 67 HP, 46/36 — starting wave
+- Sparkie (spawns) ×∞ — Lv10, 82 HP, 55/43 — infinite spawn, max 6 on field
+</div>
 
 **Recommended Level:** 15
 **Map Size:** 16×17 grid (same as 3.0)
@@ -450,6 +485,10 @@ The battle offers two distinct strategies with different risk/reward profiles:
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** The party enters the warp and returns to "present time" — the major revelation being it's actually **3 years in the future**. Old companions appear and the reunion battle at Terasu Village begins immediately (no shopping time).
+</div>
+
 **Story Events:**
 - Party enters the warp portal
 - Return to present time (end of time displacement)
@@ -470,6 +509,22 @@ The battle offers two distinct strategies with different risk/reward profiles:
 ---
 
 ## Battle 3.2: Terasu Village - Reunion
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destruction of all enemies · **Lose:** Ash dies · **Lv:** 15
+
+**Treasure:** Elixir @ (6,1) SW · Megaherb @ (22,17) NE · *[hidden]* Unicorn @ (0,7) W edge crater · *[hidden]* Goldcoin @ (13,16) N edge dirt hole
+
+**Strategy:** Hard — gang-up AI. Do NOT move Ash's party Turn 1: hold a defensive wall at the west bridge and let Centurions walk into your counterattacks; have Zohar grab the Unicorn (move 1 south) and Phase Shift groups. Dolan pushes the boulder ~Turn 3 through the enemy mass. Diego snipes Blood Bats (paralysis). Kill everything except one weak enemy (Deacon or Grenadier) to collect treasure safely, then finish — and block NPC Clive from killing that last enemy first.
+
+**Enemies:**
+- Zoot Thief Lord (boss) ×1 — Lv17, 126 HP, 72/63 — self-heals R2
+- Centurion ×5 — Lv12, 91 HP, 53/46
+- Grenadier ×3 — Lv11, 75 HP, 43/34
+- Blood Bat ×3 — Lv12, 97 HP, 65/51 — flying, inflicts paralysis
+- Warlock ×1 — Lv14, 82 HP, 34/29 — Rainbow Stroke AOE
+- Deacon ×1 — Lv14, 75 HP, 40/32 — heals R3
+</div>
 
 **Recommended Level:** 15
 **Map Size:** 24×18 grid (large map!)
@@ -786,6 +841,14 @@ For experienced players who want faster completion:
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** Old friends reunite and the 3-year gap is confirmed — Emperor Hel's dictatorship, a growing rebellion. Party sets its mission: attack the Imperial Prison, rescue Clint, free political prisoners.
+</div>
+
+<div class="shop-strategy" markdown="1">
+**Shop (Terasu Village):** Steel-tier gear now available; **Megaherbs go on sale (300G ea)** — buy one per character (~2,100G for 7) plus Steel weapons/Scale Mail/Mystic Robe as affordable.
+</div>
+
 **Story Events:**
 - Old friends reunite and catch up
 - **Major reveal:** 3 years have passed since time rift
@@ -827,6 +890,21 @@ For experienced players who want faster completion:
 ---
 
 ## Battle 3.3: Basil Gate
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destruction of all enemies · **Lose:** Ash dies · **Lv:** 16
+
+**Treasure:** Megaherb @ (9,4) S · Mage Gem (magic +8) @ (14,18) NE · *[hidden]* Ironboot @ (7,16) N tower X-tile · *[hidden]* TAROT @ (14,2) SE corner X-tile
+
+**Strategy:** Form a tight phalanx one square back from the small castle so enemies must group up (front: Ash/Grog/Dolan; rear: Zohar/Sara/Huxley). Push the boulder Turn 2 and follow with Zohar's Phase Shift on the cluster. Kill order: Warlock (Rainbow Stroke) → Blood Bats (paralysis) → Deacon → Centurions; leave one Grenadier alive while you grab treasure. The (7,16) regen square heals HP/MP each turn.
+
+**Enemies:**
+- Centurion ×4 — Lv14, 105 HP, 61/53
+- Grenadier ×2 — Lv14, 94 HP, 53/42
+- Blood Bat ×2 — Lv14, 112 HP, 74/58 — flying, paralysis
+- Warlock ×1 — Lv14, 82 HP, 34/29 — Rainbow Stroke AOE
+- Deacon ×1 — Lv14, 75 HP, 40/32 — heals R3
+</div>
 
 **Recommended Level:** 16
 **Map Size:** 16×20 grid
@@ -1029,6 +1107,14 @@ Standard tactical battle with emphasis on proper positioning and target prioriti
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+<span class="vandalier">🔑 VANDALIER: The **TAROT** hidden at (14,2) is Collector's Treasure #2 of 3 for the **Chaos Key** (Trial #4). Missable — only available in this battle. Verify it's in your inventory before finishing.</span>
+</div>
+
+<div class="story-callout" markdown="1">
+**Story:** The Magic Stone (spark of the Flames of Judgment) and the lost **Royal Ring** of the Ashah Dynasty are revealed; Dolf and Hel are hunting the Ring. **Kira's loyalty wavers** — Xeno is set to watch her.
+</div>
+
 **Story Events - Major Plot Development:**
 
 **Scene: Dolf, Hel, and Villains:**
@@ -1059,6 +1145,20 @@ Standard tactical battle with emphasis on proper positioning and target prioriti
 ---
 
 ## Battle 3.4: Reed Highway - Prevent Escape
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destroy all enemies — but let NO enemy escape off the map (48×12, longest map in the game) · **Lose:** Ash dies OR any enemy escapes off the map · **Lv:** 17
+
+**Treasure:** *[hidden]* M.Staff @ (46,5) eastern road crater (optional)
+
+**Strategy:** Ambush/pursuit — enemies don't fight back. Turns 1–4: hide in the tree groves flanking the road, position to cut off both exits, and DON'T attack. Turn 5 (when Ash says nothing): Huxley hits the western gate switch, Zohar Phase Shifts the mass, bombard with everything (priests included), and push the crate onto the footbridge to trap the western group. Kill fleeing enemies first; block the east and west edges. Lando self-heals — burst him down.
+
+**Enemies:**
+- Lando Hitman (mini-boss) ×1 — Lv19, 126 HP, 69/55 — self-heals R2
+- Centurion ×2 — Lv15, 112 HP, 65/56
+- C. Archer ×2 — Lv15, 100 HP, 56/45
+- Guarddog ×4 — Lv18, 123 HP, 60/56 — fast and durable
+</div>
 
 **Recommended Level:** 17
 **Map Size:** 48×12 grid (**very long map** - longest in game!)
@@ -1284,6 +1384,10 @@ Author's Quote:
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** In the prison, **Kira betrays Dolf and frees the captives** — Clint, Claymore, and the newly recruited **Darius** (Archer, Lv14) joins the party. The next battle plays as Clint's party, not Ash.
+</div>
+
 **Story Events - Prison Rescue Setup:**
 
 **Scene: In the Prison**
@@ -1319,6 +1423,18 @@ Author's Quote:
 ---
 
 ## Battle 3.5: Prison Fortress - Juggernaut Maze
+
+<div class="quick-ref" markdown="1">
+**Goal:** Destruction of all enemies · **Lose:** Clint dies (Ash not available) · **Lv:** 15
+
+**Treasure:** Megaherb @ (9,12) · S.Staff @ (17,12) · Megaherb @ (20,8) · Grimhelm @ (22,1)   ·   MIMIC TRAPS (Lv18 monsters) in chests @ (7,11) & (15,12)
+
+**Strategy:** Party is Clint, Eleni, Amon, Darius. Juggernauts take damage ONLY from behind (front/side = 0; rear physical = one-hit kill, except Eleni). Use the corridor/chest-barrier trap: lure a Juggernaut to face one character, hit it from the rear for an instant kill. Eleni's magic (Phase Shift) bypasses the rear rule. Clear nearby Juggernauts before opening the Mimic chests, then gang the Mimic with both archers. No priest here — conserve Herbs for the tougher next battle.
+
+**Enemies:**
+- Juggernaut ×8–9 — Lv13, 112 HP, 64/69 — rear-attack only
+- Mimic ×2 — Lv18, 123 HP, 60/56 — hidden in chests (7,11) & (15,12)
+</div>
 
 **Recommended Level:** 15 (for Clint's party)
 **Map Size:** 24×16 grid
@@ -1641,6 +1757,10 @@ Split party to collect treasures while managing Juggernauts separately.
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+**Story:** The party escapes outside, but the **Dungeon Keeper** appears and threatens death — setting up the final battle of Act 3, which begins immediately. Check HP/MP.
+</div>
+
 **Story Events:**
 - Party escapes to outside
 - **Dungeon Keeper appears** - threatens death
@@ -1659,6 +1779,24 @@ Split party to collect treasures while managing Juggernauts separately.
 ---
 
 ## Battle 3.6: Prison Fortress II - Dumas Boss Battle
+
+<div class="quick-ref" markdown="1">
+**Goal:** Defeat Dumas · **Lose:** Clint dies · **Lv:** 16
+
+**Treasure:** *[hidden]* Goldcoin @ (9,1) spiral tile · *[hidden]* MANA KEY @ (0,15) fractured crater · Boss drop: Zen Robe (automatic)
+
+**Strategy:** Split party. Round 1: Clint's 4 (Clint, Eleni, Amon, Darius) survive vs 17 enemies — keep Eleni far from Juggernauts (AOE both) and move Clint SW toward the wall. Round 2: Ash's 7 reinforcements arrive on the SW wall — kill the Warlock by Ash ASAP, bishops heal Clint/Eleni. Hit the switch at (3,6–8) to open the western gate and send a fast unit (Diego/Hawknight) to grab the MANA KEY before finishing. Gang Dumas in the open (don't corner him), hit-and-run, and burst him before he self-heals.
+
+**Enemies:**
+- Dumas Jailmaster (boss) ×1 — Lv18, 152 HP, 86/93 — self-heals R2, Vorpal Chain (100+ dmg)
+- Centurion ×2 — Lv13, 98 HP, 57/49
+- Centurion ×2 — Lv14, 105 HP, 61/53
+- Grenadier ×3 — Lv12, 81 HP, 46/37
+- Juggernaut ×2 — Lv14, 120 HP, 69/74 — rear-attack only
+- Warlock ×2 — Lv15, 88 HP, 36/31 — Rainbow Stroke AOE
+- Deacon ×2 — Lv15, 80 HP, 42/34 — heals R3
+- Blood Bat ×3 — Lv16, 127 HP, 83/65 — paralysis
+</div>
 
 **Recommended Level:** 16
 **Map Size:** 17×22 grid
@@ -2057,6 +2195,14 @@ This is a grueling battle combining:
 
 ### Post-Battle
 
+<div class="story-callout" markdown="1">
+<span class="vandalier">🔑 VANDALIER: The **MANA KEY** at (0,15) unlocks Trial #3 (Mana Prism, 3/6 for Vandalier). Missable — this battle is the ONLY chance to get it; collect it before defeating Dumas.</span>
+</div>
+
+<div class="story-callout" markdown="1">
+**Story:** The full party of 12 is reunited. Darius and Huxley recognize each other and bicker incessantly. On to Act 4.
+</div>
+
 **Rewards:**
 - 11,880 G (highest gold in Act 3!)
 - **Zen Robe** awarded automatically (boss drop)
@@ -2079,38 +2225,6 @@ This is a grueling battle combining:
 
 {: .note }
 > **Mana Trial Unlocked!** If you have the MANA KEY, you can now access Trial #3 at any Dojo (after giving key to Ash).
-
----
-
-## Optional: Trial of Mana (Trial #3)
-
-**Unlock Requirement:** MANA KEY (from Battle 3.6)
-
-{: .note }
-> Detailed strategy for the Mana Trial is available in the dedicated [Trial of Mana guide]({{ site.baseurl }}/trials/mana/). This section provides a brief overview.
-
-### Quick Overview
-
-**Enemy Composition:**
-- 19 Mimics (Level 18, high HP)
-- 1 Brigand (boss)
-
-**Reward:**
-- **Mana Prism** (3/6 Prisms for Ash's Vandalier class)
-
-**Difficulty:** High - 19 Mimics is overwhelming
-
-**Strategy Summary:**
-1. Defensive positioning
-2. Lure Mimics into manageable groups
-3. AOE magic (Phase Shift)
-4. Focus fire
-5. Defeat Brigand last
-
-**Recommended Level:** 16-18
-**Recommended Party:** Full party with Sorcerors for Phase Shift
-
-For complete strategy, see [Trial of Mana guide]({{ site.baseurl }}/trials/mana/).
 
 ---
 
